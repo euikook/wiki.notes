@@ -13,7 +13,7 @@ wiki_options = {:universal_toc => false}
 #wiki_options[:css] = true # Equivalent to --css
 #wiki_options[:js] = true # Equivalent to --js
 #wiki_options[:template_dir] = path # Equivalent to --template-dir
-#wiki_options[:page_file_dir] = "posts" # Equivalent to --page-file-dir
+wiki_options[:page_file_dir] = "posts" # Equivalent to --page-file-dir
 #wiki_options[:gollum_path] = path # Equivalent to ARGV
 #wiki_options[:ref] = ref ## Equivalent to --ref
 #wiki_options[:repo_is_bare] = true # Equivalent to --bare
