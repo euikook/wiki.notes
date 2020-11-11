@@ -1,8 +1,6 @@
 #!/usr/bin/env ruby
 require 'rubygems'
 require 'gollum/app'
-require 'omnigollum'
-require 'omniauth-google-oauth2'
 
 gollum_path = File.expand_path(File.dirname(__FILE__)) # CHANGE THIS TO POINT TO YOUR OWN WIKI REPO
 
@@ -27,33 +25,6 @@ wiki_options[:page_file_dir] = "posts" # Equivalent to --page-file-dir
 wiki_options[:show_all] = true # Equivalent to --show-all
 #wiki_options[:collapse_tree] = true # Equivalent to --collapse-tree
 wiki_options[:h1_title] = true # Equivalent to --h1-title
-
-options = {
-  :providers => Proc.new do
-    provider :google_oauth2, '608777204830-abskn1ophrkmp4gi34fc2b0ink37ra90.apps.googleusercontent.com','FEaE_gVSe6-yGke5D94YhNI0'
-  end,
-  :dummy_auth => false,
-  :protected_routes => [
-    '/gollum/Members/*',
-    '/gollum/revert/*',
-    '/gollum/revert',
-    '/gollum/create/*',
-    '/gollum//create',
-    '/gollum/edit/*',
-    '/gollum/edit',
-    '/gollum/rename/*',
-    '/gollum/rename',
-    '/gollum/delete/*',
-    '/gollum/delete'
-  ],
-  :authorized_users => [
-      "euikook@gmail.com",
-      "euikook@harues.com"
-  ]
-}
-
-Precious::App.set(:omnigollum, options)
-Precious::App.register Omnigollum::Sinatra
 
 Precious::App.set(:gollum_path, gollum_path)
 Precious::App.set(:default_markup, :markdown) # set your favorite markup language

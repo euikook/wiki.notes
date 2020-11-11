@@ -1,898 +1,250 @@
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:783 - No such file or directory @ rb_sysopen - ./log/unicorn.pid
-I, [2020-10-22T14:54:26.276271 #16882]  INFO -- : listening on addr=0.0.0.0:9292 fd=10
-I, [2020-10-22T14:54:26.276339 #16882]  INFO -- : worker=0 spawning...
-I, [2020-10-22T14:54:26.276817 #16882]  INFO -- : worker=1 spawning...
-I, [2020-10-22T14:54:26.277079 #16883]  INFO -- : worker=0 spawned pid=16883
-I, [2020-10-22T14:54:26.277198 #16883]  INFO -- : Refreshing Gem list
-I, [2020-10-22T14:54:26.277259 #16882]  INFO -- : master process ready
-I, [2020-10-22T14:54:26.277507 #16884]  INFO -- : worker=1 spawned pid=16884
-I, [2020-10-22T14:54:26.277600 #16884]  INFO -- : Refreshing Gem list
-Using Ext extension for JSON.
-Using Ext extension for JSON.
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rugged-0.99.0/lib/rugged.rb:8 - cannot load such file -- rugged/2.6/rugged
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rugged-0.99.0/lib/rugged.rb:8 - cannot load such file -- rugged/2.6/rugged
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup.rb:2 - cannot load such file -- linguist
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup.rb:2 - cannot load such file -- linguist
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/command_implementation.rb:2 - cannot load such file -- posix-spawn
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/command_implementation.rb:2 - cannot load such file -- posix-spawn
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/gemojione-4.3.3/lib/gemojione.rb:6 - cannot load such file -- escape_utils
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/gemojione-4.3.3/lib/gemojione.rb:6 - cannot load such file -- escape_utils
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/nokogiri-1.10.10/lib/nokogiri.rb:30 - cannot load such file -- nokogiri/2.6/nokogiri
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/nokogiri-1.10.10/lib/nokogiri.rb:30 - cannot load such file -- nokogiri/2.6/nokogiri
-Exception `LoadError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/psych.rb:14 - cannot load such file -- 2.6/psych.so
-Exception `LoadError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/psych.rb:14 - cannot load such file -- 2.6/psych.so
-Exception `NameError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/psych/class_loader.rb:68 - uninitialized constant BigDecimal
-Exception `NameError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/psych/class_loader.rb:68 - uninitialized constant BigDecimal
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-lib-5.0.6/lib/gollum-lib/markup.rb:10 - cannot load such file -- pygments
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-lib-5.0.6/lib/gollum-lib/markup.rb:10 - cannot load such file -- pygments
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-lib-5.0.6/lib/gollum-lib/filter/bibtex.rb:2 - cannot load such file -- bibtex
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-lib-5.0.6/lib/gollum-lib/filter/bibtex.rb:2 - cannot load such file -- bibtex
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/concurrent-ruby-1.1.7/lib/concurrent-ruby/concurrent/utility/native_extension_loader.rb:62 - cannot load such file -- concurrent/concurrent_ruby_ext
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/concurrent-ruby-1.1.7/lib/concurrent-ruby/concurrent/utility/native_extension_loader.rb:62 - cannot load such file -- concurrent/concurrent_ruby_ext
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/concurrent-ruby-1.1.7/lib/concurrent-ruby/concurrent/utility/native_extension_loader.rb:62 - cannot load such file -- concurrent/2.6/concurrent_ruby_ext
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/concurrent-ruby-1.1.7/lib/concurrent-ruby/concurrent/utility/native_extension_loader.rb:62 - cannot load such file -- concurrent/2.6/concurrent_ruby_ext
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlparser.rb:3 - cannot load such file -- xml/parser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlparser.rb:3 - cannot load such file -- xml/parser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlparser.rb:5 - cannot load such file -- xmlparser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/parser.rb:580 - cannot load such file -- xmlparser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlparser.rb:5 - cannot load such file -- xmlparser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/parser.rb:580 - cannot load such file -- xmlparser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlscanner.rb:2 - cannot load such file -- xmlscan/scanner
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/parser.rb:580 - cannot load such file -- xmlscan/scanner
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlscanner.rb:2 - cannot load such file -- xmlscan/scanner
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/parser.rb:580 - cannot load such file -- xmlscan/scanner
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/jwt-2.2.2/lib/jwt/signature.rb:12 - cannot load such file -- rbnacl
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/jwt-2.2.2/lib/jwt/signature.rb:12 - cannot load such file -- rbnacl
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-I, [2020-10-22T14:54:27.375265 #16883]  INFO -- : worker=0 ready
-I, [2020-10-22T14:54:27.375991 #16884]  INFO -- : worker=1 ready
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- commonmarker
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- github/markdown
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- redcarpet
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- rdiscount
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- maruku
-127.0.0.1 - - [22/Oct/2020:14:54:33 +0900] "GET / HTTP/1.1" 302 - 0.0244
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- commonmarker
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- github/markdown
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- redcarpet
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- rdiscount
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- maruku
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- commonmarker
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- github/markdown
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- redcarpet
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- rdiscount
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- maruku
-Exception `NameError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/mustache-0.99.8/lib/mustache.rb:236 - uninitialized constant Precious::Views::Page
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "10%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "50%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "10%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "50%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-127.0.0.1 - - [22/Oct/2020:14:54:37 +0900] "GET /Home HTTP/1.1" 200 3454 3.4921
-127.0.0.1 - - [22/Oct/2020:14:54:37 +0900] "GET /gollum/assets/app.js HTTP/1.1" 304 - 0.0038
-127.0.0.1 - - [22/Oct/2020:14:54:37 +0900] "GET /gollum/assets/print.css HTTP/1.1" 304 - 0.0019
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "10%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "50%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-127.0.0.1 - - [22/Oct/2020:14:54:37 +0900] "GET /gollum/assets/app.css HTTP/1.1" 200 298111 0.0071
-127.0.0.1 - - [22/Oct/2020:14:54:37 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0020
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "10%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "50%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-127.0.0.1 - - [22/Oct/2020:14:54:40 +0900] "GET /gollum/assets/app.css HTTP/1.1" 304 - 3.4166
-Exception `Errno::ENOTCONN' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:649 - Transport endpoint is not connected - shutdown(2)
-Exception `NameError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/mustache-0.99.8/lib/mustache.rb:236 - uninitialized constant Precious::Views::Overview
-127.0.0.1 - - [22/Oct/2020:14:54:43 +0900] "GET /gollum/overview HTTP/1.1" 200 26548 0.0398
-127.0.0.1 - - [22/Oct/2020:14:54:43 +0900] "GET /gollum/assets/app.css HTTP/1.1" 304 - 0.0034
-127.0.0.1 - - [22/Oct/2020:14:54:43 +0900] "GET /gollum/assets/app.js HTTP/1.1" 304 - 0.0035
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-127.0.0.1 - - [22/Oct/2020:14:54:43 +0900] "GET /gollum/assets/print.css HTTP/1.1" 304 - 0.0061
-127.0.0.1 - - [22/Oct/2020:14:54:43 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0027
-127.0.0.1 - - [22/Oct/2020:14:54:45 +0900] "GET / HTTP/1.1" 302 - 0.0038
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- commonmarker
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- github/markdown
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- redcarpet
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- rdiscount
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- maruku
-Exception `NameError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/mustache-0.99.8/lib/mustache.rb:236 - uninitialized constant Precious::Views::Page
-127.0.0.1 - - [22/Oct/2020:14:54:45 +0900] "GET /Home HTTP/1.1" 200 3454 0.0690
-127.0.0.1 - - [22/Oct/2020:14:54:45 +0900] "GET /gollum/assets/app.js HTTP/1.1" 304 - 0.0029
-127.0.0.1 - - [22/Oct/2020:14:54:45 +0900] "GET /gollum/assets/app.css HTTP/1.1" 304 - 0.0040
-127.0.0.1 - - [22/Oct/2020:14:54:45 +0900] "GET /gollum/assets/print.css HTTP/1.1" 304 - 0.0025
-127.0.0.1 - - [22/Oct/2020:14:54:45 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0015
-I, [2020-10-22T14:54:48.482154 #16882]  INFO -- : reaped #<Process::Status: pid 16883 exit 0> worker=0
-I, [2020-10-22T14:54:48.482350 #16882]  INFO -- : reaped #<Process::Status: pid 16884 exit 0> worker=1
-Exception `Errno::ECHILD' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:401 - No child processes
-I, [2020-10-22T14:54:48.482541 #16882]  INFO -- : master complete
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:783 - No such file or directory @ rb_sysopen - ./run/unicorn.pid
-Exception `Errno::EACCES' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/socket_helper.rb:165 - Permission denied - bind(2) for 0.0.0.0:80
-F, [2020-10-22T15:08:48.100871 #18692] FATAL -- : error adding listener addr=0.0.0.0:80
-Exception `Errno::EACCES' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:261 - Permission denied - bind(2) for 0.0.0.0:80
-Exception `Errno::EACCES' at /home/euikook/.rvm/gems/ruby-2.6.0/bin/unicorn:23 - Permission denied - bind(2) for 0.0.0.0:80
-/home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/socket_helper.rb:165:in `bind': Permission denied - bind(2) for 0.0.0.0:80 (Errno::EACCES)
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/socket_helper.rb:165:in `new_tcp_server'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/socket_helper.rb:145:in `bind_listen'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:243:in `listen'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:878:in `block in bind_new_listeners!'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:878:in `each'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:878:in `bind_new_listeners!'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:142:in `start'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/bin/unicorn:128:in `<top (required)>'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/bin/unicorn:23:in `load'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/bin/unicorn:23:in `<main>'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/bin/ruby_executable_hooks:24:in `eval'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/bin/ruby_executable_hooks:24:in `<main>'
-Exception `Errno::ESRCH' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:785 - No such process
-I, [2020-10-22T15:09:21.025869 #18746]  INFO -- : listening on addr=0.0.0.0:9292 fd=10
-I, [2020-10-22T15:09:21.025960 #18746]  INFO -- : worker=0 spawning...
-I, [2020-10-22T15:09:21.026522 #18746]  INFO -- : worker=1 spawning...
-I, [2020-10-22T15:09:21.026798 #18747]  INFO -- : worker=0 spawned pid=18747
-I, [2020-10-22T15:09:21.026919 #18747]  INFO -- : Refreshing Gem list
-I, [2020-10-22T15:09:21.027066 #18746]  INFO -- : master process ready
-I, [2020-10-22T15:09:21.027390 #18748]  INFO -- : worker=1 spawned pid=18748
-I, [2020-10-22T15:09:21.027530 #18748]  INFO -- : Refreshing Gem list
-Using Ext extension for JSON.
-Using Ext extension for JSON.
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rugged-0.99.0/lib/rugged.rb:8 - cannot load such file -- rugged/2.6/rugged
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rugged-0.99.0/lib/rugged.rb:8 - cannot load such file -- rugged/2.6/rugged
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - ISO-8859-8-I
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - ISO-8859-8-I
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - ISO-2022-KR
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - ISO-2022-CN
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - ISO-2022-KR
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM424_rtl
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - ISO-2022-CN
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM424_ltr
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM420_rtl
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM424_rtl
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM420_ltr
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM424_ltr
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM420_rtl
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM420_ltr
-Exception `LoadError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/psych.rb:14 - cannot load such file -- 2.6/psych.so
-Exception `LoadError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/psych.rb:14 - cannot load such file -- 2.6/psych.so
-Exception `NameError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/psych/class_loader.rb:68 - uninitialized constant BigDecimal
-Exception `NameError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/psych/class_loader.rb:68 - uninitialized constant BigDecimal
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-linguist-7.11.1/lib/linguist/language.rb:4 - cannot load such file -- yajl
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-linguist-7.11.1/lib/linguist/samples.rb:2 - cannot load such file -- yajl
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-linguist-7.11.1/lib/linguist/language.rb:4 - cannot load such file -- yajl
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-linguist-7.11.1/lib/linguist/samples.rb:2 - cannot load such file -- yajl
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/command_implementation.rb:2 - cannot load such file -- posix-spawn
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/command_implementation.rb:2 - cannot load such file -- posix-spawn
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/nokogiri-1.10.10/lib/nokogiri.rb:30 - cannot load such file -- nokogiri/2.6/nokogiri
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/nokogiri-1.10.10/lib/nokogiri.rb:30 - cannot load such file -- nokogiri/2.6/nokogiri
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-lib-5.0.6/lib/gollum-lib/markup.rb:10 - cannot load such file -- pygments
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-lib-5.0.6/lib/gollum-lib/filter/bibtex.rb:2 - cannot load such file -- bibtex
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-lib-5.0.6/lib/gollum-lib/markup.rb:10 - cannot load such file -- pygments
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-lib-5.0.6/lib/gollum-lib/filter/bibtex.rb:2 - cannot load such file -- bibtex
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/concurrent-ruby-1.1.7/lib/concurrent-ruby/concurrent/utility/native_extension_loader.rb:62 - cannot load such file -- concurrent/concurrent_ruby_ext
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/concurrent-ruby-1.1.7/lib/concurrent-ruby/concurrent/utility/native_extension_loader.rb:62 - cannot load such file -- concurrent/2.6/concurrent_ruby_ext
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/concurrent-ruby-1.1.7/lib/concurrent-ruby/concurrent/utility/native_extension_loader.rb:62 - cannot load such file -- concurrent/concurrent_ruby_ext
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/concurrent-ruby-1.1.7/lib/concurrent-ruby/concurrent/utility/native_extension_loader.rb:62 - cannot load such file -- concurrent/2.6/concurrent_ruby_ext
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlparser.rb:3 - cannot load such file -- xml/parser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlparser.rb:5 - cannot load such file -- xmlparser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/parser.rb:580 - cannot load such file -- xmlparser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlscanner.rb:2 - cannot load such file -- xmlscan/scanner
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/parser.rb:580 - cannot load such file -- xmlscan/scanner
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlparser.rb:3 - cannot load such file -- xml/parser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlparser.rb:5 - cannot load such file -- xmlparser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/parser.rb:580 - cannot load such file -- xmlparser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlscanner.rb:2 - cannot load such file -- xmlscan/scanner
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/parser.rb:580 - cannot load such file -- xmlscan/scanner
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/jwt-2.2.2/lib/jwt/signature.rb:12 - cannot load such file -- rbnacl
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/jwt-2.2.2/lib/jwt/signature.rb:12 - cannot load such file -- rbnacl
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-I, [2020-10-22T15:09:25.020721 #18748]  INFO -- : worker=1 ready
-I, [2020-10-22T15:09:25.029434 #18747]  INFO -- : worker=0 ready
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- commonmarker
-127.0.0.1 - - [22/Oct/2020:15:09:32 +0900] "GET / HTTP/1.1" 302 - 0.0107
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- commonmarker
-Exception `NameError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/mustache-0.99.8/lib/mustache.rb:236 - uninitialized constant Precious::Views::Page
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "10%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "50%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "10%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "50%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-127.0.0.1 - - [22/Oct/2020:15:09:36 +0900] "GET /Home HTTP/1.1" 200 3455 3.8319
-127.0.0.1 - - [22/Oct/2020:15:09:37 +0900] "GET /gollum/assets/app.js HTTP/1.1" 304 - 0.0057
-127.0.0.1 - - [22/Oct/2020:15:09:37 +0900] "GET /gollum/assets/print.css HTTP/1.1" 304 - 0.0032
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "10%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "50%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "10%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "50%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "0%"
-Exception `Sass::SyntaxError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308 - Invalid CSS after "": expected selector, was "100%"
-127.0.0.1 - - [22/Oct/2020:15:09:40 +0900] "GET /gollum/assets/app.css HTTP/1.1" 304 - 3.5167
-127.0.0.1 - - [22/Oct/2020:15:09:40 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0012
-Exception `NameError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/mustache-0.99.8/lib/mustache.rb:236 - uninitialized constant Precious::Views::Overview
-127.0.0.1 - - [22/Oct/2020:15:09:44 +0900] "GET /gollum/overview HTTP/1.1" 200 26548 0.0456
-127.0.0.1 - - [22/Oct/2020:15:09:44 +0900] "GET /gollum/assets/app.css HTTP/1.1" 304 - 0.0040
-127.0.0.1 - - [22/Oct/2020:15:09:44 +0900] "GET /gollum/assets/app.js HTTP/1.1" 304 - 0.0036
-127.0.0.1 - - [22/Oct/2020:15:09:44 +0900] "GET /gollum/assets/print.css HTTP/1.1" 304 - 0.0020
-127.0.0.1 - - [22/Oct/2020:15:09:44 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0013
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- commonmarker
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/markdown.rb:59 - cannot load such file -- commonmarker
-Exception `NameError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/mustache-0.99.8/lib/mustache.rb:236 - uninitialized constant Precious::Views::Page
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/images
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/util.rb:679 - No such file or directory @ realpath_rec - /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-5.1.1/lib/gollum/public/gollum/fonts
-127.0.0.1 - - [22/Oct/2020:15:09:46 +0900] "GET /About.md HTTP/1.1" 200 3146 0.0506
-127.0.0.1 - - [22/Oct/2020:15:09:46 +0900] "GET /gollum/assets/app.css HTTP/1.1" 304 - 0.0029
-127.0.0.1 - - [22/Oct/2020:15:09:46 +0900] "GET /gollum/assets/app.js HTTP/1.1" 304 - 0.0032
-127.0.0.1 - - [22/Oct/2020:15:09:46 +0900] "GET /gollum/assets/print.css HTTP/1.1" 304 - 0.0019
-127.0.0.1 - - [22/Oct/2020:15:09:46 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0013
-127.0.0.1 - - [22/Oct/2020:15:09:47 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0013
-127.0.0.1 - - [22/Oct/2020:15:09:48 +0900] "GET /Home.md HTTP/1.1" 200 3455 0.0467
-127.0.0.1 - - [22/Oct/2020:15:09:48 +0900] "GET /gollum/assets/app.css HTTP/1.1" 304 - 0.0046
-127.0.0.1 - - [22/Oct/2020:15:09:48 +0900] "GET /gollum/assets/app.js HTTP/1.1" 304 - 0.0043
-127.0.0.1 - - [22/Oct/2020:15:09:48 +0900] "GET /gollum/assets/print.css HTTP/1.1" 304 - 0.0021
-127.0.0.1 - - [22/Oct/2020:15:09:48 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0013
-127.0.0.1 - - [22/Oct/2020:15:09:49 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0013
-127.0.0.1 - - [22/Oct/2020:15:09:50 +0900] "GET /Insync-3.x-auto-start-with-xvfb-and-systemctl.md HTTP/1.1" 200 4989 0.0494
-127.0.0.1 - - [22/Oct/2020:15:09:50 +0900] "GET /gollum/assets/app.css HTTP/1.1" 304 - 0.0028
-127.0.0.1 - - [22/Oct/2020:15:09:50 +0900] "GET /gollum/assets/app.js HTTP/1.1" 304 - 0.0042
-127.0.0.1 - - [22/Oct/2020:15:09:50 +0900] "GET /gollum/assets/print.css HTTP/1.1" 304 - 0.0019
-127.0.0.1 - - [22/Oct/2020:15:09:50 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0012
-127.0.0.1 - - [22/Oct/2020:15:09:50 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0012
-127.0.0.1 - - [22/Oct/2020:15:09:51 +0900] "GET /Home.md HTTP/1.1" 200 3455 0.0344
-127.0.0.1 - - [22/Oct/2020:15:09:51 +0900] "GET /gollum/assets/app.css HTTP/1.1" 304 - 0.0028
-127.0.0.1 - - [22/Oct/2020:15:09:51 +0900] "GET /gollum/assets/app.js HTTP/1.1" 304 - 0.0044
-127.0.0.1 - - [22/Oct/2020:15:09:51 +0900] "GET /gollum/assets/print.css HTTP/1.1" 304 - 0.0019
-127.0.0.1 - - [22/Oct/2020:15:09:51 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0013
-127.0.0.1 - - [22/Oct/2020:15:09:53 +0900] "GET / HTTP/1.1" 302 - 0.0035
-127.0.0.1 - - [22/Oct/2020:15:09:53 +0900] "GET /Home HTTP/1.1" 200 3455 0.0328
-127.0.0.1 - - [22/Oct/2020:15:09:53 +0900] "GET /gollum/assets/app.css HTTP/1.1" 304 - 0.0038
-127.0.0.1 - - [22/Oct/2020:15:09:53 +0900] "GET /gollum/assets/app.js HTTP/1.1" 304 - 0.0039
-127.0.0.1 - - [22/Oct/2020:15:09:53 +0900] "GET /gollum/assets/print.css HTTP/1.1" 304 - 0.0022
-127.0.0.1 - - [22/Oct/2020:15:09:53 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0015
-127.0.0.1 - - [22/Oct/2020:15:09:58 +0900] "GET /About HTTP/1.1" 200 3146 0.0250
-127.0.0.1 - - [22/Oct/2020:15:09:58 +0900] "GET /gollum/assets/app.css HTTP/1.1" 304 - 0.0048
-127.0.0.1 - - [22/Oct/2020:15:09:58 +0900] "GET /gollum/assets/app.js HTTP/1.1" 304 - 0.0048
-127.0.0.1 - - [22/Oct/2020:15:09:58 +0900] "GET /gollum/assets/print.css HTTP/1.1" 304 - 0.0023
-127.0.0.1 - - [22/Oct/2020:15:09:58 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0018
-Exception `NameError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/mustache-0.99.8/lib/mustache.rb:236 - uninitialized constant Precious::Views::Overview
-127.0.0.1 - - [22/Oct/2020:15:10:02 +0900] "GET /gollum/overview HTTP/1.1" 200 26548 0.0522
-127.0.0.1 - - [22/Oct/2020:15:10:02 +0900] "GET /gollum/assets/app.js HTTP/1.1" 304 - 0.0034
-127.0.0.1 - - [22/Oct/2020:15:10:02 +0900] "GET /gollum/assets/app.css HTTP/1.1" 304 - 0.0043
-127.0.0.1 - - [22/Oct/2020:15:10:02 +0900] "GET /gollum/assets/print.css HTTP/1.1" 304 - 0.0020
-127.0.0.1 - - [22/Oct/2020:15:10:02 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0018
-127.0.0.1 - - [22/Oct/2020:15:10:16 +0900] "GET /gollum/create/asdf HTTP/1.1" 302 - 0.0037
-127.0.0.1 - - [22/Oct/2020:15:10:16 +0900] "GET /__omnigollum__/auth/google_oauth2?origin=%2Fgollum%2Fcreate%2Fasdf HTTP/1.1" 302 350 0.0044
-127.0.0.1 - - [22/Oct/2020:15:10:21 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0013
-127.0.0.1 - - [22/Oct/2020:15:10:22 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0012
-127.0.0.1 - - [22/Oct/2020:15:10:25 +0900] "GET / HTTP/1.1" 302 - 0.0031
-127.0.0.1 - - [22/Oct/2020:15:10:25 +0900] "GET /Home HTTP/1.1" 200 3455 0.0234
-127.0.0.1 - - [22/Oct/2020:15:10:25 +0900] "GET /gollum/assets/app.css HTTP/1.1" 304 - 0.0029
-127.0.0.1 - - [22/Oct/2020:15:10:25 +0900] "GET /gollum/assets/app.js HTTP/1.1" 304 - 0.0040
-127.0.0.1 - - [22/Oct/2020:15:10:25 +0900] "GET /gollum/assets/print.css HTTP/1.1" 304 - 0.0023
-127.0.0.1 - - [22/Oct/2020:15:10:25 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0013
-127.0.0.1 - - [22/Oct/2020:15:10:26 +0900] "GET / HTTP/1.1" 302 - 0.0024
-127.0.0.1 - - [22/Oct/2020:15:10:26 +0900] "GET /Home HTTP/1.1" 200 3455 0.0271
-127.0.0.1 - - [22/Oct/2020:15:10:26 +0900] "GET /gollum/assets/app.css HTTP/1.1" 304 - 0.0041
-127.0.0.1 - - [22/Oct/2020:15:10:26 +0900] "GET /gollum/assets/app.js HTTP/1.1" 304 - 0.0039
-127.0.0.1 - - [22/Oct/2020:15:10:26 +0900] "GET /gollum/assets/print.css HTTP/1.1" 304 - 0.0019
-127.0.0.1 - - [22/Oct/2020:15:10:26 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0019
-127.0.0.1 - - [22/Oct/2020:15:10:26 +0900] "GET / HTTP/1.1" 302 - 0.0040
-127.0.0.1 - - [22/Oct/2020:15:10:26 +0900] "GET /Home HTTP/1.1" 200 3455 0.0331
-127.0.0.1 - - [22/Oct/2020:15:10:26 +0900] "GET /gollum/assets/app.css HTTP/1.1" 304 - 0.0029
-127.0.0.1 - - [22/Oct/2020:15:10:26 +0900] "GET /gollum/assets/app.js HTTP/1.1" 304 - 0.0029
-127.0.0.1 - - [22/Oct/2020:15:10:26 +0900] "GET /gollum/assets/print.css HTTP/1.1" 304 - 0.0024
-127.0.0.1 - - [22/Oct/2020:15:10:27 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0019
-127.0.0.1 - - [22/Oct/2020:15:10:29 +0900] "GET / HTTP/1.1" 302 - 0.0016
-127.0.0.1 - - [22/Oct/2020:15:10:29 +0900] "GET /Home HTTP/1.1" 200 3455 0.0170
-127.0.0.1 - - [22/Oct/2020:15:10:29 +0900] "GET /gollum/assets/app.css HTTP/1.1" 304 - 0.0034
-127.0.0.1 - - [22/Oct/2020:15:10:29 +0900] "GET /gollum/assets/app.js HTTP/1.1" 304 - 0.0039
-127.0.0.1 - - [22/Oct/2020:15:10:29 +0900] "GET /gollum/assets/print.css HTTP/1.1" 304 - 0.0022
-127.0.0.1 - - [22/Oct/2020:15:10:29 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0013
-127.0.0.1 - - [22/Oct/2020:15:19:44 +0900] "GET /gollum/overview HTTP/1.1" 200 26548 0.0274
-127.0.0.1 - - [22/Oct/2020:15:19:44 +0900] "GET /gollum/assets/app.css HTTP/1.1" 304 - 0.0032
-127.0.0.1 - - [22/Oct/2020:15:19:44 +0900] "GET /gollum/assets/app.js HTTP/1.1" 304 - 0.0039
-127.0.0.1 - - [22/Oct/2020:15:19:44 +0900] "GET /gollum/assets/print.css HTTP/1.1" 304 - 0.0029
-127.0.0.1 - - [22/Oct/2020:15:19:44 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0012
-127.0.0.1 - - [22/Oct/2020:15:19:46 +0900] "GET / HTTP/1.1" 302 - 0.0028
-127.0.0.1 - - [22/Oct/2020:15:19:46 +0900] "GET /Home HTTP/1.1" 200 3455 0.0331
-127.0.0.1 - - [22/Oct/2020:15:19:46 +0900] "GET /gollum/assets/app.css HTTP/1.1" 304 - 0.0037
-127.0.0.1 - - [22/Oct/2020:15:19:46 +0900] "GET /gollum/assets/app.js HTTP/1.1" 304 - 0.0041
-127.0.0.1 - - [22/Oct/2020:15:19:46 +0900] "GET /gollum/assets/print.css HTTP/1.1" 304 - 0.0019
-127.0.0.1 - - [22/Oct/2020:15:19:46 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0013
-127.0.0.1 - - [22/Oct/2020:15:19:48 +0900] "GET /gollum/overview HTTP/1.1" 200 26548 0.0324
-127.0.0.1 - - [22/Oct/2020:15:19:48 +0900] "GET /gollum/assets/app.js HTTP/1.1" 304 - 0.0031
-127.0.0.1 - - [22/Oct/2020:15:19:48 +0900] "GET /gollum/assets/app.css HTTP/1.1" 304 - 0.0043
-127.0.0.1 - - [22/Oct/2020:15:19:48 +0900] "GET /gollum/assets/print.css HTTP/1.1" 304 - 0.0022
-127.0.0.1 - - [22/Oct/2020:15:19:48 +0900] "GET /favicon.ico HTTP/1.1" 403 - 0.0013
-I, [2020-10-22T15:23:25.917220 #18746]  INFO -- : reaped #<Process::Status: pid 18747 exit 0> worker=0
-I, [2020-10-22T15:23:25.917483 #18746]  INFO -- : reaped #<Process::Status: pid 18748 exit 0> worker=1
-Exception `Errno::ECHILD' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:401 - No child processes
-I, [2020-10-22T15:23:25.917759 #18746]  INFO -- : master complete
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:783 - No such file or directory @ rb_sysopen - ./run/unicorn.pid
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/socket_helper.rb:147 - Don't know how to bind: ./run/unicorn.sock
-F, [2020-10-22T15:23:57.345406 #19978] FATAL -- : error adding listener addr=./run/unicorn.sock
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:261 - Don't know how to bind: ./run/unicorn.sock
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/bin/unicorn:23 - Don't know how to bind: ./run/unicorn.sock
-/home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/socket_helper.rb:147:in `bind_listen': Don't know how to bind: ./run/unicorn.sock (ArgumentError)
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:243:in `listen'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:878:in `block in bind_new_listeners!'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:878:in `each'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:878:in `bind_new_listeners!'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:142:in `start'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/bin/unicorn:128:in `<top (required)>'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/bin/unicorn:23:in `load'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/bin/unicorn:23:in `<main>'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/bin/ruby_executable_hooks:24:in `eval'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/bin/ruby_executable_hooks:24:in `<main>'
-Exception `Errno::ESRCH' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:785 - No such process
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/socket_helper.rb:147 - Don't know how to bind: ./run/unicorn.sock
-F, [2020-10-22T15:24:38.910493 #20029] FATAL -- : error adding listener addr=./run/unicorn.sock
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:261 - Don't know how to bind: ./run/unicorn.sock
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/bin/unicorn:23 - Don't know how to bind: ./run/unicorn.sock
-/home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/socket_helper.rb:147:in `bind_listen': Don't know how to bind: ./run/unicorn.sock (ArgumentError)
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:243:in `listen'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:878:in `block in bind_new_listeners!'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:878:in `each'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:878:in `bind_new_listeners!'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:142:in `start'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/bin/unicorn:128:in `<top (required)>'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/bin/unicorn:23:in `load'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/bin/unicorn:23:in `<main>'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/bin/ruby_executable_hooks:24:in `eval'
-	from /home/euikook/.rvm/gems/ruby-2.6.0/bin/ruby_executable_hooks:24:in `<main>'
-Exception `Errno::ESRCH' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:785 - No such process
-I, [2020-10-22T15:26:06.958206 #20211]  INFO -- : listening on addr=/home/euikook/working/euikook/posts/run/unicorn.sock fd=10
-I, [2020-10-22T15:26:06.958288 #20211]  INFO -- : worker=0 spawning...
-I, [2020-10-22T15:26:06.958838 #20211]  INFO -- : worker=1 spawning...
-I, [2020-10-22T15:26:06.959128 #20212]  INFO -- : worker=0 spawned pid=20212
-I, [2020-10-22T15:26:06.959237 #20212]  INFO -- : Refreshing Gem list
-I, [2020-10-22T15:26:06.959320 #20211]  INFO -- : master process ready
-I, [2020-10-22T15:26:06.959584 #20213]  INFO -- : worker=1 spawned pid=20213
-I, [2020-10-22T15:26:06.959684 #20213]  INFO -- : Refreshing Gem list
-Using Ext extension for JSON.
-Using Ext extension for JSON.
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rugged-0.99.0/lib/rugged.rb:8 - cannot load such file -- rugged/2.6/rugged
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rugged-0.99.0/lib/rugged.rb:8 - cannot load such file -- rugged/2.6/rugged
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - ISO-8859-8-I
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - ISO-8859-8-I
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - ISO-2022-KR
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - ISO-2022-CN
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - ISO-2022-KR
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM424_rtl
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - ISO-2022-CN
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM424_ltr
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM424_rtl
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM420_rtl
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM424_ltr
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM420_rtl
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM420_ltr
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM420_ltr
-Exception `LoadError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/psych.rb:14 - cannot load such file -- 2.6/psych.so
-Exception `LoadError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/psych.rb:14 - cannot load such file -- 2.6/psych.so
-Exception `NameError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/psych/class_loader.rb:68 - uninitialized constant BigDecimal
-Exception `NameError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/psych/class_loader.rb:68 - uninitialized constant BigDecimal
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-linguist-7.11.1/lib/linguist/language.rb:4 - cannot load such file -- yajl
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-linguist-7.11.1/lib/linguist/language.rb:4 - cannot load such file -- yajl
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-linguist-7.11.1/lib/linguist/samples.rb:2 - cannot load such file -- yajl
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-linguist-7.11.1/lib/linguist/samples.rb:2 - cannot load such file -- yajl
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/command_implementation.rb:2 - cannot load such file -- posix-spawn
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/command_implementation.rb:2 - cannot load such file -- posix-spawn
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/nokogiri-1.10.10/lib/nokogiri.rb:30 - cannot load such file -- nokogiri/2.6/nokogiri
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/nokogiri-1.10.10/lib/nokogiri.rb:30 - cannot load such file -- nokogiri/2.6/nokogiri
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-lib-5.0.6/lib/gollum-lib/markup.rb:10 - cannot load such file -- pygments
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-lib-5.0.6/lib/gollum-lib/filter/bibtex.rb:2 - cannot load such file -- bibtex
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-lib-5.0.6/lib/gollum-lib/markup.rb:10 - cannot load such file -- pygments
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-lib-5.0.6/lib/gollum-lib/filter/bibtex.rb:2 - cannot load such file -- bibtex
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/concurrent-ruby-1.1.7/lib/concurrent-ruby/concurrent/utility/native_extension_loader.rb:62 - cannot load such file -- concurrent/concurrent_ruby_ext
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/concurrent-ruby-1.1.7/lib/concurrent-ruby/concurrent/utility/native_extension_loader.rb:62 - cannot load such file -- concurrent/2.6/concurrent_ruby_ext
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/concurrent-ruby-1.1.7/lib/concurrent-ruby/concurrent/utility/native_extension_loader.rb:62 - cannot load such file -- concurrent/concurrent_ruby_ext
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/concurrent-ruby-1.1.7/lib/concurrent-ruby/concurrent/utility/native_extension_loader.rb:62 - cannot load such file -- concurrent/2.6/concurrent_ruby_ext
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlparser.rb:3 - cannot load such file -- xml/parser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlparser.rb:5 - cannot load such file -- xmlparser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/parser.rb:580 - cannot load such file -- xmlparser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlscanner.rb:2 - cannot load such file -- xmlscan/scanner
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/parser.rb:580 - cannot load such file -- xmlscan/scanner
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlparser.rb:3 - cannot load such file -- xml/parser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlparser.rb:5 - cannot load such file -- xmlparser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/parser.rb:580 - cannot load such file -- xmlparser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlscanner.rb:2 - cannot load such file -- xmlscan/scanner
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/parser.rb:580 - cannot load such file -- xmlscan/scanner
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/jwt-2.2.2/lib/jwt/signature.rb:12 - cannot load such file -- rbnacl
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/jwt-2.2.2/lib/jwt/signature.rb:12 - cannot load such file -- rbnacl
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-I, [2020-10-22T15:26:10.528308 #20213]  INFO -- : worker=1 ready
-I, [2020-10-22T15:26:10.537087 #20212]  INFO -- : worker=0 ready
-I, [2020-10-22T15:26:13.428114 #20211]  INFO -- : SIGWINCH ignored because we're not daemonized
-I, [2020-10-22T15:26:20.801057 #20211]  INFO -- : reaped #<Process::Status: pid 20212 exit 0> worker=0
-I, [2020-10-22T15:26:20.801348 #20211]  INFO -- : reaped #<Process::Status: pid 20213 exit 0> worker=1
-Exception `Errno::ECHILD' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:401 - No child processes
-I, [2020-10-22T15:26:20.801566 #20211]  INFO -- : master complete
-Exception `Errno::ENOENT' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:783 - No such file or directory @ rb_sysopen - ./run/unicorn.pid
-Exception `Errno::ECONNREFUSED' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/socket_helper.rb:124 - Connection refused - connect(2) for /home/euikook/working/euikook/posts/run/unicorn.sock
-I, [2020-10-22T15:27:12.980932 #24565]  INFO -- : unlinking existing socket=/home/euikook/working/euikook/posts/run/unicorn.sock
-I, [2020-10-22T15:27:12.981071 #24565]  INFO -- : listening on addr=/home/euikook/working/euikook/posts/run/unicorn.sock fd=10
-I, [2020-10-22T15:27:12.981150 #24565]  INFO -- : worker=0 spawning...
-I, [2020-10-22T15:27:12.981716 #24565]  INFO -- : worker=1 spawning...
-I, [2020-10-22T15:27:12.982091 #24568]  INFO -- : worker=0 spawned pid=24568
-I, [2020-10-22T15:27:12.982266 #24568]  INFO -- : Refreshing Gem list
-I, [2020-10-22T15:27:12.982281 #24565]  INFO -- : master process ready
-I, [2020-10-22T15:27:12.982665 #24569]  INFO -- : worker=1 spawned pid=24569
-I, [2020-10-22T15:27:12.982839 #24569]  INFO -- : Refreshing Gem list
-Using Ext extension for JSON.
-Using Ext extension for JSON.
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rugged-0.99.0/lib/rugged.rb:8 - cannot load such file -- rugged/2.6/rugged
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rugged-0.99.0/lib/rugged.rb:8 - cannot load such file -- rugged/2.6/rugged
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - ISO-8859-8-I
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - ISO-8859-8-I
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - ISO-2022-KR
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - ISO-2022-CN
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM424_rtl
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM424_ltr
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - ISO-2022-KR
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM420_rtl
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - ISO-2022-CN
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM424_rtl
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM420_ltr
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM424_ltr
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM420_rtl
-Exception `ArgumentError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/charlock_holmes-0.7.7/lib/charlock_holmes/encoding_detector.rb:68 - unknown encoding name - IBM420_ltr
-Exception `LoadError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/psych.rb:14 - cannot load such file -- 2.6/psych.so
-Exception `LoadError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/psych.rb:14 - cannot load such file -- 2.6/psych.so
-Exception `NameError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/psych/class_loader.rb:68 - uninitialized constant BigDecimal
-Exception `NameError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/psych/class_loader.rb:68 - uninitialized constant BigDecimal
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-linguist-7.11.1/lib/linguist/language.rb:4 - cannot load such file -- yajl
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-linguist-7.11.1/lib/linguist/samples.rb:2 - cannot load such file -- yajl
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-linguist-7.11.1/lib/linguist/language.rb:4 - cannot load such file -- yajl
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-linguist-7.11.1/lib/linguist/samples.rb:2 - cannot load such file -- yajl
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/command_implementation.rb:2 - cannot load such file -- posix-spawn
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/nokogiri-1.10.10/lib/nokogiri.rb:30 - cannot load such file -- nokogiri/2.6/nokogiri
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/github-markup-3.0.4/lib/github/markup/command_implementation.rb:2 - cannot load such file -- posix-spawn
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/nokogiri-1.10.10/lib/nokogiri.rb:30 - cannot load such file -- nokogiri/2.6/nokogiri
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-lib-5.0.6/lib/gollum-lib/markup.rb:10 - cannot load such file -- pygments
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-lib-5.0.6/lib/gollum-lib/filter/bibtex.rb:2 - cannot load such file -- bibtex
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/concurrent-ruby-1.1.7/lib/concurrent-ruby/concurrent/utility/native_extension_loader.rb:62 - cannot load such file -- concurrent/concurrent_ruby_ext
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/concurrent-ruby-1.1.7/lib/concurrent-ruby/concurrent/utility/native_extension_loader.rb:62 - cannot load such file -- concurrent/2.6/concurrent_ruby_ext
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-lib-5.0.6/lib/gollum-lib/markup.rb:10 - cannot load such file -- pygments
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/gollum-lib-5.0.6/lib/gollum-lib/filter/bibtex.rb:2 - cannot load such file -- bibtex
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/concurrent-ruby-1.1.7/lib/concurrent-ruby/concurrent/utility/native_extension_loader.rb:62 - cannot load such file -- concurrent/concurrent_ruby_ext
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/concurrent-ruby-1.1.7/lib/concurrent-ruby/concurrent/utility/native_extension_loader.rb:62 - cannot load such file -- concurrent/2.6/concurrent_ruby_ext
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlparser.rb:3 - cannot load such file -- xml/parser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlparser.rb:5 - cannot load such file -- xmlparser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/parser.rb:580 - cannot load such file -- xmlparser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlscanner.rb:2 - cannot load such file -- xmlscan/scanner
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/parser.rb:580 - cannot load such file -- xmlscan/scanner
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlparser.rb:3 - cannot load such file -- xml/parser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlparser.rb:5 - cannot load such file -- xmlparser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/parser.rb:580 - cannot load such file -- xmlparser
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/xmlscanner.rb:2 - cannot load such file -- xmlscan/scanner
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/rss-0.2.9/lib/rss/parser.rb:580 - cannot load such file -- xmlscan/scanner
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/jwt-2.2.2/lib/jwt/signature.rb:12 - cannot load such file -- rbnacl
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-I, [2020-10-22T15:27:17.741957 #24569]  INFO -- : worker=1 ready
-Exception `LoadError' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/jwt-2.2.2/lib/jwt/signature.rb:12 - cannot load such file -- rbnacl
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-Exception `SyntaxError' at /home/euikook/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/forwardable/impl.rb:4 - <compiled>: syntax error, unexpected end-of-input
-I, [2020-10-22T15:27:17.869046 #24568]  INFO -- : worker=0 ready
-I, [2020-10-22T15:40:07.728758 #24565]  INFO -- : reaped #<Process::Status: pid 24568 exit 0> worker=0
-I, [2020-10-22T15:40:07.729139 #24565]  INFO -- : reaped #<Process::Status: pid 24569 exit 0> worker=1
-Exception `Errno::ECHILD' at /home/euikook/.rvm/gems/ruby-2.6.0/gems/unicorn-5.7.0/lib/unicorn/http_server.rb:401 - No child processes
-I, [2020-10-22T15:40:07.729488 #24565]  INFO -- : master complete
-I, [2020-10-22T06:58:22.338713 #1]  INFO -- : unlinking existing socket=/gollum/run/unicorn.sock
-I, [2020-10-22T06:58:22.338822 #1]  INFO -- : listening on addr=/gollum/run/unicorn.sock fd=7
-I, [2020-10-22T06:58:22.338882 #1]  INFO -- : worker=0 spawning...
-I, [2020-10-22T06:58:22.339436 #1]  INFO -- : worker=1 spawning...
-I, [2020-10-22T06:58:22.339728 #6]  INFO -- : worker=0 spawned pid=6
-I, [2020-10-22T06:58:22.339847 #6]  INFO -- : Refreshing Gem list
-I, [2020-10-22T06:58:22.339955 #1]  INFO -- : master process ready
-I, [2020-10-22T06:58:22.340244 #7]  INFO -- : worker=1 spawned pid=7
-I, [2020-10-22T06:58:22.340362 #7]  INFO -- : Refreshing Gem list
-I, [2020-10-22T06:58:27.396653 #6]  INFO -- : worker=0 ready
-I, [2020-10-22T06:58:27.396677 #7]  INFO -- : worker=1 ready
-I, [2020-10-23T02:09:18.070295 #1]  INFO -- : gracefully stopping all workers
-I, [2020-10-23T02:09:18.241084 #1]  INFO -- : reaped #<Process::Status: pid 6 exit 0> worker=0
-I, [2020-10-23T02:09:18.241231 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=1
-I, [2020-10-23T03:24:07.738142 #1]  INFO -- : master complete
+I, [2020-11-11T13:30:13.184733 #1]  INFO -- : listening on addr=0.0.0.0:80 fd=7
+I, [2020-11-11T13:30:13.184923 #1]  INFO -- : worker=0 spawning...
+I, [2020-11-11T13:30:13.185803 #1]  INFO -- : worker=1 spawning...
+I, [2020-11-11T13:30:13.186593 #1]  INFO -- : master process ready
+I, [2020-11-11T13:30:13.187412 #7]  INFO -- : worker=1 spawned pid=7
+I, [2020-11-11T13:30:13.187591 #7]  INFO -- : Refreshing Gem list
+I, [2020-11-11T13:30:13.189634 #6]  INFO -- : worker=0 spawned pid=6
+I, [2020-11-11T13:30:13.189811 #6]  INFO -- : Refreshing Gem list
+E, [2020-11-11T13:30:20.376274 #1] ERROR -- : reaped #<Process::Status: pid 7 SIGKILL (signal 9)> worker=1
+I, [2020-11-11T13:30:20.447559 #1]  INFO -- : worker=1 spawning...
+I, [2020-11-11T13:30:20.451734 #8]  INFO -- : worker=1 spawned pid=8
+I, [2020-11-11T13:30:20.452065 #8]  INFO -- : Refreshing Gem list
+D, [2020-11-11T13:31:26.727829 #1] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2020-11-11T13:31:57.166918 #1] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2020-11-11T13:32:31.703933 #1] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2020-11-11T13:33:27.768172 #1] DEBUG -- : waiting 16.0s after suspend/hibernation
+I, [2020-11-11T13:34:12.465334 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=1
+I, [2020-11-11T13:34:18.072892 #1]  INFO -- : reaped #<Process::Status: pid 6 exit 0> worker=0
+I, [2020-11-11T13:34:18.336795 #1]  INFO -- : master complete
+I, [2020-11-11T13:35:46.995731 #1]  INFO -- : listening on addr=0.0.0.0:80 fd=7
+I, [2020-11-11T13:35:47.003693 #1]  INFO -- : worker=0 spawning...
+I, [2020-11-11T13:35:47.006299 #1]  INFO -- : worker=1 spawning...
+I, [2020-11-11T13:35:47.008161 #1]  INFO -- : master process ready
+I, [2020-11-11T13:35:47.008986 #6]  INFO -- : worker=0 spawned pid=6
+I, [2020-11-11T13:35:47.009160 #6]  INFO -- : Refreshing Gem list
+I, [2020-11-11T13:35:47.011265 #7]  INFO -- : worker=1 spawned pid=7
+I, [2020-11-11T13:35:47.011433 #7]  INFO -- : Refreshing Gem list
+E, [2020-11-11T13:35:55.798256 #1] ERROR -- : reaped #<Process::Status: pid 6 SIGKILL (signal 9)> worker=0
+I, [2020-11-11T13:35:55.855151 #1]  INFO -- : worker=0 spawning...
+I, [2020-11-11T13:35:55.859726 #8]  INFO -- : worker=0 spawned pid=8
+I, [2020-11-11T13:35:55.859951 #8]  INFO -- : Refreshing Gem list
+E, [2020-11-11T13:36:37.561968 #1] ERROR -- : reaped #<Process::Status: pid 7 SIGKILL (signal 9)> worker=1
+I, [2020-11-11T13:36:37.877085 #1]  INFO -- : worker=1 spawning...
+I, [2020-11-11T13:36:37.909364 #9]  INFO -- : worker=1 spawned pid=9
+I, [2020-11-11T13:36:37.909622 #9]  INFO -- : Refreshing Gem list
+D, [2020-11-11T13:37:22.922003 #1] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2020-11-11T13:39:31.394598 #1] DEBUG -- : waiting 16.0s after suspend/hibernation
+I, [2020-11-11T13:39:49.607019 #1]  INFO -- : reaped #<Process::Status: pid 8 exit 0> worker=0
+I, [2020-11-11T13:39:49.653386 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=1
+I, [2020-11-11T13:39:49.999362 #1]  INFO -- : master complete
+I, [2020-11-11T14:16:03.666071 #1]  INFO -- : listening on addr=0.0.0.0:80 fd=7
+I, [2020-11-11T14:16:03.666514 #1]  INFO -- : worker=0 spawning...
+I, [2020-11-11T14:16:03.667304 #1]  INFO -- : worker=1 spawning...
+I, [2020-11-11T14:16:03.667931 #1]  INFO -- : master process ready
+I, [2020-11-11T14:16:03.668766 #7]  INFO -- : worker=1 spawned pid=7
+I, [2020-11-11T14:16:03.668954 #7]  INFO -- : Refreshing Gem list
+I, [2020-11-11T14:16:03.670586 #6]  INFO -- : worker=0 spawned pid=6
+I, [2020-11-11T14:16:03.670731 #6]  INFO -- : Refreshing Gem list
+I, [2020-11-11T14:16:15.459162 #7]  INFO -- : worker=1 ready
+I, [2020-11-11T14:16:15.459757 #6]  INFO -- : worker=0 ready
+I, [2020-11-11T14:25:45.964985 #1]  INFO -- : reaped #<Process::Status: pid 6 exit 0> worker=0
+I, [2020-11-11T14:25:45.972372 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=1
+I, [2020-11-11T14:25:45.973257 #1]  INFO -- : master complete
+I, [2020-11-11T14:25:52.317490 #1]  INFO -- : listening on addr=0.0.0.0:80 fd=7
+I, [2020-11-11T14:25:52.317624 #1]  INFO -- : worker=0 spawning...
+I, [2020-11-11T14:25:52.318597 #1]  INFO -- : worker=1 spawning...
+I, [2020-11-11T14:25:52.319148 #1]  INFO -- : master process ready
+I, [2020-11-11T14:25:52.319991 #7]  INFO -- : worker=1 spawned pid=7
+I, [2020-11-11T14:25:52.320173 #7]  INFO -- : Refreshing Gem list
+I, [2020-11-11T14:25:52.322242 #6]  INFO -- : worker=0 spawned pid=6
+I, [2020-11-11T14:25:52.322388 #6]  INFO -- : Refreshing Gem list
+I, [2020-11-11T14:26:03.903964 #7]  INFO -- : worker=1 ready
+I, [2020-11-11T14:26:03.904144 #6]  INFO -- : worker=0 ready
+I, [2020-11-11T14:26:05.084537 #1]  INFO -- : reaped #<Process::Status: pid 6 exit 0> worker=0
+I, [2020-11-11T14:26:05.085776 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=1
+I, [2020-11-11T14:26:05.087112 #1]  INFO -- : master complete
+I, [2020-11-11T14:27:06.864321 #1]  INFO -- : listening on addr=0.0.0.0:80 fd=7
+I, [2020-11-11T14:27:06.864655 #1]  INFO -- : worker=0 spawning...
+I, [2020-11-11T14:27:06.865591 #1]  INFO -- : worker=1 spawning...
+I, [2020-11-11T14:27:06.866374 #1]  INFO -- : master process ready
+I, [2020-11-11T14:27:06.867265 #7]  INFO -- : worker=1 spawned pid=7
+I, [2020-11-11T14:27:06.867886 #6]  INFO -- : worker=0 spawned pid=6
+I, [2020-11-11T14:27:06.868181 #7]  INFO -- : Refreshing Gem list
+I, [2020-11-11T14:27:06.870239 #6]  INFO -- : Refreshing Gem list
+I, [2020-11-11T14:27:18.149228 #6]  INFO -- : worker=0 ready
+I, [2020-11-11T14:27:18.149612 #7]  INFO -- : worker=1 ready
+I, [2020-11-11T14:27:44.894821 #1]  INFO -- : reaped #<Process::Status: pid 6 exit 0> worker=0
+I, [2020-11-11T14:27:44.895003 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=1
+I, [2020-11-11T14:27:44.895622 #1]  INFO -- : master complete
+I, [2020-11-11T14:28:08.497453 #1]  INFO -- : listening on addr=/apps/run/unicorn.sock fd=7
+I, [2020-11-11T14:28:08.497582 #1]  INFO -- : worker=0 spawning...
+I, [2020-11-11T14:28:08.498339 #1]  INFO -- : worker=1 spawning...
+I, [2020-11-11T14:28:08.498998 #1]  INFO -- : master process ready
+I, [2020-11-11T14:28:08.499787 #7]  INFO -- : worker=1 spawned pid=7
+I, [2020-11-11T14:28:08.499945 #7]  INFO -- : Refreshing Gem list
+I, [2020-11-11T14:28:08.502587 #6]  INFO -- : worker=0 spawned pid=6
+I, [2020-11-11T14:28:08.502731 #6]  INFO -- : Refreshing Gem list
+I, [2020-11-11T14:28:19.754679 #6]  INFO -- : worker=0 ready
+I, [2020-11-11T14:28:19.756181 #7]  INFO -- : worker=1 ready
+121.184.40.103 - - [11/Nov/2020:14:28:21 +0000] "GET / HTTP/1.0" 302 - 0.0728
+121.184.40.103 - - [11/Nov/2020:14:28:26 +0000] "GET /Home HTTP/1.0" 200 2983 4.7251
+121.184.40.103 - - [11/Nov/2020:14:28:27 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0261
+121.184.40.103 - - [11/Nov/2020:14:28:27 +0000] "GET /gollum/assets/print.css HTTP/1.0" 200 75 0.0031
+121.184.40.103 - - [11/Nov/2020:14:28:31 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 4.6812
+121.184.40.103 - - [11/Nov/2020:14:29:14 +0000] "GET /gollum/overview HTTP/1.0" 200 3027 0.0408
+121.184.40.103 - - [11/Nov/2020:14:29:14 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0221
+121.184.40.103 - - [11/Nov/2020:14:29:14 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0184
+121.184.40.103 - - [11/Nov/2020:14:29:15 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0135
+121.184.40.103 - - [11/Nov/2020:14:29:29 +0000] "GET / HTTP/1.0" 302 - 0.0020
+121.184.40.103 - - [11/Nov/2020:14:29:29 +0000] "GET /Home HTTP/1.0" 200 2983 0.0328
+121.184.40.103 - - [11/Nov/2020:14:29:30 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0140
+121.184.40.103 - - [11/Nov/2020:14:29:30 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0220
+121.184.40.103 - - [11/Nov/2020:14:29:30 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0029
+77.88.5.166 - - [11/Nov/2020:14:45:00 +0000] "GET /robots.txt HTTP/1.0" 302 - 0.0709
+77.88.5.125 - - [11/Nov/2020:14:45:01 +0000] "GET /gollum/create/robots.txt HTTP/1.0" 200 13020 0.2630
+93.158.161.22 - - [11/Nov/2020:14:45:05 +0000] "GET / HTTP/1.0" 302 - 0.0020
+77.88.5.44 - - [11/Nov/2020:14:45:08 +0000] "GET /Home HTTP/1.0" 200 2983 0.0822
+121.184.40.103 - - [11/Nov/2020:14:45:09 +0000] "GET /Home HTTP/1.0" 200 2983 0.0758
+121.184.40.103 - - [11/Nov/2020:14:45:09 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0151
+121.184.40.103 - - [11/Nov/2020:14:45:09 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0104
+121.184.40.103 - - [11/Nov/2020:14:45:09 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0031
+121.184.40.103 - - [11/Nov/2020:14:45:10 +0000] "GET /Home HTTP/1.0" 200 2983 0.0313
+121.184.40.103 - - [11/Nov/2020:14:45:10 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0146
+121.184.40.103 - - [11/Nov/2020:14:45:10 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0221
+121.184.40.103 - - [11/Nov/2020:14:45:10 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0030
+121.184.40.103 - - [11/Nov/2020:14:45:11 +0000] "GET /Home HTTP/1.0" 200 2983 0.0366
+121.184.40.103 - - [11/Nov/2020:14:45:11 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0137
+121.184.40.103 - - [11/Nov/2020:14:45:11 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0216
+121.184.40.103 - - [11/Nov/2020:14:45:11 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0022
+121.184.40.103 - - [11/Nov/2020:14:45:12 +0000] "GET / HTTP/1.0" 302 - 0.0015
+121.184.40.103 - - [11/Nov/2020:14:45:12 +0000] "GET /Home HTTP/1.0" 200 2983 0.0286
+121.184.40.103 - - [11/Nov/2020:14:45:13 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0176
+121.184.40.103 - - [11/Nov/2020:14:45:13 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0253
+121.184.40.103 - - [11/Nov/2020:14:45:13 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0023
+121.184.40.103 - - [11/Nov/2020:14:45:14 +0000] "GET / HTTP/1.0" 302 - 0.0015
+121.184.40.103 - - [11/Nov/2020:14:45:14 +0000] "GET /Home HTTP/1.0" 200 2983 0.0271
+121.184.40.103 - - [11/Nov/2020:14:45:14 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0187
+121.184.40.103 - - [11/Nov/2020:14:45:14 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0172
+121.184.40.103 - - [11/Nov/2020:14:45:14 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0023
+121.184.40.103 - - [11/Nov/2020:14:45:15 +0000] "GET / HTTP/1.0" 302 - 0.0017
+121.184.40.103 - - [11/Nov/2020:14:45:15 +0000] "GET /Home HTTP/1.0" 200 2983 0.0280
+121.184.40.103 - - [11/Nov/2020:14:45:15 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0175
+121.184.40.103 - - [11/Nov/2020:14:45:15 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0251
+121.184.40.103 - - [11/Nov/2020:14:45:15 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0022
+121.184.40.103 - - [11/Nov/2020:14:45:16 +0000] "GET / HTTP/1.0" 302 - 0.0016
+121.184.40.103 - - [11/Nov/2020:14:45:16 +0000] "GET /Home HTTP/1.0" 200 2983 0.0288
+121.184.40.103 - - [11/Nov/2020:14:45:17 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0168
+121.184.40.103 - - [11/Nov/2020:14:45:17 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0284
+121.184.40.103 - - [11/Nov/2020:14:45:17 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0033
+121.184.40.103 - - [11/Nov/2020:14:45:17 +0000] "GET / HTTP/1.0" 302 - 0.0015
+121.184.40.103 - - [11/Nov/2020:14:45:17 +0000] "GET /Home HTTP/1.0" 200 2983 0.0293
+121.184.40.103 - - [11/Nov/2020:14:45:18 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0149
+121.184.40.103 - - [11/Nov/2020:14:45:18 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0224
+121.184.40.103 - - [11/Nov/2020:14:45:18 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0033
+121.184.40.103 - - [11/Nov/2020:14:45:18 +0000] "GET / HTTP/1.0" 302 - 0.0015
+121.184.40.103 - - [11/Nov/2020:14:45:18 +0000] "GET /Home HTTP/1.0" 200 2983 0.0279
+121.184.40.103 - - [11/Nov/2020:14:45:19 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0160
+121.184.40.103 - - [11/Nov/2020:14:45:19 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0233
+121.184.40.103 - - [11/Nov/2020:14:45:19 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0023
+121.184.40.103 - - [11/Nov/2020:14:45:20 +0000] "GET / HTTP/1.0" 302 - 0.0019
+121.184.40.103 - - [11/Nov/2020:14:45:20 +0000] "GET /Home HTTP/1.0" 200 2983 0.0272
+121.184.40.103 - - [11/Nov/2020:14:45:20 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0208
+121.184.40.103 - - [11/Nov/2020:14:45:20 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0172
+121.184.40.103 - - [11/Nov/2020:14:45:20 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0029
+121.184.40.103 - - [11/Nov/2020:14:45:21 +0000] "GET / HTTP/1.0" 302 - 0.0016
+121.184.40.103 - - [11/Nov/2020:14:45:21 +0000] "GET /Home HTTP/1.0" 200 2983 0.0291
+121.184.40.103 - - [11/Nov/2020:14:45:21 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0207
+121.184.40.103 - - [11/Nov/2020:14:45:21 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0175
+121.184.40.103 - - [11/Nov/2020:14:45:22 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0022
+121.184.40.103 - - [11/Nov/2020:14:45:22 +0000] "GET / HTTP/1.0" 302 - 0.0015
+121.184.40.103 - - [11/Nov/2020:14:45:23 +0000] "GET /Home HTTP/1.0" 200 2983 0.0544
+121.184.40.103 - - [11/Nov/2020:14:45:23 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0193
+121.184.40.103 - - [11/Nov/2020:14:45:23 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0271
+121.184.40.103 - - [11/Nov/2020:14:45:23 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0023
+121.184.40.103 - - [11/Nov/2020:14:45:24 +0000] "GET / HTTP/1.0" 302 - 0.0017
+121.184.40.103 - - [11/Nov/2020:14:45:24 +0000] "GET /Home HTTP/1.0" 200 2983 0.0272
+121.184.40.103 - - [11/Nov/2020:14:45:24 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0153
+121.184.40.103 - - [11/Nov/2020:14:45:24 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0246
+121.184.40.103 - - [11/Nov/2020:14:45:24 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0022
+121.184.40.103 - - [11/Nov/2020:14:45:25 +0000] "GET / HTTP/1.0" 302 - 0.0015
+121.184.40.103 - - [11/Nov/2020:14:45:25 +0000] "GET /Home HTTP/1.0" 200 2983 0.0275
+121.184.40.103 - - [11/Nov/2020:14:45:26 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0142
+121.184.40.103 - - [11/Nov/2020:14:45:26 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0217
+121.184.40.103 - - [11/Nov/2020:14:45:26 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0025
+121.184.40.103 - - [11/Nov/2020:14:45:26 +0000] "GET / HTTP/1.0" 302 - 0.0015
+121.184.40.103 - - [11/Nov/2020:14:45:27 +0000] "GET /Home HTTP/1.0" 200 2983 0.0299
+121.184.40.103 - - [11/Nov/2020:14:45:27 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0214
+121.184.40.103 - - [11/Nov/2020:14:45:27 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0306
+121.184.40.103 - - [11/Nov/2020:14:45:27 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0031
+121.184.40.103 - - [11/Nov/2020:14:45:28 +0000] "GET / HTTP/1.0" 302 - 0.0033
+121.184.40.103 - - [11/Nov/2020:14:45:28 +0000] "GET /Home HTTP/1.0" 200 2983 0.0305
+121.184.40.103 - - [11/Nov/2020:14:45:28 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0159
+121.184.40.103 - - [11/Nov/2020:14:45:28 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0239
+121.184.40.103 - - [11/Nov/2020:14:45:28 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0030
+121.184.40.103 - - [11/Nov/2020:14:45:29 +0000] "GET / HTTP/1.0" 302 - 0.0017
+121.184.40.103 - - [11/Nov/2020:14:45:29 +0000] "GET /Home HTTP/1.0" 200 2983 0.0277
+121.184.40.103 - - [11/Nov/2020:14:45:30 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0250
+121.184.40.103 - - [11/Nov/2020:14:45:30 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0506
+121.184.40.103 - - [11/Nov/2020:14:45:30 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0023
+I, [2020-11-11T14:46:57.942285 #1]  INFO -- : reaped #<Process::Status: pid 6 exit 0> worker=0
+I, [2020-11-11T14:46:57.942475 #1]  INFO -- : reaped #<Process::Status: pid 7 exit 0> worker=1
+I, [2020-11-11T14:46:57.942606 #1]  INFO -- : master complete
+I, [2020-11-11T14:49:06.865149 #1]  INFO -- : unlinking existing socket=/apps/run/unicorn.sock
+I, [2020-11-11T14:49:06.865306 #1]  INFO -- : listening on addr=/apps/run/unicorn.sock fd=7
+I, [2020-11-11T14:49:06.865408 #1]  INFO -- : worker=0 spawning...
+I, [2020-11-11T14:49:06.866173 #1]  INFO -- : worker=1 spawning...
+I, [2020-11-11T14:49:06.866741 #1]  INFO -- : master process ready
+I, [2020-11-11T14:49:06.867528 #7]  INFO -- : worker=1 spawned pid=7
+I, [2020-11-11T14:49:06.867706 #7]  INFO -- : Refreshing Gem list
+I, [2020-11-11T14:49:06.869598 #6]  INFO -- : worker=0 spawned pid=6
+I, [2020-11-11T14:49:06.869733 #6]  INFO -- : Refreshing Gem list
+I, [2020-11-11T14:49:18.730514 #6]  INFO -- : worker=0 ready
+I, [2020-11-11T14:49:18.730724 #7]  INFO -- : worker=1 ready
+121.184.40.103 - - [11/Nov/2020:14:49:23 +0000] "GET /Home HTTP/1.0" 200 3455 4.8487
+121.184.40.103 - - [11/Nov/2020:14:49:24 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0243
+121.184.40.103 - - [11/Nov/2020:14:49:24 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0029
+121.184.40.103 - - [11/Nov/2020:14:49:28 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 4.7656
+121.184.40.103 - - [11/Nov/2020:14:49:32 +0000] "GET /gollum/edit/Home.md HTTP/1.0" 200 12660 0.1763
+121.184.40.103 - - [11/Nov/2020:14:49:32 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0136
+121.184.40.103 - - [11/Nov/2020:14:49:32 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0224
+121.184.40.103 - - [11/Nov/2020:14:49:32 +0000] "GET /gollum/assets/editor.js HTTP/1.0" 200 816631 0.1463
+121.184.40.103 - - [11/Nov/2020:14:49:32 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0024
+121.184.40.103 - - [11/Nov/2020:14:50:08 +0000] "POST /gollum/preview HTTP/1.0" 200 2042 0.0766
+121.184.40.103 - - [11/Nov/2020:14:52:26 +0000] "POST /gollum/edit/Home.md HTTP/1.0" 200 40 0.0719
+121.184.40.103 - - [11/Nov/2020:14:52:27 +0000] "GET /Home.md HTTP/1.0" 200 3638 0.0359
+121.184.40.103 - - [11/Nov/2020:14:52:27 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0150
+121.184.40.103 - - [11/Nov/2020:14:52:27 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0065
+121.184.40.103 - - [11/Nov/2020:14:52:27 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0094
+121.184.40.103 - - [11/Nov/2020:14:52:33 +0000] "GET /About.md HTTP/1.0" 200 3146 0.0293
+121.184.40.103 - - [11/Nov/2020:14:52:33 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0263
+121.184.40.103 - - [11/Nov/2020:14:52:33 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0527
+121.184.40.103 - - [11/Nov/2020:14:52:33 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0023
+121.184.40.103 - - [11/Nov/2020:14:52:36 +0000] "GET /About.md HTTP/1.0" 200 3146 0.0289
+121.184.40.103 - - [11/Nov/2020:14:52:37 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0131
+121.184.40.103 - - [11/Nov/2020:14:52:37 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0214
+121.184.40.103 - - [11/Nov/2020:14:52:37 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0026
+121.184.40.103 - - [11/Nov/2020:14:52:40 +0000] "GET /About.md HTTP/1.0" 200 3146 0.0281
+121.184.40.103 - - [11/Nov/2020:14:52:40 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0143
+121.184.40.103 - - [11/Nov/2020:14:52:40 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0240
+121.184.40.103 - - [11/Nov/2020:14:52:41 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0026
+121.184.40.103 - - [11/Nov/2020:14:53:19 +0000] "GET /gollum/overview HTTP/1.0" 200 26548 0.0386
+121.184.40.103 - - [11/Nov/2020:14:53:19 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0207
+121.184.40.103 - - [11/Nov/2020:14:53:19 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0182
+121.184.40.103 - - [11/Nov/2020:14:53:19 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0026
+121.184.40.103 - - [11/Nov/2020:14:53:22 +0000] "GET /Insync-3.x-auto-start-with-xvfb-and-systemctl.md HTTP/1.0" 200 4989 0.0490
+121.184.40.103 - - [11/Nov/2020:14:53:22 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0160
+121.184.40.103 - - [11/Nov/2020:14:53:22 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0237
+121.184.40.103 - - [11/Nov/2020:14:53:23 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0025
+121.184.40.103 - - [11/Nov/2020:14:53:34 +0000] "GET /LDAP.md HTTP/1.0" 200 2952 0.0269
+121.184.40.103 - - [11/Nov/2020:14:53:34 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0133
+121.184.40.103 - - [11/Nov/2020:14:53:34 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0214
+121.184.40.103 - - [11/Nov/2020:14:53:34 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0023
+121.184.40.103 - - [11/Nov/2020:14:53:37 +0000] "GET /Insync-3.x-auto-start-with-xvfb-and-systemctl.md HTTP/1.0" 200 4989 0.0364
+121.184.40.103 - - [11/Nov/2020:14:53:37 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0150
+121.184.40.103 - - [11/Nov/2020:14:53:37 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0227
+121.184.40.103 - - [11/Nov/2020:14:53:38 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0022
+121.184.40.103 - - [11/Nov/2020:14:53:42 +0000] "GET /About.md HTTP/1.0" 200 3146 0.0282
+121.184.40.103 - - [11/Nov/2020:14:53:42 +0000] "GET /gollum/assets/app.js HTTP/1.0" 200 159543 0.0154
+121.184.40.103 - - [11/Nov/2020:14:53:42 +0000] "GET /gollum/assets/app.css HTTP/1.0" 200 298111 0.0234
+121.184.40.103 - - [11/Nov/2020:14:53:43 +0000] "GET /gollum/assets/print.css HTTP/1.0" 304 - 0.0023
