@@ -2,7 +2,7 @@
 
 ## Troubles
 * 영문 키보드 구입
-* 오른쪽 Alt 키 (<kdb>Alt_R</kdb>)을 한글 키로 사용 하고 싶음.
+* 오른쪽 Alt 키 (<kbd>Alt_R</kbd>)을 한글 키로 사용 하고 싶음.
 * IBus 등에서 한/영 변환을 Alt_R 키로 등록
 	* 다른 프로그램에서는 잘 동작.
 	* Alt_R 키를 단축키로 사용하는 프로그램(Chrome)등에서는 동작이 안됨
@@ -68,5 +68,5 @@ xkb_symbols "meta_alt" {
 ## References
 * [https://zapary.blogspot.com/2014/08/ubuntu-xkb-keyboard-map.html](https://zapary.blogspot.com/2014/08/ubuntu-xkb-keyboard-map.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDI2OTk3MiwtMTE1OTg5NjM5N119
+eyJoaXN0b3J5IjpbNzczNTc1OTU2LC0xMTU5ODk2Mzk3XX0=
 -->
