@@ -6,7 +6,7 @@ description:
 permalink: posts/right-alt-as-hangul
 status: publish
 layout: post
-tags: [Linux, Gitlab, CI, CD, CI/CD, Docker, Container, Compose, docker-compose]
+tags: [Linux, GUI, Gnone, HANGUL]
 ---
 # Right ALT key as Hangul
 
@@ -90,3 +90,6 @@ xkb_symbols "meta_alt" {
 ### Pros
 
 ### Cons
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMzk0NTM5NTQ0XX0=
+-->
