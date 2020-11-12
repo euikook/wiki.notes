@@ -5,7 +5,7 @@
 * 오른쪽 Alt</kbd> 키 (<kbd>Alt_R</kbd>)을 한글 키로 사용 하고 싶음.
 * IBus 등에서 한/영 변환을 <kbd>Alt_R</kbd> 키로 등록
 	* 다른 프로그램에서는 잘 동작.
-	* Alt_R 키를 단축키로 사용하는 프로그램(Chrome)등에서는 동작이 안됨
+	* <kbd>Alt_R</kbd> 키를 단축키로 사용하는 프로그램(Chrome)등에서는 동작이 안됨
 * <kbd>Ctrl_R</kbd>은 Hanja 키로 매핑 시키고 싶이 않음.
 
 ## Use Xmodmap
@@ -68,5 +68,5 @@ xkb_symbols "meta_alt" {
 ## References
 * [https://zapary.blogspot.com/2014/08/ubuntu-xkb-keyboard-map.html](https://zapary.blogspot.com/2014/08/ubuntu-xkb-keyboard-map.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODg1MjU0NiwtMTE1OTg5NjM5N119
+eyJoaXN0b3J5IjpbLTk3NTMzMDksLTExNTk4OTYzOTddfQ==
 -->
