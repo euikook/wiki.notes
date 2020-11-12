@@ -1,5 +1,3 @@
-
-
 # Alt_R as Hangul on Ubuntu 18.04
 
 ## Troubles
@@ -70,5 +68,5 @@ xkb_symbols "meta_alt" {
 ## References
 * [https://zapary.blogspot.com/2014/08/ubuntu-xkb-keyboard-map.html](https://zapary.blogspot.com/2014/08/ubuntu-xkb-keyboard-map.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzc4NjQ4MV19
+eyJoaXN0b3J5IjpbLTExNTk4OTYzOTddfQ==
 -->
