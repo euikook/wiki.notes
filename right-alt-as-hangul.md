@@ -1,65 +1,47 @@
----
-title: Ubuntu Key Mapping Right Alt as Hangul Key
-date: "2020-09-11 14:05:55 +0900"
-author: euikook
-description:
-permalink: posts/right-alt-as-hangul
-status: publish
-layout: post
-tags: [Linux, GUI, Gnone, HANGUL]
----
-# Right ALT key as Hangul
 
-## gnome-teaks tools
 
+# Alt_R as Hangul on Ubuntu 18.04
+
+## Troubles
+* 영문 키보드 구입
+* 오른쪽 Alt 키 (Alt_R)을 한글 키로 사용 하고 싶음.
+* IBus 등에서 한/영 변환을 Alt_R 키로 등록
+	* 다른 프로그램에서는 잘 동작.
+	* Alt_R 키를 단축키로 사용하는 프로그램(Chrome)등에서는 동작이 안됨
+* Ctrl_R은 Hanja 키로 매핑 시키고 싶이 않음.
+
+## Use Xmodmap
+
+### Hangul key
 ```
-sudo apt install gnome-tweak
+xmodmap -e 'remove mod1 = Alt_R' # Alt_R의 기본 키 매핑 제거
+xmodmap -e 'keycode 108 = Hangul' # Alt_R을 Hangul 키로 매핑
 ```
-
-`gnome-tweak`을 실행한다.
-
-
-Keyboard & Mouse > Additional Layout Options > Korean Hangul/Hanja keys
-
-Check `Right Alt` as `Hangul`, `Right Ctrl` as `Hanja`
-
-### Cons
-* 거의 사용하지 않는 `Right Ctrl` 키를 한자 변환 키로 사용하여야 한다.
-
-## xmodmap
-
-한글 키 매핑
-```
-xmodmap -e 'remove mod1 = Alt_R'
-xmodmap -e 'keycode 108 = Hangul'
-```
-
-한자변환 키의 경우
+### Hanja Key
 ```
 xmodmap -e 'remove control = Control_R'
 xmodmap -e 'keycode 105 = Hangul_Hanja'
 ```
-
-현재 설정 저장
-
+### Save permanently
 ```
 xmodmap -pke > ~/.Xmodmap
 ```
 
+### Troubles
+ubuntu 18.04 로 가면서 X11 이 아나라 Wayland가 기본 X 서버로 변경 되면서 xmodmap은 더이상 도작 하지 않는다. 
+xmodmap이 동작 하게 하려면 기본 X 서버를 xorg로 변경 하여야 한다.
 
-## Cons
-* Ubuntu 13.04 부터 `xmodmap` 대신 `xkb`를 사용한다. 따라서 `~/.Xmodmap`에 키를 리매핑하여도 로그인 시 적용되지 않는다. `xkb`의 설정 방법은 다음 색션을 참고 한다. 
 
-수동으로 로드 하기 위해서는 아래 명령을 수행한다.
+## Use  Gnome Tweak Tool
+Run `Gnome Tweaks Tool` > `Keyboard & Mouse` > `Additional Layout Options` > `Korean Hangul/Hanja Keys`
+Check `Right Alt as Hangul, right Ctrl as Hanja`
 
-```
-xmodmap ~/.Xmodmap
-```
+### Troubles
+잘 동작한다. 하지만 Ctrl_R 키 까지 한자키로 매핑되어  VirtualBox 사용시 Host Key를 변경 해주어 야 한다. 
 
-## XKB (X Keyboard Extension)
 
-`/usr/share/X11/xkb/symbols/altwin` 파일을 열어 `symbols[Group1] = [ Alt_R, Meta_R ]` 부분을 `symbols[Group1] = [ Hangul ]`로 수정한다.
-
+##  Use XKB 
+Edit `/usr/share/X11/xkb/symbols/altwin`
 
 ```
 // Meta is mapped to second level of Alt.
@@ -71,7 +53,6 @@ xkb_symbols "meta_alt" {
     modifier_map Mod1 { Alt_L, Alt_R, Meta_L, Meta_R };
 //  modifier_map Mod4 {};
 };
-
 ```
 
 ```
@@ -84,12 +65,10 @@ xkb_symbols "meta_alt" {
     modifier_map Mod1 { Alt_L, Alt_R, Meta_L, Meta_R };
 //  modifier_map Mod4 {};
 };
-
 ```
 
-### Pros
-
-### Cons
+## References
+* [https://zapary.blogspot.com/2014/08/ubuntu-xkb-keyboard-map.html](https://zapary.blogspot.com/2014/08/ubuntu-xkb-keyboard-map.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0NTM5NTQ0XX0=
+eyJoaXN0b3J5IjpbLTE1Nzc4NjQ4MV19
 -->
