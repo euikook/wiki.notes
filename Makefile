@@ -16,7 +16,7 @@ webroot:
 		nginx
 
 nginx: 
-	docker run --rm --name nginx \
+	docker run -d --rm --name nginx \
 		-v $(TOP_DIR):/apps \
 		-v "$(TOP_DIR)/conf/certbot:/etc/letsencrypt" \
 		-v "$(TOP_DIR)/var/certbot:/var/lib/letsencrypt" \

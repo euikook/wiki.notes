@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 require 'rubygems'
 require 'gollum/app'
+require 'omnigollum'
+require 'omniauth-google-oauth2'
 
 gollum_path = File.expand_path(File.dirname(__FILE__)) # CHANGE THIS TO POINT TO YOUR OWN WIKI REPO
 
@@ -8,7 +10,7 @@ gollum_path = File.expand_path(File.dirname(__FILE__)) # CHANGE THIS TO POINT TO
 wiki_options = {}
 wiki_options = {:universal_toc => false}
 
-#wiki_options[:css] = true # Equivalent to --css
+wiki_options[:css] = true # Equivalent to --css
 #wiki_options[:js] = true # Equivalent to --js
 #wiki_options[:template_dir] = path # Equivalent to --template-dir
 wiki_options[:page_file_dir] = "posts" # Equivalent to --page-file-dir
@@ -25,6 +27,32 @@ wiki_options[:page_file_dir] = "posts" # Equivalent to --page-file-dir
 wiki_options[:show_all] = true # Equivalent to --show-all
 #wiki_options[:collapse_tree] = true # Equivalent to --collapse-tree
 wiki_options[:h1_title] = true # Equivalent to --h1-title
+
+options = {
+  :providers => Proc.new do
+    provider :google_oauth2, '608777204830-ee160jjajsl7bfq108feng163cgdjeom.apps.googleusercontent.com','HtgY4AEriAnCOD2PU6t6blK_',provider_ignores_state: true
+  end,
+  :dummy_auth => false,
+  :protected_routes => [
+    '/gollum/revert/*',
+    '/gollum/revert',
+    '/gollum/create/*',
+    '/gollum//create',
+    '/gollum/edit/*',
+    '/gollum/edit',
+    '/gollum/rename/*',
+    '/gollum/rename',
+    '/gollum/delete/*',
+    '/gollum/delete'
+  ],
+  :authorized_users => [
+      "euikook@gmail.com",
+      "euikook@harues.com"
+  ]
+}
+
+#Precious::App.set(:omnigollum, options)
+#Precious::App.register Omnigollum::Sinatra
 
 Precious::App.set(:gollum_path, gollum_path)
 Precious::App.set(:default_markup, :markdown) # set your favorite markup language
