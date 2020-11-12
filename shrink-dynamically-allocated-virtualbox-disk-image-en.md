@@ -1,4 +1,4 @@
-# Shrink dynamically extended virtualbox image for export applicance
+# Shrink dynamically extended VirtualBox image for export appliance
 
 
 
@@ -67,5 +67,5 @@ Replcae $IMG_NAME to output file name did you want. e.g. ubuntu-bionic-server.ov
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyNzA0NjY1XX0=
+eyJoaXN0b3J5IjpbNjA5ODU5MzMyXX0=
 -->
