@@ -6,7 +6,7 @@
 * IBus 등에서 한/영 변환을 Alt_R 키로 등록
 	* 다른 프로그램에서는 잘 동작.
 	* Alt_R 키를 단축키로 사용하는 프로그램(Chrome)등에서는 동작이 안됨
-* Ctrl_R은 Hanja 키로 매핑 시키고 싶이 않음.
+* <kbd>Ctrl_R</kbd>은 Hanja 키로 매핑 시키고 싶이 않음.
 
 ## Use Xmodmap
 
@@ -68,5 +68,6 @@ xkb_symbols "meta_alt" {
 ## References
 * [https://zapary.blogspot.com/2014/08/ubuntu-xkb-keyboard-map.html](https://zapary.blogspot.com/2014/08/ubuntu-xkb-keyboard-map.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczNzkxMDgzLC0xMTU5ODk2Mzk3XX0=
+eyJoaXN0b3J5IjpbLTIxMjE1NDEwNTgsLTExNTk4OTYzOTddfQ
+==
 -->
