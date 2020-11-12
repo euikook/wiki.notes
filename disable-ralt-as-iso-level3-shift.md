@@ -7,7 +7,7 @@
 ```
 xev
 ```
-아래오
+아래와 같이 Keycode 108 번이 <kbd>ISO_Level3_Shift</kbd>로 인식된다. 
 ```
 KeyRelease event, serial 37, synthetic NO, window 0x1400001,
     root 0x529, subw 0x0, time 107702472, (862,0), root:(2932,214),
@@ -20,5 +20,5 @@ KeyRelease event, serial 37, synthetic NO, window 0x1400001,
 
 `xev` 등의 명령으로 확인해보면 `RALT` 키가 `ISO_Level3_shift`로 설정 된 경우가 있다. 이 경우  `Tweak` > `Keyboard @ Mouse` > `Additional Layout Options` > `Key to choose the 3rd level` > `Right Alt` 선택을 해제한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTkwMDQ3Nl19
+eyJoaXN0b3J5IjpbLTEyMzk0MTUyOTJdfQ==
 -->
