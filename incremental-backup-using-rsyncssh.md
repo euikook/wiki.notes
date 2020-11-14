@@ -1,15 +1,8 @@
 ---
 title: RSYNC+SSH 를 이용한 증분 백업 설정 및 Cron을 이용한 자동화
-link: https://blog.harues.com/incremental-backup-using-rsyncssh/
+link: https://notes.harues.com/incremental-backup-using-rsyncssh/
 author: euikook
 description: 
-post_id: 90
-date: 2018-02-20 14:29:05 0900
-comment_status: open
-permalink: posts/incremental-backup-using-rsyncssh
-redirect_from: incremental-backup-using-rsyncssh
-status: publish
-layout: post
 tags: [Linux, Backup, Incremental Backup, RSYNC, SSH, cron]
 ---
 

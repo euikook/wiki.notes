@@ -1,15 +1,9 @@
 ---
 title: Change NodePort range local kubernetes
-link: https://blog.harues.com/change-nodeport-range-local-kubernetes/
+link: https://notes.harues.com/change-nodeport-range-local-kubernetes/
 author: euikook
 description: 
-post_id: 30
 date: 2018-01-29 01:10:00 0900
-comment_status: open
-permalink: posts/change-nodeport-range-local-kubernetes
-redirect_from: change-nodeport-range-local-kubernetes
-status: publish
-layout: post
 tags: [Linux, Docker, Kubernetes, k8s, nodeport]
 ---
 
