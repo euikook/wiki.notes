@@ -1,4 +1,3 @@
-
 ---
 title: Let use zsh
 link: https://notes.harues.com/let-use-zsh
