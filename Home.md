@@ -1,4 +1,4 @@
-# Welcome to my wiki pages
+# Welcome to euikook's wiki pages
 
 이곳은 [저의](About.md) 개인 위키 입니다. 
 
