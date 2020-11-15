@@ -6,7 +6,7 @@
 
 ## Overriding git user name and email address temporarily
 ```
-alias git='git -c "user.name=E.K. KIM" -c "user.email=ekkim@netvisiontel.com"'
-alias git='git -c "user.name=E.K. KIM" -c "user.email=euikook@gmail.com"'
-alias git='git -c "user.name=E.K. KIM" -c "user.email=euikook@harues.com"'
+alias git='git -c "user.name=euikook" -c "user.email=ekkim@netvisiontel.com"'
+alias git='git -c "user.name=euikook" -c "user.email=euikook@gmail.com"'
+alias git='git -c "user.name=euikook" -c "user.email=euikook@harues.com"'
 ```
