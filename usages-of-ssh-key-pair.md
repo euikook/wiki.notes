@@ -1,3 +1,11 @@
+---
+title: Usages of SSH key pair
+link: /usages-of-ssh-key-pair
+description: 
+status: publish
+tags: [Linux, SSH, Key, Key pair]
+---
+
 # Usages of SSH key pair
 
 ## Generate SSH key pair

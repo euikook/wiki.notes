@@ -1,8 +1,8 @@
 ---
 title: Synergy - Software KVM
-link: https://notes.harues.com/synergy-software-kvm/
-author: euikook
+link: /synergy-software-kvm
 description: 
+status: publish
 tags: [Linux, Windows, Mac, Synergy, KVM, Software KVM, symless] 
 ---
 

@@ -1,3 +1,12 @@
+---
+title: LICENSE
+link: /LICENSE
+description: 
+status: publish
+tags: [MIT, LICENSE]
+---
+
+
 MIT License
 
 Copyright (c) 2020 E.K. KIM

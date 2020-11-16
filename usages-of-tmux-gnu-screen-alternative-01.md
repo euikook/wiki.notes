@@ -1,7 +1,8 @@
 ---
 title: 개발자와 시스템 관리자의 친구 tmux, GNU screen Alternative  - 01
-link: https://notes.harues.com/usages-of-tmux-gnu-screen-alternative-01/
-author: euikook
+link: /usages-of-tmux-gnu-screen-alternative-01
+description: 
+status: publish
 tags: [Linux, Shell, Shell Command, screen, tmux]
 ---
 

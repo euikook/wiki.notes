@@ -1,6 +1,13 @@
+---
+title: Shrink dynamically extended VirtualBox image for export appliance
+link: /shrink-dynamically-allocated-virtualbox-disk-image-en
+description: 
+status: publish
+tags: [Linux, VirtualBox, VDI, Shrink, Export]
+---
+
+
 # Shrink dynamically extended VirtualBox image for export appliance
-
-
 
 ## Cleanup your system System
 

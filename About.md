@@ -1,3 +1,11 @@
+---
+title: About
+link: /About
+description: 
+status: publish
+tags: [About, euikook]
+---
+
 # About 
 
 ## Biography

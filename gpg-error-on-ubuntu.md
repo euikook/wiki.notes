@@ -1,3 +1,13 @@
+---
+title: git fetch all branches and push it to another remote
+link: /gpg-error-on-ubuntu
+author: euikook
+description: 
+status: publish
+tags: [Linux, Ubuntu, GPG, ERROR]
+---
+
+# Fix GPG Error on Ubuntu
 ```
 $ sudo apt update
 ...

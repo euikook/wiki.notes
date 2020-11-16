@@ -1,8 +1,8 @@
 ---
 title: Override git user name and email address temporarily
-link: https://notes.harues.com/override-git-user-name-and-emal-address-temporarily
-author: euikook
+link: /override-git-user-name-and-emal-address-temporarily
 description: 
+status: publish
 tags: [Linux, git, user.name, user.email, override, overriding]
 ---
 

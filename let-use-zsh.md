@@ -1,8 +1,8 @@
 ---
 title: Let use zsh
-link: https://notes.harues.com/let-use-zsh
-author: euikook
+link: /let-use-zsh
 description: 
+status: publish
 tags: [Linux, zsh, Shell]
 ---
 

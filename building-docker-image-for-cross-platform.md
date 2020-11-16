@@ -1,14 +1,9 @@
 ---
 title: Building Docker Image for Cross Platform(ARM64, ARM)
-date: "2020-09-11 14:06:08 +0900"
-create_at: "2020-09-11 14:06:08 +0900"
-update_at: "2020-09-11 14:32:43 +0900"
-author: euikook
-description:
-permalink: posts/cross-building-docker-image-for-arm
-status: draft
-layout: post
-tags: [Linux, CI, CD, CI/CD, Docker, Container, Compose, docker-compose]
+link: /building-docker-image-for-cross-platform
+description: 
+status: publish
+tags: [Linux, CI, CD, CI/CD, Docker, Container, Compose, docker-compose, Cross Platform, ARM,]
 ---
  
  # Building Docker Image for Cross Platform

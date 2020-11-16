@@ -1,12 +1,8 @@
 ---
 title: Keep persistent SSH session using autossh and cron
-date: "2019-02-13 16:34:00 +0900"
-author: euikook
-description:
-permalink: posts/keep-ssh-session-using-autossh-and-cron
-redirect_from: keep-ssh-session-using-autossh-and-cron
+link: /keep-ssh-session-using-autossh-and-cron
+description: 
 status: publish
-layout: post
 tags: [Linux, SSH, autossh, cron, persistent, LocalForward, RemoteForward, Tunneling]
 ---
 

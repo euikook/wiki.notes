@@ -1,8 +1,8 @@
 ---
 title: VirtualBox에서 4개 이상의 네트워크 인터페이스(NIC) 설정하기
-link: https://notes.harues.com/more-than-4-nics-in-virtualbox/
-author: euikook
+link: /more-than-4-nics-in-virtualbox
 description: 
+status: publish
 tags: [Linux, VirtualBox, NIC, Bridge, HostOnly, Internal, NAT]
 ---
 

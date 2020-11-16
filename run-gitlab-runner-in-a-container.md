@@ -1,11 +1,8 @@
 ---
 title: Run Gitlab Runner in a container
-date: "2019-02-20 15:45:00 +0900"
-author: euikook
-description:
-permalink: posts/run-gitlab-runner-in-a-container
+link: /run-gitlab-runner-in-a-container
+description: 
 status: publish
-layout: post
 tags: [Linux, Gitlab, CI, CD, CI/CD, Docker, Container, Compose, docker-compose]
 ---
 # Run Gitlab Runner in a container

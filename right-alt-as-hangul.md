@@ -1,3 +1,11 @@
+---
+title: Alt_R as Hangul on Ubuntu 18.04
+link: /right-alt-as-hangul
+description: 
+status: publish
+tags: [Linux, ALt_R, RALT, Hangul, 한/영]
+---
+
 # Alt_R as Hangul on Ubuntu 18.04
 
 ## Troubles

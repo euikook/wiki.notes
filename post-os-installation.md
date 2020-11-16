@@ -1,3 +1,11 @@
+---
+title: Instructions of post OS install
+link: /post-os-installation
+description: 
+status: publish
+tags: [Linux, git, user.name, user.email, override, overriding]
+---
+
 # OS 재설치 후 해야 하는것 들
 
 OS 재설치 후 해야 하는 내용들을 정리 한다. 

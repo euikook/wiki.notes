@@ -1,9 +1,9 @@
 ---
 title: Update Ubuntu Mirror  Site in sources.list
-link: https://notes.harues.com/update-ubuntu-mirror-site-in-sources-list/
-author: euikook
+link: /update-ubuntu-mirror-site-in-sources-list
+description: 
+status: publish
 tags: [Linux, Ubuntu, Mirror]
-
 ---
 
 #### Update Ubuntu Mirror  Site in sources.list

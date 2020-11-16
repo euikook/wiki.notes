@@ -1,7 +1,13 @@
+---
+title: Arch Linix Installation Guide
+link: /arch-linux-install-guide
+description: 
+status: publish
+tags: [Linux, Arch Linux, Insync]
+---
 
 
-
-# Arch Linix Installation Instructions
+# Arch Linix Installation Guide
 
 현재 가지고 있는 시스템 위주로 설명한다.
 

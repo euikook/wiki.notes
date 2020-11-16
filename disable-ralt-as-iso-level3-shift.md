@@ -1,3 +1,10 @@
+---
+title: Disable RALT  as ISO_Level3_Shift
+link: /disable-ralt-as-iso-level3-shift
+description: 
+status: publish
+tags: [Linux, Gnome, kbd, ISO_Level3_Shift, RALT, Right Alt]
+---
 
 # Disable <kbd>RALT</kbd>  as <kbd>ISO_Level3_Shift</kbd>
 

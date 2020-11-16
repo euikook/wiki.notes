@@ -1,7 +1,8 @@
 ---
 title: History 파일에서 특정 엔트리 삭제하기
-link: https://notes.harues.com/remove-specific-entries-from-history-file/
-author: euikook
+link: /remove-specific-entries-from-history-file
+description: 
+status: publish
 tags: [Linux, bash, history, shell]
 ---
 

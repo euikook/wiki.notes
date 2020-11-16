@@ -1,3 +1,11 @@
+---
+title: Python3 ad default python interpreter on ubuntu
+link: /python3-as-default-python-interpreter-on-ubuntu
+description: 
+status: publish
+tags: [Linux, git, user.name, user.email, override, overriding]
+---
+
 # Python 기본 인터프리터 설정 하기
 
 ```

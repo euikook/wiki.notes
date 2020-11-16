@@ -1,3 +1,11 @@
+---
+title: HOWTO install LDAP Server
+link: /LDAP
+description: 
+status: publish
+tags: [Linux, LDAP]
+---
+
 # HOWTO install LDAP Server
 
 본 포스트는 OpenLDAP을 사용하고자 하는 분들에게 도움을 주고자 작성 되었습니다.

@@ -1,8 +1,8 @@
 ---
 title: 왜 디렉터리 Hard link를 만들 수 없나요?
-link: https://notes.harues.com/why-hard-link-not-allowed-for-directory/
-author: euikook
+link: why-hard-link-not-allowed-for-directory
 description: 
+status: publish
 tags: [Linux, Shell, Shell Command, ln, Hard Link, Symblic Link]
 ---
 

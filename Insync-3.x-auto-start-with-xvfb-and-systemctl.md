@@ -1,3 +1,12 @@
+---
+title: Insync 3.x auto start with xvfb and systemctl
+link: /Insync-3.x-auto-start-with-xvfb-and-systemctl
+description: 
+status: publish
+tags: [Linux, Insync, autostart, xvfb, systemctl]
+---
+
+
 # Insync 3.x auto start with xvfb and systemctl
 
 ## Prerequisites

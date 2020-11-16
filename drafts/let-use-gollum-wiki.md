@@ -1,9 +1,8 @@
 ---
 title: Let use gollum wiki
-link: https://notes.harues.com/let-use-gollum-wiki
-author: euikook
-status: draft
+link: /drafts/let-use-gollum-wiki
 description: 
+status: publish
 tags: [wiki, gollum, ruby, git, Let's Encrypt, certbot]
 ---
 
