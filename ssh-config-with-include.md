@@ -1,6 +1,6 @@
 ---
 title: SSH config with Include
-link: /ssh-config-include
+link: /ssh-config-with-include
 description: 
 status: publish
 tags: [Linux, OpenSSH, config, ssh, client, ssh client] 
