@@ -1,4 +1,6 @@
 ---
+title: Petalinux error on ArchLinux
+tags: [Linux, ArchLinux, PetaLinux, Xilinx]
 banner: https://source.unsplash.com/qvBYnMuNJ9A
 date: 2020-12-21 15:41:13 +0900
 ---

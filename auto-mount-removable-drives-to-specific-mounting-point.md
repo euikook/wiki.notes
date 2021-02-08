@@ -5,7 +5,7 @@ description:
 status: draft
 tags: [Linux, Arch, Arch Linux, Gnome, auto mounting, mount, usb, removable]
 date: 2020-11-17 17:14:32 +0900
-banner: https://source.unsplash.com/random/800x400
+banner: https://source.unsplash.com/vRSMuso1pXw
 ---
 
 # Auto mount removable drives to specific mounting point
