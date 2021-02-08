@@ -4,6 +4,7 @@ link: /LDAP
 description: 
 status: publish
 tags: [Linux, LDAP]
+date: 2020-11-16 09:37:41 +0900
 ---
 
 # HOWTO install LDAP Server

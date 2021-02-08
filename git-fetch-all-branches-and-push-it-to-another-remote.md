@@ -4,6 +4,7 @@ link: /git-fetch-all-branches-and-push-it-to-another-remote
 description: 
 status: publish
 tags: [Linux, git]
+date: 2020-11-16 09:37:41 +0900
 ---
 
 #### git fetch all branches and push it to another remote

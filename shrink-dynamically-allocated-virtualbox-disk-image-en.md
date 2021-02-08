@@ -4,6 +4,7 @@ link: /shrink-dynamically-allocated-virtualbox-disk-image-en
 description: 
 status: publish
 tags: [Linux, VirtualBox, VDI, Shrink, Export]
+date: 2020-11-16 09:37:41 +0900
 ---
 
 

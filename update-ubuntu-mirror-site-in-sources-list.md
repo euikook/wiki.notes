@@ -4,6 +4,7 @@ link: /update-ubuntu-mirror-site-in-sources-list
 description: 
 status: publish
 tags: [Linux, Ubuntu, Mirror]
+date: 2020-11-16 09:37:41 +0900
 ---
 
 #### Update Ubuntu Mirror  Site in sources.list

@@ -3,7 +3,8 @@ title: RPi(Raspberry Pi) Username 변경하기
 link: /how-to-change-default-account-username-for-rpi
 description: 
 status: publish
-tags: [Linux, RPi, Raspberry Pi, HowTo, Username, Password, Raspian] 
+tags: [Linux, RPi, Raspberry Pi, HowTo, Username, Password, Raspian]
+date: 2020-11-16 09:37:41 +0900
 ---
 
 #### RPi(Raspberry Pi) Username 변경하기

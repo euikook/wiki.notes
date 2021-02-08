@@ -4,6 +4,7 @@ link: /system-level-linux-dns-over-tls-on-utuntu-20.04
 description: 
 status: publish
 tags: [Linux, Ubuntu, 20.04, Focal, Ubuntu 20.04, DNSSEC, DNS, TLS, DNS-over-TLS]
+date: 2020-11-16 09:37:41 +0900
 ---
 
 # System Level Linux DNS over TLS on Ubuntu 20.04

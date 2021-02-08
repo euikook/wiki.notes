@@ -4,6 +4,7 @@ link: /synergy-software-kvm
 description: 
 status: publish
 tags: [Linux, Windows, Mac, Synergy, KVM, Software KVM, symless] 
+date: 2020-11-16 09:37:41 +0900
 ---
 
 #### Synergy - Software KVM

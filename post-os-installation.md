@@ -4,6 +4,7 @@ link: /post-os-installation
 description: 
 status: publish
 tags: [Linux, git, user.name, user.email, override, overriding]
+date: 2020-11-16 09:37:41 +0900
 ---
 
 # OS 재설치 후 해야 하는것 들

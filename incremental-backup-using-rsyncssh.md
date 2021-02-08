@@ -4,6 +4,7 @@ link: /incremental-backup-using-rsyncssh
 description: 
 status: publish
 tags: [Linux, Backup, Incremental Backup, RSYNC, SSH, cron]
+date: 2020-11-16 09:37:41 +0900
 ---
 
 #### Incremental Backup Using RSYNC+SSH and cron

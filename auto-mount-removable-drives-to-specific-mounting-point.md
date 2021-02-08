@@ -4,6 +4,7 @@ link: /auto-mount-removable-drives-to-specific-mounting-point
 description: 
 status: draft
 tags: [Linux, Arch, Arch Linux, Gnome, auto mounting, mount, usb, removable]
+date: 2020-11-17 17:14:32 +0900
 ---
 
 # Auto mount removable drives to specific mounting point

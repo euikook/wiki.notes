@@ -4,6 +4,7 @@ link: /override-git-user-name-and-emal-address-temporarily
 description: 
 status: publish
 tags: [Linux, git, user.name, user.email, override, overriding]
+date: 2020-11-16 09:37:41 +0900
 ---
 
 # Override git user name and email address temporarily

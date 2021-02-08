@@ -4,6 +4,7 @@ link: /disable-ralt-as-iso-level3-shift
 description: 
 status: publish
 tags: [Linux, Gnome, kbd, ISO_Level3_Shift, RALT, Right Alt]
+date: 2020-11-16 09:37:41 +0900
 ---
 
 # Disable <kbd>RALT</kbd>  as <kbd>ISO_Level3_Shift</kbd>

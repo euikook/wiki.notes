@@ -4,6 +4,7 @@ link: /Home
 description: 
 status: publish
 tags: [Home, wiki, notes, Main, Index]
+date: 2020-11-16 09:37:41 +0900
 ---
 
 # Welcome to euikook's wiki pages

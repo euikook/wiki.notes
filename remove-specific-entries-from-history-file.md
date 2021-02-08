@@ -4,6 +4,7 @@ link: /remove-specific-entries-from-history-file
 description: 
 status: publish
 tags: [Linux, bash, history, shell]
+date: 2020-11-16 09:37:41 +0900
 ---
 
 

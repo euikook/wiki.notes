@@ -4,6 +4,7 @@ link: /ssh-config-with-include
 description: 
 status: publish
 tags: [Linux, OpenSSH, config, ssh, client, ssh client] 
+date: 2020-12-21 15:41:13 +0900
 ---
 
 # SSH Config with Include

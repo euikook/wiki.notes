@@ -4,6 +4,7 @@ link: /more-than-4-nics-in-virtualbox
 description: 
 status: publish
 tags: [Linux, VirtualBox, NIC, Bridge, HostOnly, Internal, NAT]
+date: 2020-11-16 09:37:41 +0900
 ---
 
 #### More than 4 NICs in VirtualBox

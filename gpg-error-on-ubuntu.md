@@ -5,6 +5,7 @@ author: euikook
 description: 
 status: publish
 tags: [Linux, Ubuntu, GPG, ERROR]
+date: 2020-11-16 09:37:41 +0900
 ---
 
 # Fix GPG Error on Ubuntu

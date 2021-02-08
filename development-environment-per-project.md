@@ -4,6 +4,7 @@ link: /development-environment-per-project
 description: 
 status: draft
 tags: [Linux, Arch, Arch Linux, devel, Development, Environment, Environment Variables]
+date: 2020-11-17 17:15:03 +0900
 ---
 
 # Development environment per project

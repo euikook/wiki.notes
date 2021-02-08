@@ -4,6 +4,8 @@ link: why-hard-link-not-allowed-for-directory
 description: 
 status: publish
 tags: [Linux, Shell, Shell Command, ln, Hard Link, Symblic Link]
+banner: https://source.unsplash.com/JZ8AHFr2aEg
+date: 2020-11-16 09:37:41 +0900
 ---
 
 #### Why Hard Link Not Allowed for Directory

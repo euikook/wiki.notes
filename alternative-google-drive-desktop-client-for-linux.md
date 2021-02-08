@@ -4,6 +4,7 @@ link: /alternative-google-drive-desktop-client-for-linux/
 description: 
 status: publish
 tags: [Linux, Insync, Google, Google Drive, G Suite]
+date: 2020-11-16 09:37:41 +0900
 ---
 
 #### An Alternative Google Drive Desktop Client for Linux

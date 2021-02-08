@@ -4,6 +4,7 @@ link: /run-gitlab-runner-in-a-container
 description: 
 status: publish
 tags: [Linux, Gitlab, CI, CD, CI/CD, Docker, Container, Compose, docker-compose]
+date: 2020-11-16 09:37:41 +0900
 ---
 # Run Gitlab Runner in a container
 
