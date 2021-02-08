@@ -5,6 +5,7 @@ description:
 status: publish
 tags: [Linux, RPi, Raspberry Pi, HowTo, Username, Password, Raspian]
 date: 2020-11-16 09:37:41 +0900
+banner: https://source.unsplash.com/random/800x400
 ---
 
 #### RPi(Raspberry Pi) Username 변경하기

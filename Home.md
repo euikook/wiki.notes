@@ -5,6 +5,7 @@ description:
 status: publish
 tags: [Home, wiki, notes, Main, Index]
 date: 2020-11-16 09:37:41 +0900
+banner: https://source.unsplash.com/random/800x400
 ---
 
 # Welcome to euikook's wiki pages

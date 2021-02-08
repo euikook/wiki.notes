@@ -5,6 +5,7 @@ description:
 status: publish
 tags: [Linux, git, user.name, user.email, override, overriding]
 date: 2020-11-16 09:37:41 +0900
+banner: https://source.unsplash.com/842ofHC6MaI
 ---
 
 # Override git user name and email address temporarily

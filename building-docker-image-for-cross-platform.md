@@ -5,6 +5,7 @@ description:
 status: publish
 tags: [Linux, CI, CD, CI/CD, Docker, Container, Compose, docker-compose, Cross Platform, ARM,]
 date: 2020-11-16 09:37:41 +0900
+banner: https://source.unsplash.com/random/800x400
 ---
  
  # Building Docker Image for Cross Platform

@@ -5,6 +5,7 @@ description:
 status: publish
 tags: [Linux, Windows, Mac, Synergy, KVM, Software KVM, symless] 
 date: 2020-11-16 09:37:41 +0900
+banner: https://source.unsplash.com/random/800x400
 ---
 
 #### Synergy - Software KVM

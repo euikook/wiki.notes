@@ -5,6 +5,7 @@ description:
 status: publish
 tags: [Linux, Backup, Incremental Backup, RSYNC, SSH, cron]
 date: 2020-11-16 09:37:41 +0900
+banner: https://source.unsplash.com/random/800x400
 ---
 
 #### Incremental Backup Using RSYNC+SSH and cron

@@ -6,6 +6,7 @@ status: publish
 tags: [Linux, Shell, Shell Command, screen, tmux]
 banner: https://source.unsplash.com/jNaoPtM2_aY
 date: 2020-11-16 09:37:41 +0900
+banner: https://source.unsplash.com/random/800x400
 ---
 
 #### Usages of tmux, GNU screen Alternative

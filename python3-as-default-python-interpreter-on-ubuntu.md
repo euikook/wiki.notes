@@ -5,6 +5,7 @@ description:
 status: publish
 tags: [Linux, git, user.name, user.email, override, overriding]
 date: 2020-11-16 09:37:41 +0900
+banner: https://source.unsplash.com/eic5Tq8YMk
 ---
 
 # Python 기본 인터프리터 설정 하기

@@ -5,6 +5,7 @@ description:
 status: publish
 tags: [Linux, OpenSSH, config, ssh, client, ssh client] 
 date: 2020-12-21 15:41:13 +0900
+banner: https://source.unsplash.com/F_m44ut3XTw
 ---
 
 # SSH Config with Include

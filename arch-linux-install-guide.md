@@ -6,6 +6,7 @@ status: publish
 tags: [Linux, Arch Linux, Insync]
 banner: images/ArchLinux-Boot.png
 date: 2020-11-16 09:37:41 +0900
+banner: https://source.unsplash.com/random/800x400
 ---
 
 

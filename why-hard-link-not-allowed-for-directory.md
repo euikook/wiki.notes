@@ -6,6 +6,7 @@ status: publish
 tags: [Linux, Shell, Shell Command, ln, Hard Link, Symblic Link]
 banner: https://source.unsplash.com/JZ8AHFr2aEg
 date: 2020-11-16 09:37:41 +0900
+banner: https://source.unsplash.com/random/800x400
 ---
 
 #### Why Hard Link Not Allowed for Directory

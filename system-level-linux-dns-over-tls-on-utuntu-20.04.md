@@ -5,6 +5,7 @@ description:
 status: publish
 tags: [Linux, Ubuntu, 20.04, Focal, Ubuntu 20.04, DNSSEC, DNS, TLS, DNS-over-TLS]
 date: 2020-11-16 09:37:41 +0900
+banner: https://source.unsplash.com/random/800x400
 ---
 
 # System Level Linux DNS over TLS on Ubuntu 20.04
