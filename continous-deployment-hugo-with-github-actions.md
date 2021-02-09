@@ -3,7 +3,7 @@ title: Continous Deployment Hugo with Github Actions
 link: /continous-deployment-hugo-with-github-actions
 description: 
 status: publish
-tags: [Linux, Hugo, Github, Actions, Github Actions, CI, CD, CI/CD]
+tags: [Linux, Hugo, Github, Actions, Github Actions, CI, CD, CI／CD]
 date: 2021-02-09 09:37:41 +0900
 banner: /images/github-actions-banner.png
 ---
