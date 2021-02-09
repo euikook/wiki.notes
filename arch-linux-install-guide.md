@@ -3,6 +3,7 @@ title: Arch Linix Installation Guide
 link: /arch-linux-install-guide
 description: 
 status: publish
+categories: ["HowTo", 'Linux', 'ArchLinux']
 tags: [Linux, Arch Linux, Insync]
 banner: images/ArchLinux-Boot.png
 date: 2020-11-16 09:37:41 +0900
