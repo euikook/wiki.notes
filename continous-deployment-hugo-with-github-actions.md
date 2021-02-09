@@ -3,16 +3,16 @@ title: Continous Deployment Hugo with Github Actions
 link: /continous-deployment-hugo-with-github-actions
 description: 
 status: publish
-tags: [Linux, Hugo, Github, Actions, Github Actions]
+tags: [Linux, Hugo, Github, Actions, Github Actions, CI, CD, CI/CD]
 date: 2021-02-09 09:37:41 +0900
 banner: /images/github-actions-banner.png
 ---
 
 # Continous Deployment Hugo with Github Actions
 
-`Github Page`(이하 `GH`를 사용하여 정적 사이트를 배포 하고자 한다. 
+`Github Page`(이하 `GH`)를 사용하여 정적 사이트를 배포 하고자 한다. 
 
-몇몇 유명한 Static Site Generator가 있지만 `Go`를 공부할 목적으로 `Hugo` 를 선택했다.
+`jekyll` 유명한 Static Site Generator가 있지만 `Go`를 공부할 목적으로 `Hugo` 를 선택했다.
 
 Hugo는 Github Page에서 공식적으로 지원하는 `jekyll`과 달리 로컬에서 정적 사이트를 빌드 하여 GH 저장소에 `push` 해주어야 한다. 
 
@@ -22,14 +22,14 @@ Github 에서지원하는 CI/CD 인 `Github Actions`을 이용하여 이를 자�
 
 Github Page를 생성 하기 위해서는 github 계정에 로그인 하여 `<username>.github.io` 저장소를 만들어야 한다.
 
-    Github Page: `<username>.github.io`
+    Github Page 저장소 : `<username>.github.io`
 
 
-앞서 생성한 `<username>.github.io` 저장소 하나를 Branch로 소스와/정적사이트 브랜치로 나누어 사용하는 방법도 있지만 관리의 효율성을 위해 아래와 같이 소스 저장소와 GH 저장소를 나누도록 한다. 
+앞서 생성한 `<username>.github.io` 저장소를 소스와/정적사이트 브랜치로 나누어 사용하는 방법도 있지만 관리의 효율성을 위해 아래와 같이 소스 저장소와 GH 저장소를 나누도록 한다. 
 
 
 | Repository  | URL                     |
-| ---:        | ---                     | 
+| ---        | ---                     | 
 | Source      | `src.euikook.github.io` |
 | Github Page | `euikook.github.io`     |
 
@@ -53,13 +53,7 @@ ssh-keygen -t rsa -b 4096 -f github-page-deploy
 | 공개키 | github-page-deploy.pub | euikook.github.io | 
 
 
-src 저장소의 Settings 항목에서 Secret 메뉴로 이동한다. 
-
-`New repository secret` 버튼을 클릭하여 새로운 Secret을 생성한다.
-
-`Name`: `ACTIONS_DEPLOY_KEY`
-`Value`: 개인키(`src.euikook.github.io`)의 내영을 추가한다.
-
+### Public Key Registration
 
 GH 저장소의 Settings 항목에서 Deploy Key 항목을 선택하여 새로운 Deploy Key를 등록한다.
 
@@ -71,9 +65,6 @@ GH 저장소의 Settings 항목에서 Deploy Key 항목을 선택하여 새로�
 | `Title` | 적당한 이름을 추가한다. (gh-deploy)       |
 | `Key`   | 공개키(`github-page-deploy.pub`)의 내용 |
 
-
-### Public Key Registration
-
 ![Github Settings](/images/github-settings.png)
 
 ![Github Add Deploy Key](/images/github-add-deploy-key.png)
@@ -82,6 +73,14 @@ GH 저장소의 Settings 항목에서 Deploy Key 항목을 선택하여 새로�
 
 
 ### Private Key Registration
+
+소스 저장소의 Settings 항목에서 Secret 메뉴로 이동한다. 
+
+`New repository secret` 버튼을 클릭하여 새로운 Secret을 생성한다.
+
+`Name`: `ACTIONS_DEPLOY_KEY`
+`Value`: 개인키(`src.euikook.github.io`)의 내영을 추가한다.
+
 
 ![Github Secrets](/images/github-secrets.png)
 
