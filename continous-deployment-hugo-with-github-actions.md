@@ -5,7 +5,7 @@ description:
 status: publish
 tags: [Linux, Hugo, Github, Actions, Github Actions]
 date: 2021-02-09 09:37:41 +0900
-banner: /images/k8s-banner.png
+banner: /images/github-actions-banner.png
 ---
 
 # Continous Deployment Hugo with Github Actions
@@ -111,6 +111,8 @@ git push -u origin master
 Source 저장소에 Action을 생성한다. 
 
 .github/workflows/deployment.yml
+
+
 
 ```yml
 jobs:
