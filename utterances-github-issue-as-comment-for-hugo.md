@@ -29,6 +29,8 @@ banner: https://source.unsplash.com/bzK0qeeoBJo
 ```
 > `<username>/<username>.github.io`의 <username>은 자신의 github username으로 변경 한다. 
 
+> Comment를 위한 별도의 저장소를 사용하고자 한다면 해당 저장소의 이름으로 변경한다. 
+
 ## More graceful 
 
 `.Site.Params.utterances.repo` 변수가 설정 되었을 경우에만 해당 코드가 로그 되게 설정하고 싶다면 `utterances.html` 파일을 아래와 같이 수정한다. 
@@ -65,6 +67,8 @@ banner: https://source.unsplash.com/bzK0qeeoBJo
     # crossorigin = "anonymous"
 ```
 > `<username>/<username>.github.io`의 <username>은 자신의 github username으로 변경 한다. 
+
+> Comment를 위한 별도의 저장소를 사용하고자 한다면 해당 저장소의 이름으로 변경한다. 
 
 
 ## Add utterances to post
