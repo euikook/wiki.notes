@@ -20,7 +20,7 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 ![puttygen - open](/images/puttygen/puttygen-001.png)
 
 
-`Generate` 아래는 첨음 실행 화면이다.
+아래는 `puttygen.exe`의  실행 화면이다.
 
 ![puttygen - start](/images/puttygen/puttygen-002.png)
 
@@ -38,6 +38,8 @@ Key Paire 가 만들어 졌다.
 
 
 `Save public key` 버튼을 클릭하여 Public Key를 저장한다.
+
+> `Key Comment` 필드에 e-mail주소나 Comment를 적어 나중에 해당 키를 구분할 수 있게 하자.
 
 ![puttygen - save public key](/images/puttygen/puttygen-005.png)
 
