@@ -34,9 +34,9 @@ Tag Cloud가 위치할 자리에 다음 코드를 추가한다.
 <div style="width:90%; min-height:300px" id="tags-cloud"></div>
 ```
 
-> `width` 와 `height`는 페이지크기에 맞게 조절한다.
+> `width` 와 `height`는 페이지 크기에 맞게 조절한다.
 
-위 코드가 추가된 파일 마지막에 내용을 추가한다.
+위 코드가 추가된 파일 마지막에 다음 코드를 추가한다.
 
 ```go-html-template
 <script type="text/javascript">
