@@ -4,7 +4,7 @@ description: Append Tag Cloud to Hugo based blog
 status: publish
 tags: [Hugo, Tags, Tag Cloud, Blog]
 date: 2021-02-17 10:22:59 +0900
-banner: https://source.unsplash.com/98MbUldcDJY
+banner: /images/tag-cloud.png
 ---
 
 이 글은 Hugo 기반 Blog에서 Tag Cloud를 만드는 방법에 대하여 설명한다.
@@ -121,7 +121,7 @@ for (let termCloud of termClouds) {
 }
 ```
 
+다음에는 jQuery 기반 Word Cloud 라이브러리인 [jQCloud](http://mistic100.github.io/jQCloud/demo.html)를 이용하는 방법에 대해 설명한다. 
 
-
-
-다음에는 jQCloud를 이용하는 방법에 대해 설명한다. 
+## References
+* https://discourse.gohugo.io/t/weighted-tag-cloud/3491/4
