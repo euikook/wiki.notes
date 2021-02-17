@@ -2,7 +2,7 @@
 title: Weighted Tag Cloud to Hugo
 description: Append Tag Cloud to Hugo based blog
 status: publish
-tags: [Linux, OpenSSH, ssh, keypair]
+tags: [Hugo, Tags, Tag Cloud, Blog]
 date: 2021-02-17 10:22:59 +0900
 banner: https://source.unsplash.com/98MbUldcDJY
 ---
