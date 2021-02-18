@@ -7,6 +7,9 @@ categories: ["HowTo", 'Linux', 'Google']
 tags: [Linux, Insync, Google, Google Drive, G Suite]
 date: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/B_j4LJbam5U
+aliases:
+    - /gollum/alternative-google-drive-desktop-client-for-linux
+    - /gollum/alternative-google-drive-desktop-client-for-linux.md
 ---
 
 #### An Alternative Google Drive Desktop Client for Linux

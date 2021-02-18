@@ -5,6 +5,9 @@ status: publish
 tags: [Linux, OpenSSH, ssh, keypair]
 date: 2021-02-16 17:34:41 +0900
 banner: https://source.unsplash.com/8admGA18lBs
+aliases:
+    - /gollum/generate-ssh-key-pare-for-linux
+    - /gollum/generate-ssh-key-pare-for-linux.md
 ---
 
 이 글은 `Linux`환경에서 SSH Key Pair를 생성하는 방법을 설명한다. 

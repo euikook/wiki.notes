@@ -6,6 +6,9 @@ status: publish
 tags: [Linux, Hugo, Github, Actions, Github Actions, CI, CD, CI／CD]
 date: 2021-02-09 09:37:41 +0900
 banner: /images/github-actions-banner.png
+aliases:
+    - /gollum/continous-deployment-hugo-with-github-actions
+    - /gollum/continous-deployment-hugo-with-github-actions.md
 ---
 
 # Continous Deployment Hugo with Github Actions

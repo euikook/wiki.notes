@@ -6,6 +6,9 @@ status: publish
 tags: [Linux, git, user.name, user.email, override, overriding]
 date: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/JTn9zj71M4c
+aliases:
+    - /gollum/post-os-installation
+    - /gollum/post-os-installation.md
 ---
 
 # OS 재설치 후 해야 하는것 들

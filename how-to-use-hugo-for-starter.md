@@ -6,6 +6,9 @@ status: publish
 tags: [Hugo, Static Site Generator, Linux, Ubuntu, ArchLinux]
 date: 2021-02-10 14:44:10 +0900
 banner: /images/hugo-banner.png
+aliases:
+    - /gollum/how-to-use-hugo-for-starter
+    - /gollum/how-to-use-hugo-for-starter.md
 ---
 
 ## Installing

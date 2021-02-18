@@ -6,6 +6,9 @@ status: publish
 tags: [Linux, SSH, autossh, cron, persistent, LocalForward, RemoteForward, Tunneling]
 date: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/-X5FNFdq7Uw
+aliases:
+    - /gollum/keep-persistent-ssh-session-using-autossh-and-cron
+    - /gollum/keep-persistent-ssh-session-using-autossh-and-cron.md
 ---
 
 # Keep persistent SSH session using autossh and cron

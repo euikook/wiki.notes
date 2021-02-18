@@ -6,6 +6,9 @@ status: publish
 tags: [Linux, LDAP]
 date: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/random/800x400
+aliases:
+    - /gollum/LDAP
+    - /gollum/LDAP.md
 ---
 
 # HOWTO install LDAP Server

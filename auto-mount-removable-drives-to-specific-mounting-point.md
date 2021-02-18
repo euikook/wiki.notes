@@ -6,6 +6,9 @@ status: draft
 tags: [Linux, Arch, Arch Linux, Gnome, auto mounting, mount, usb, removable]
 date: 2020-11-17 17:14:32 +0900
 banner: https://source.unsplash.com/vRSMuso1pXw
+aliases:
+    - /gollum/auto-mount-removable-drives-to-specific-mounting-point
+    - /gollum/auto-mount-removable-drives-to-specific-mounting-point.md
 ---
 
 # Auto mount removable drives to specific mounting point

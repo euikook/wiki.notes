@@ -1,4 +1,3 @@
-
 ---
 title: Generate SSH keypair for Windows using puttygen
 description: 
@@ -6,6 +5,9 @@ status: publish
 tags: [Windows, putty, puttygen, ssh, keypair]
 date: 2021-02-16 16:26:41 +0900
 banner: https://source.unsplash.com/8admGA18lBs
+aliases:
+    - /gollum/generate-ssh-key-pare-for-windows
+    - /gollum/generate-ssh-key-pare-for-windows.md
 ---
 
 이 글은 `PuTTY` 사이트에서 `PuTTY`와 같이 배포되는 `puttygen`프로그램을 이용하여 SSH Key Pair를 생성하는 방법을 설명한다. 

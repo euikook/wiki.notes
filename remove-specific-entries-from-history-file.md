@@ -6,6 +6,9 @@ status: publish
 tags: [Linux, bash, history, shell]
 date: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/zeH-ljawHtg
+aliases:
+    - /gollum/remove-specific-entries-from-history-file
+    - /gollum/remove-specific-entries-from-history-file.md
 ---
 
 

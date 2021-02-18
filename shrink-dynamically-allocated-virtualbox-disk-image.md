@@ -6,6 +6,9 @@ status: publish
 tags: [Linux, VirtualBox, VDI, Shrink, Export]
 date: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/aIlAhLdwk2g
+aliases:
+    - /gollum/shrink-dynamically-allocated-virtualbox-disk-image
+    - /gollum/shrink-dynamically-allocated-virtualbox-disk-image.md
 ---
 
 # Shrink dynamically allocated  VirtualBox Disk Image(VDI) 

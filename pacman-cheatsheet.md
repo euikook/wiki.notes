@@ -6,6 +6,9 @@ status: draft
 tags: [Linux, Arch, Arch Linux, pacman, cheat, sheet cheatsheet]
 date: 2020-11-17 17:15:19 +0900
 banner: https://source.unsplash.com/L8fVzpAMHkU
+aliases:
+    - /gollum/pacman-cheatsheet
+    - /gollum/pacman-cheatsheet.md
 ---
 
 # Pacman Cheatsheet
