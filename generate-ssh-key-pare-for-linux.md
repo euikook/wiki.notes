@@ -1,4 +1,3 @@
-
 ---
 title: Generate SSH keypair for Linux
 description: 
