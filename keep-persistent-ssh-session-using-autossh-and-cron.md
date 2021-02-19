@@ -4,6 +4,7 @@ link: /keep-ssh-session-using-autossh-and-cron
 description: 
 status: publish
 tags: [Linux, SSH, autossh, cron, persistent, LocalForward, RemoteForward, Tunneling]
+created: 2019-02-13
 date: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/-X5FNFdq7Uw
 aliases:

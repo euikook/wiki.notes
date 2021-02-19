@@ -4,6 +4,7 @@ link: /linux-shell-에서-대소문자-치환
 description: 
 status: publish
 tags: [Linux, Bash, Shell, Shell Command, tr]
+created: 2018-01-19
 date: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/Oxl_KBNqxGA
 aliases:

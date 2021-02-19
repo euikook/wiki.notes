@@ -5,6 +5,7 @@ description:
 status: publish
 tags: [Linux, Shell, Shell Command, screen, tmux]
 banner: https://source.unsplash.com/jNaoPtM2_aY
+created: 2018-03-07
 date: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/2rCggxMjd_8
 aliases:

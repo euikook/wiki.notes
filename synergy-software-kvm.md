@@ -5,6 +5,7 @@ description:
 status: publish
 tags: [Linux, Windows, Mac, Synergy, KVM, Software KVM, symless] 
 date: 2020-11-16 09:37:41 +0900
+created: 2018-03-08
 banner: https://source.unsplash.com/I_pOqP6kCOI
 aliases:
     - /gollum/synergy-software-kvm

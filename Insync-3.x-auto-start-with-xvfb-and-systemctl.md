@@ -4,6 +4,7 @@ link: /Insync-3.x-auto-start-with-xvfb-and-systemctl
 description: 
 status: publish
 tags: [Linux, Insync, autostart, xvfb, systemctl]
+created: 2020-10-21
 date: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/random/800x400
 aliases:

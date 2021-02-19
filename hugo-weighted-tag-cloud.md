@@ -3,6 +3,7 @@ title: Weighted Tag Cloud to Hugo
 description: Append Tag Cloud to Hugo based blog
 status: publish
 tags: [Hugo, Tags, Tag Cloud, Blog]
+created: 2021-02-17 10:22:59 +0900
 date: 2021-02-17 10:22:59 +0900
 banner: /images/tag-cloud.png
 aliases:
