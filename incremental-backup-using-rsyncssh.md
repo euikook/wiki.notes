@@ -21,7 +21,7 @@ RSYNC+SSH 를 이용한 증분 백업 및 Cron을 이용한 자동화
 
 아래 예제 에서는 *apple*, *banana*, *coconut*의 */home* 디렉터리를 backupbot으로 백업 하고자 한다. 
 
-![Backup Environment](/images/backup-env.png)
+![Backup Environment](images/backup-env.png)
 
 <!--more-->
 
