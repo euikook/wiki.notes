@@ -215,16 +215,19 @@ sudo -u backupman -H \
 --numeric-ids  --delete  \
 --link-dest="/home/backupbot/apple/previous" \
 "apple:/home" "/home/backupbot/apple/latest" 
-````
+```
 
 `/home/backupbot/apple/previous` 를 `/home/backupbot/apple/$(date +%Y%m%D%H%M%S)`로 바꾸면 날짜 + 시간으로 백업 데이터를 관리 할 수 있다.
-
 
 
 ## Backupman 스크립트를 이용한 자동화
 
 앞서 설명한 백업 절차를 자동화 하는 Python 스크립트를 만들었다. 
 
+사용방법은 다음과 같다.
+
+
+### 설치
 아래와 같이 `pip` 명령으로 설치 할 수 있다. 
     
 ```bash    
@@ -273,7 +276,7 @@ sudo backupbot -i -r ssh://apple/banana /home/backupbot/banana
 sudo backupbot -i -r ssh://apple/coconut /home/backupbot/coconut
 ``` 
 
-### Cron에 Task 등록
+### Cron에 Job 등록
 
 위 명령이 정상적으로 수행되어 백업이 완료 되었으면 cron에 등록 하여 주기적으로 백업이 이루어 지도록 한다. 
     
@@ -291,4 +294,6 @@ sudo -u backupbot -H crontab -e
 ```
     
 
-Backup 스크립트는 아래 Repository에서 확인 할 수 있다. <https://github.com/euikook/python-backupman>
+Backupman 스크립트는 아래 Repository에서 확인 할 수 있다. 
+
+https://github.com/euikook/python-backupman
