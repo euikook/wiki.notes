@@ -4,7 +4,7 @@ link: /incremental-backup-using-rsyncssh
 description: 
 status: publish
 tags: [Linux, Backup, Incremental Backup, RSYNC, SSH, cron]
-date: 2020-11-16 09:37:41 +0900
+date: 2021-02-19 10:47:41 +0900
 banner: https://source.unsplash.com/5yEiCUynJ9w
 aliases:
     - /gollum/incremental-backup-using-rsyncssh
