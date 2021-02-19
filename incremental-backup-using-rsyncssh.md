@@ -287,7 +287,7 @@ sudo -u backupbot -H crontab -e
 
 아래 예제는 *apple*, *banana*, *coconut* 서버에 대하여 각각 매일 오전 3시, 4시 5시에 백업을 수행 하도록 job을 등록한것이다.  
     
-```cron    
+```
 0  3 * * * sudo /usr/local/bin/backupman -i -r ssh://apple/home /home/backupbot/apple
 0  4 * * * sudo /usr/local/bin/backupman -i -r ssh://banana/home /home/backupbot/banana
 0  5 * * * sudo /usr/local/bin/backupman -i -r ssh://coconut/home /home/backupbot/coconut
