@@ -4,8 +4,8 @@ link: /pacman-cheatsheet
 description: 
 status: draft
 tags: [Linux, Arch, Arch Linux, pacman, cheat, sheet cheatsheet]
-created: 2020-11-17
-date: 2020-11-17 17:15:19 +0900
+date: 2020-11-17
+lastmod: 2020-11-17 17:15:19 +0900
 banner: https://source.unsplash.com/L8fVzpAMHkU
 aliases:
     - /gollum/pacman-cheatsheet

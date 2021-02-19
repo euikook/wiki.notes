@@ -4,8 +4,8 @@ link: /more-than-4-nics-in-virtualbox
 description: 
 status: publish
 tags: [Linux, VirtualBox, NIC, Bridge, HostOnly, Internal, NAT]
-created : 2018-01-26
-date : 2020-11-16 09:37:41 +0900
+date : 2018-01-26
+lastmod : 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/C9dTdBM3joM
 aliases:
     - /gollum/more-than-4-nics-in-virtualbox

@@ -4,8 +4,8 @@ link: /building-docker-image-for-cross-platform
 description: 
 status: publish
 tags: [Linux, CI, CD, CI／CD, Docker, Container, Compose, docker-compose, Cross Platform, ARM]
-created: 2020-10-21
-date: 2020-11-16 09:37:41 +0900
+date: 2020-10-21
+lastmod: 2020-11-16 09:37:41 +0900
 banner: /images/docker-banner.png
 aliases:
     - /gollum/building-docker-image-for-cross-platform

@@ -4,8 +4,8 @@ link: /override-git-user-name-and-emal-address-temporarily
 description: 
 status: publish
 tags: [Linux, git, user.name, user.email, override, overriding]
-created: 2020-11-16
-date: 2020-11-16 09:37:41 +0900
+date: 2020-11-16
+lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/842ofHC6MaI
 aliases:
     - /gollum/override-git-user-name-and-emal-address-temporarily

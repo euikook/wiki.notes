@@ -3,8 +3,8 @@ title: Hugo Tag Cloud with jQCloud
 description: Append Tag Cloud to Hugo based blog with jQCloud
 status: publish
 tags: [Hugo, Tags, jQCloud, Tag Cloud, Blog]
-created: 2021-02-17 14:35:59 +0900
 date: 2021-02-17 14:35:59 +0900
+lastmod: 2021-02-17 14:35:59 +0900
 banner: /images/tag-cloud.png
 aliases:
     - /gollum/hugo-tag-cloud-with-jqcloud

@@ -4,8 +4,8 @@ link: /system-level-linux-dns-over-tls-on-arch-linux
 description: 
 status: publish
 tags: [Linux, Arch, DNSSEC, DNS, TLS, DNS-over-TLS]
-created: 2020-11-12 12:37:16 +0900
-date: 2020-11-16 09:37:41 +0900
+date: 2020-11-12 12:37:16 +0900
+lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/0Yiy0XajJHQ
 aliases:
     - /gollum/system-level-linux-dns-over-tls-on-arch-linux

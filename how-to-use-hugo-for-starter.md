@@ -4,8 +4,8 @@ link: /how-to-use-hugo-for-starter
 description: 
 status: publish
 tags: [Hugo, Static Site Generator, Linux, Ubuntu, ArchLinux]
-created: 2021-02-10
-date: 2021-02-10 14:44:10 +0900
+date: 2021-02-10
+lastmod: 2021-02-10 14:44:10 +0900
 banner: /images/hugo-banner.png
 aliases:
     - /gollum/how-to-use-hugo-for-starter

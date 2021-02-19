@@ -4,8 +4,8 @@ link: /development-environment-per-project
 description: 
 status: draft
 tags: [Linux, Arch, Arch Linux, devel, Development, Environment, Environment Variables]
-created: 2020-11-17
-date: 2020-11-17 17:15:03 +0900
+date: 2020-11-17
+lastmod: 2020-11-17 17:15:03 +0900
 banner: https://source.unsplash.com/iscVGfKhwrA
 aliases:
     - /gollum/development-environment-per-project

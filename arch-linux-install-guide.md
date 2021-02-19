@@ -6,8 +6,8 @@ status: publish
 categories: ["HowTo", 'Linux', 'ArchLinux']
 tags: [Linux, Arch Linux, Insync]
 banner: images/ArchLinux-Boot.png
-created: 2020-11-12
-date: 2020-11-16 09:37:41 +0900
+date: 2020-11-12
+lastmod: 2020-11-16 09:37:41 +0900
 aliases:
     - /gollum/arch-linux-install-guide
     - /gollum/arch-linux-install-guide.md

@@ -5,8 +5,8 @@ description:
 status: publish
 categories: ["HowTo", 'Linux', 'Google']
 tags: [Linux, Insync, Google, Google Drive, G Suite]
-created: 2018-02-27
-date: 2020-11-16 09:37:41 +0900
+date: 2018-02-27
+lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/B_j4LJbam5U
 aliases:
     - /gollum/alternative-google-drive-desktop-client-for-linux

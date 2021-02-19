@@ -5,8 +5,8 @@ author: euikook
 description: 
 status: publish
 tags: [Linux, Ubuntu, GPG, ERROR]
-created: 2020-11-12
-date: 2020-11-16 09:37:41 +0900
+date: 2020-11-12
+lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/random/800x400
 aliases:
     - /gollum/gpg-error-on-ubuntu

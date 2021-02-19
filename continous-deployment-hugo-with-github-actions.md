@@ -4,8 +4,8 @@ link: /continous-deployment-hugo-with-github-actions
 description: 
 status: publish
 tags: [Linux, Hugo, Github, Actions, Github Actions, CI, CD, CI／CD]
-created: 2021-02-10
-date: 2021-02-11 09:37:41 +0900
+date: 2021-02-10
+lastmod: 2021-02-11 09:37:41 +0900
 banner: /images/github-actions-banner.png
 aliases:
     - /gollum/continous-deployment-hugo-with-github-actions

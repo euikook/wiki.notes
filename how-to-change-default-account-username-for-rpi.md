@@ -4,8 +4,8 @@ link: /how-to-change-default-account-username-for-rpi
 description: 
 status: publish
 tags: [Linux, RPi, Raspberry Pi, HowTo, Username, Password, Raspian]
-created: 2018-03-14
-date: 2020-11-16 09:37:41 +0900
+date: 2018-03-14
+lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/random/800x400
 aliases:
     - /gollum/how-to-change-default-account-username-for-rpi

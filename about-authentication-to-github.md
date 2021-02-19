@@ -2,8 +2,8 @@
 title: About authentication to Github
 description: About authentication to Github
 tags: [Github, Github.com, SSH, Personal Access Token, PAT]
-created: 2021-02-12 17:34:41 +0900
 date: 2021-02-12 17:34:41 +0900
+lastmod: 2021-02-12 17:34:41 +0900
 banner: https://source.unsplash.com/3wPJxh-piRw
 aliases:
     - /gollum/about-authentication-to-github

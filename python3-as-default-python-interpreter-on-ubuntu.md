@@ -4,8 +4,8 @@ link: /python3-as-default-python-interpreter-on-ubuntu
 description: 
 status: publish
 tags: [Linux, git, user.name, user.email, override, overriding]
-created: 2020-10-21 09:41:48 +0900
-date: 2020-11-16 09:37:41 +0900
+date: 2020-10-21 09:41:48 +0900
+lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/eic5Tq8YMk
 aliases:
     - /gollum/python3-as-default-python-interpreter-on-ubuntu

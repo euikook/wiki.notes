@@ -6,8 +6,8 @@ status: publish
 categories: ["HowTo", 'Linux']
 tags: [Linux, ALt_R, RALT, Hangul, 한／영]
 banner: https://source.unsplash.com/PT_9ux0j-x4
-created: 2020-10-21 08:35:41 +0900
-date: 2020-11-16 09:37:41 +0900
+date: 2020-10-21 08:35:41 +0900
+lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/G_EL_XLKBcc
 aliases:
     - /gollum/right-alt-as-hangul

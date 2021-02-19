@@ -4,8 +4,8 @@ link: /change-nodeport-range-local-kubernetes
 description: 
 status: publish
 tags: [Linux, Docker, Kubernetes, k8s, nodeport]
-created: 2018-01-29
-date: 2020-11-16 09:37:41 +0900
+date: 2018-01-29
+lastmod: 2020-11-16 09:37:41 +0900
 banner: /images/k8s-banner.png
 aliases:
     - /gollum/change-nodeport-range-local-kubernetes
