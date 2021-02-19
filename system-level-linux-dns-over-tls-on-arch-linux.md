@@ -31,6 +31,8 @@ sudo systemctl enable stubby
 sudo systemctl start stubby
 ```
 
+<!--more-->
+
 #### Configuration
 
 Open and edit `/etc/stubby/stubby.yml`

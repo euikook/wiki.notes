@@ -30,6 +30,8 @@ Virtualbox 가상머신의 디스크를 **동적 할당 디스크**로 생성 �
 
 `vboxmanage modifymedium --compact` 명령을 이용하여 VDI 이미지 사이즈를 줄일 수 있다.  `--compact` 옵션에 대한 설명은 다으과 같다.
 
+<!--more-->
+
 > The `--compact` option can be used to compact disk images. Compacting removes blocks that only contains zeroes. Using this option will shrink a dynamically allocated image. It will reduce the _physical_ size of the image without affecting the logical size of the virtual disk. Compaction works both for base images and for differencing images created as part of a snapshot.
 
 자세한 내용은 [여기](https://docs.oracle.com/cd/E97728_01/E97727/html/vboxmanage-modifyvdi.html)를 참고.

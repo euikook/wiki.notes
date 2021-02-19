@@ -22,6 +22,7 @@ aliases:
 |`pacman -Ss` | `<keyowrd>` | Search `<keyword>`. |
 |`pacman -Syu` | N/A | Sync package list and update available packages. |
 
+<!--more-->
 
 # Query(`Q`) Commands
 

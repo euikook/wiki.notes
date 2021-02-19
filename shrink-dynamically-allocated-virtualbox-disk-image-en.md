@@ -34,6 +34,7 @@ docker system prune -a -f
 sudo apt-get autoremove --purge snapd 
 ```
 
+<!--more-->
 
 ### Cleanup Logs (Optional, if you need)
 

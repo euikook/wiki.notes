@@ -22,6 +22,8 @@ Hugo는 Github Page에서 공식적으로 지원하는 `jekyll`과 달리 로컬
 
 Github 에서지원하는 CI/CD 인 `Github Actions`을 이용하여 이를 자동화 할 수 있는데 Github Actions은 일반적은 CI/CD 와 사용법이 비슷하다. 
 
+<!--more-->
+
 ## Setting up github repository for github pages 
 
 Github Page를 생성 하기 위해서는 github 계정에 로그인 하여 `<username>.github.io` 저장소를 만들어야 한다.

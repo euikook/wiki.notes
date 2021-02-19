@@ -19,6 +19,9 @@ Linux tr 명령 사용
 ```bash    
 tr [:lower:] [:upper:]
 ```
+
+<!--more-->
+
 Examples: 
     
 ```bash    

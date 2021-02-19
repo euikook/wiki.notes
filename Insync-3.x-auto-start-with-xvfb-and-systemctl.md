@@ -19,6 +19,8 @@ aliases:
 * insync
 * xvfb
 
+<!--more-->
+
 ## Systemctl script
 
 ### xvfb

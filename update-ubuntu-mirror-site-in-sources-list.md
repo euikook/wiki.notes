@@ -17,3 +17,5 @@ aliases:
 ```bash
 sudo sed -i 's|http://archive.ubuntu.com|http://ftp.daumkakao.com|g' /etc/apt/sources.list
 ```
+
+<!--more-->

@@ -31,6 +31,9 @@ KeyRelease event, serial 37, synthetic NO, window 0x1400001,
 
 ```
 
+<!--more-->
+
+
 이 경우  `Tweak` > `Keyboard @ Mouse` > `Additional Layout Options` > `Key to choose the 3rd level` > `Right Alt` 선택을 해제하면 된다.
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMjEwOTIwMzUzMCwtMTIzOTQxNTI5Ml19

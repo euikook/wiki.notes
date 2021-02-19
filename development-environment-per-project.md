@@ -29,7 +29,7 @@ TOP_DIR=$(dirname $(realpath $_))
 export LD_LIBRARY_PATH=${VIRTUAL_ENV}/lib
 cd ${TOP_DIR}
 ```
-
+<!--more-->
 
 ### Append alias to shell 
 

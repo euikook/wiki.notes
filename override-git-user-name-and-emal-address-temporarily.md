@@ -26,6 +26,8 @@ alias git='git -c "user.name=euikook" -c "user.email=euikook@harues.com"'
 
 Terminal을 빠져 나오면 설정이 날아가기 때문에 타인의 PC에서 수정한 사항을 커밋할 경우 유용하게 사용할 수 있다. 
 
+<!--more-->
+
 
 현재 설정된 `user.name`나 `user.email`을 확인하기 위해서는 
 

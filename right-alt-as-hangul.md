@@ -27,6 +27,8 @@ aliases:
 	* <kbd>Alt_R</kbd> 키를 단축키로 사용하는 프로그램(Chrome)등에서는 동작이 안됨
 * <kbd>Ctrl_R</kbd>은 Hanja 키로 매핑 시키고 싶이 않음.
 
+<!--more-->
+
 ## Use Xmodmap
 
 ### Hangul key

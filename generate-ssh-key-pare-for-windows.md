@@ -22,6 +22,7 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
 ![puttygen - open](/images/puttygen/puttygen-001.png)
 
+<!--more-->
 
 아래는 `puttygen.exe`의  실행 화면이다.
 

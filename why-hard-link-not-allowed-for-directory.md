@@ -25,7 +25,7 @@ mkdir a
 ln a b
 ln: a: hard link not allowed for directory
 ```
-
+<!--more-->
 
 디렉터리 Hard Link는 여러 문제점을 야기 시킨다. 디렉터리 Hard Link에 의해 발생할 수 있는 문제점들에 대하여 알아본다. 
 

@@ -27,6 +27,8 @@ Executing: /tmp/apt-key-gpghome.SpBMyBEzT0/gpg.1.sh --keyserver keyserver.ubuntu
 
 ```
 
+<!--more-->
+
 ## Import GPG key from key server
 ```
 $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3F01618A51312F3F

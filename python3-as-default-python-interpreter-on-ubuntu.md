@@ -22,6 +22,8 @@ sudo update-alternatives --config pip
 sudo update-alternatives --config python
 ```
 
+<!--more-->
+
 아래와 같이 직접 `--set` 옵션을 사용하여 설정 한다. 
 
 ```

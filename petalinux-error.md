@@ -49,6 +49,7 @@ ERROR: Failed to Kconfig project
 ERROR: Failed to config rootfs.
 ```
 
+<!--more-->
 
 ## Arch linux
 

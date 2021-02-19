@@ -33,6 +33,8 @@ rsync -avzh $SRC $DST
 rsync -avz -e ssh $REMOTE_HOST:/$$SRC $DST
 ```
 
+<!--more-->
+
 #### Root 권한이 필요한 경우
 
 ```

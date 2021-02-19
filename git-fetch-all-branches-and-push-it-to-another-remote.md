@@ -24,3 +24,5 @@ git push new --all
 git fetch --tags
 git push new tags
 ```
+
+<!--more-->

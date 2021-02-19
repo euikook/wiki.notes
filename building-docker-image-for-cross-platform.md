@@ -34,6 +34,7 @@ And add current user to docker group
 sudo usermode -aG docker $USER
 ```
 
+<!--more-->
 
 ## Install `buildx` for multi-architecture image build
 

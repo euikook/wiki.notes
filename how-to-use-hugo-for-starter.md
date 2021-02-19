@@ -27,6 +27,8 @@ Ubuntu 공식 패키지로 등록 되어 있으므로 apt 명령으로 설치 �
 sudo apt install hugo
 ```
 
+<!--more-->
+
 ### Snap Package
 
 with Sass/CSCC support

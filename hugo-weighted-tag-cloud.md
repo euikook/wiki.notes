@@ -1,6 +1,5 @@
 ---
 title: Weighted Tag Cloud to Hugo
-description: Append Tag Cloud to Hugo based blog
 status: publish
 tags: [Hugo, Tags, Tag Cloud, Blog]
 date: 2021-02-17 10:22:59 +0900
@@ -17,6 +16,8 @@ aliases:
 ![tag cloud](/images/hugo-tag-cloud.png)
 
 Tag의 사용빈도에 따라 Tag의 크기를 조절한다.
+
+<!--more-->
 
 tag_cloud.html
 ```go-html-template 

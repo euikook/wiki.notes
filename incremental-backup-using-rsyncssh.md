@@ -23,6 +23,8 @@ RSYNC+SSH 를 이용한 증분 백업 및 Cron을 이용한 자동화
 
 ![Backup Environment](/images/backup-env.png)
 
+<!--more-->
+
 ## 공통 준비 사항
 
 ### Backup User 생성
@@ -50,8 +52,6 @@ Backup 서버에서 SSH Key Pair를 생성하고 각 서버로 배포 한다.
 ```bash    
 ssh-keygen -t rsa -b 4096 -f backupbot -C BackupBot
 ```
-
-<!--more-->
 
 ### SSH KEY 배포
 

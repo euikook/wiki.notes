@@ -37,6 +37,9 @@ gpg: Can't check signature: No public key
 ```
 gpg --keyserver-options auto-key-retrieve --keyserver=hkp://pool.sks-keyservers.net --verify archlinux-2020.11.01-x86_64.iso.sig
 ```
+
+<!--more-->
+
 ## 부트 디스크 생성
 ```
 dd bs=4M if=~/Downloads/archlinux-2020.11.01-x86_64.iso of=/dev/sdb status=progress oflag=sync

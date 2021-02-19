@@ -26,6 +26,8 @@ Add following line to add following line to _/etc/kubernetes/manifests/kube-apis
 sudo vi /etc/kubernetes/manifests/kube-apiserver.yaml
 ```
 
+<!--more-->
+
 ```bash
 - --advertise-address=172.168.2.11
 - --service-cluster-ip-range=10.96.0.0/12

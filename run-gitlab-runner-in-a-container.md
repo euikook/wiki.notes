@@ -25,6 +25,8 @@ aliases:
 git clone https://gitlab.com/euikook/gitlab-runner-compose.git
 ```
 
+<!--more-->
+
 ###  Configuration
 * Replace *CI_SERVER_URL* value with your Gitlab server e.g. https://gitlab.com
 * [Obtain a token](https://docs.gitlab.com/ee/ci/runners/) for a shared or specific Runner via GitLab’s interface and replace *REGISTRATION_TOKEN* value

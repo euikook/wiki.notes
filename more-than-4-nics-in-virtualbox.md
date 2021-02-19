@@ -24,6 +24,8 @@ VBoxManage modifyvm test-vm --nic5 bridged
 VBoxManage modifyvm test-vm --bridgeadapter5 eno1
 ```    
 
+<!--more-->
+
 ## Host Only Mode
     
 ```bash    

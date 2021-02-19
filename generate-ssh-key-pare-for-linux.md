@@ -21,6 +21,8 @@ aliases:
 ssh-keygen -t rsa -b 4096 -f euikook -C "euikook@gmail.com"
 ```
 
+<!--more-->
+
 * `-t rsa`: 생성된 Key의 Type를 RSA로 설정한다.
 * `-b 4096`: 생성될 Key의 길이를 4096 bit로 설정한다.
 * `-f euikook`: 생상될 Key의 이름은 euikook로 설정한다.(`euikook.pub`, `euikook`)

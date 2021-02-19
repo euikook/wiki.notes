@@ -33,6 +33,8 @@ aliases:
 ```
 > `<username>/<username>.github.io`의 <username>은 자신의 github username으로 변경 한다. 
 
+<!--more-->
+
 > Comment를 위한 별도의 저장소를 사용하고자 한다면 해당 저장소의 이름으로 변경한다. 
 
 ## More graceful 

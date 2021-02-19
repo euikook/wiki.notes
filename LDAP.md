@@ -23,6 +23,8 @@ aliases:
 sudo apt-get update
 ```
 
+<!--more-->
+
 ### Important notes
 
 ```bash

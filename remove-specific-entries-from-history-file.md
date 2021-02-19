@@ -24,6 +24,8 @@ History 파일에서 특정 엔트리 삭제하기
 mysql -u root -ppassword -h localhost 
 ```    
 
+<!--more-->
+
 명령앞 빈칸(space)에 주목. 
     
 ```bash   

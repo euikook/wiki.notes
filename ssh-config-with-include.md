@@ -26,6 +26,8 @@ SSH 접속 정보를 `~/.ssh/config` 파일에 저장한다.
 
 아래는 ~/ssh/config 파일의 예제 이다.
 
+<!--more-->
+
 ```
 Host 1.2.3.4 test
     Hostname 1.2.3.4

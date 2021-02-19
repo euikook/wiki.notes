@@ -1,6 +1,5 @@
 ---
 title: Hugo Tag Cloud with jQCloud
-description: Append Tag Cloud to Hugo based blog with jQCloud
 status: publish
 tags: [Hugo, Tags, jQCloud, Tag Cloud, Blog]
 date: 2021-02-17 14:35:59 +0900
@@ -16,6 +15,7 @@ aliases:
 
 ![tag cloud](/images/hugo-tag-qcloud.png)
 
+<!--more-->
 
 `<head>` 내에 위치하도록 아래 코드를 추가한다.
 
@@ -23,6 +23,8 @@ head.html
 ```html
 <script src="https://golangkorea.github.io/js/jqcloud/jqcloud.min.js"></script>
 ```
+
+
 
 `<head>` 내에 위치하도록 아래 코드를 추가한다.
 

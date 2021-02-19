@@ -33,6 +33,7 @@ Unmount disk if it alrady mounted
 sudo umount /dev/sda2
 ```
 
+<!--more-->
 
 Edit `/etc/fstab`
 ```

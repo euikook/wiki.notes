@@ -1,6 +1,5 @@
 ---
 title: About authentication to Github
-description: About authentication to Github
 tags: [Github, Github.com, SSH, Personal Access Token, PAT]
 date: 2021-02-12 17:34:41 +0900
 lastmod: 2021-02-12 17:34:41 +0900
@@ -26,6 +25,7 @@ Github에 인증하는 방법은 다음과 같다.
 
 https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/
 
+<!--more-->
 
 [`Two-factor Authentication`](https://help.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa)을 사용하고 있다면 현재도 `Account Password`가 아니라 [`Personal Access Token`](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)을 통해서 인증 해야 하기 때문에 상관이 없다. 
 
