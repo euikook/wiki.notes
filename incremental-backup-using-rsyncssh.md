@@ -222,6 +222,10 @@ sudo -u backupman -H \
 
 
 ## Backupman 스크립트를 이용한 자동화
+
+앞서 설명한 백업 절차를 자동화 하는 Python 스크립트를 만들었다. 
+
+아래와 같이 `pip` 명령으로 설치 할 수 있다. 
     
 ```bash    
 sudo -H pip install git+https://github.com/euikook/python-backupman.git@master
