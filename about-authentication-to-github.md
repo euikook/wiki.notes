@@ -23,7 +23,7 @@ Github에 인증하는 방법은 다음과 같다.
 
 > Github.com에 수정사항을 Contribution 하지 않는 다면 크게 상관 없다. 
 
-https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/
+[Github Blog Token: Token authentication requirements for Git operations](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/)
 
 <!--more-->
 

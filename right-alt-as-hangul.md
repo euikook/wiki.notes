@@ -87,7 +87,7 @@ xkb_symbols "meta_alt" {
 ```
 
 ## References
-* [https://zapary.blogspot.com/2014/08/ubuntu-xkb-keyboard-map.html](https://zapary.blogspot.com/2014/08/ubuntu-xkb-keyboard-map.html)
+* [Ubuntu XKB를 이용한 keyboard map 확장](https://zapary.blogspot.com/2014/08/ubuntu-xkb-keyboard-map.html)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTk3NTMzMDksLTExNTk4OTYzOTddfQ==
 -->

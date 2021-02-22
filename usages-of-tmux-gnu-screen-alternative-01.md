@@ -22,7 +22,7 @@ aliases:
 
 tmux는 GNU screen을 대체 할 수 있는 가장 매력적인 대안이다. Terminal Multiplex 로 매뉴얼은 다음에서 볼 수 있다.
 
-<http://man.openbsd.org/OpenBSD-current/man1/tmux.1>
+[tmux man page](http://man.openbsd.org/OpenBSD-current/man1/tmux.1)
 
 tmux의 주요 기능에 대하여 알아본다. 먼저 세션 유지 기능과 화면 공유 기능에 대하여 알아보자.
 

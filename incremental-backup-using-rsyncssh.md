@@ -297,4 +297,4 @@ sudo -u backupbot -H crontab -e
 
 Backupman 스크립트는 아래 Repository에서 확인 할 수 있다. 
 
-https://github.com/euikook/python-backupman
+[python-backupman](https://github.com/euikook/python-backupman)

@@ -45,6 +45,6 @@ docker-compose up -d
 ```
 
 # References
-* [https://docs.gitlab.com/ee/ci/runners/](https://docs.gitlab.com/ee/ci/runners/)
-* [https://docs.gitlab.com/runner/install/docker.html](https://docs.gitlab.com/runner/install/docker.html)
-* [https://dev.to/imichael/this-one-trick-gives-you-unlimited-ci-minutes-on-gitlab-e92](https://dev.to/imichael/this-one-trick-gives-you-unlimited-ci-minutes-on-gitlab-e92)
+* [Configuring runners in GitLab](https://docs.gitlab.com/ee/ci/runners/)
+* [Run GitLab Runner in a container](https://docs.gitlab.com/runner/install/docker.html)
+* [This one trick gives you unlimited CI minutes on Gitlab.](https://dev.to/imichael/this-one-trick-gives-you-unlimited-ci-minutes-on-gitlab-e92)

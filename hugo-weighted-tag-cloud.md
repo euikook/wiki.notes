@@ -13,7 +13,7 @@ aliases:
 이 글은 Hugo 기반 Blog에서 Tag Cloud를 만드는 방법에 대하여 설명한다.
 
 
-![tag cloud](/images/hugo-tag-cloud.png)
+![tag cloud](images/hugo-tag-cloud.png)
 
 Tag의 사용빈도에 따라 Tag의 크기를 조절한다.
 
@@ -129,4 +129,4 @@ for (let termCloud of termClouds) {
 다음에는 jQuery 기반 Word Cloud 라이브러리인 [jQCloud](http://mistic100.github.io/jQCloud/demo.html)를 이용하는 방법에 대해 설명한다. 
 
 ## References
-* https://discourse.gohugo.io/t/weighted-tag-cloud/3491/4
+* [Weighted tag cloud](https://discourse.gohugo.io/t/weighted-tag-cloud/3491/4)

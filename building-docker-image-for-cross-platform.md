@@ -201,7 +201,7 @@ docker pull euikook/multi-arch-test:latest
 
 
 ## References
-* https://docs.docker.com/buildx/working-with-buildx/
-* https://www.docker.com/blog/getting-started-with-docker-for-arm-on-linux/
+* [Docker Buildx](https://docs.docker.com/buildx/working-with-buildx/)
+* [Getting started with Docker for Arm on Linux](https://www.docker.com/blog/getting-started-with-docker-for-arm-on-linux/)
 
  
