@@ -1,6 +1,6 @@
 ---
-title: SSH config with Include
-link: /ssh-config-with-include
+title: SSH config and Include Statement
+link: /ssh-config-and-include-statement
 description: 
 status: publish
 tags: [Linux, OpenSSH, config, ssh, client, ssh client] 
@@ -8,20 +8,21 @@ banner: https://source.unsplash.com/F_m44ut3XTw
 date: 2020-11-25 11:34:02 +0900
 lastmod: 2021-02-23 10:16:13 +0900
 aliases:
+    - /posts/ssh-config-with-include
     - /gollum/ssh-config-with-include
     - /gollum/ssh-config-with-include.md
 ---
 
-## About `~/.ssh/config`
+## `~/.ssh/config`
 
-SSH를 사용하다보면 서버별 접속 옵션이나 암호화 방식을 달리 해야 될 경우가 있다. 이때 이러한 설정 정보들을 `~/ssh/config` 파일에 저장해 두면 접속시에 명령행에 옵션으로 주지 않더라도 자동 적용된다. 
+SSH를 사용하다보면 서버별 접속 옵션이나 암호화 방식을 달리 해야 될 경우가 있다. 이때 이러한 설정 정보들을 `~/ssh/config` 파일에 저장해 두면 접속시에 명령행에 옵션으로 주지 않더라도 적용된다. 
 
 `~/.ssh/config`파일의 활용법은 다음과 같다. 
 
 
 ### 서버 별칭(Aliases) 부여
 
-또한 Domain Name이 할당되어 있지 않고 IP 주소로 접속하는 경우 서버에 자신만의 이름을 부여한 후 그 이름으로 접속할 수 있기 때문에 매우 유용하다. 
+또한 Domain Name이 할당되어 있지 않고 IP 주소로 접속하는 경우 서버에 자신만의 이름을 부여하고 그 이름으로 접속할 수 있기 때문에 매우 유용하다. 
 
 접속하고자 하는 IP 1.2.3.4에 Domain Name이 할당되어 있지 않거나 해당 IP 정보가 `/etc/hosts`에 지정되어 있지 않더라도 호스트 지정자로 `1.2.3.4`와  `test`로 지정돼어 있기 때문에 `1.2.3.4` 뿐 아니라 `test`로 접속 해도 `1.2.3.4` 로 접속된다. 
 
@@ -35,7 +36,7 @@ ssh test
 
 ### 접속 SSH Port 변경 
 
-또한 보안등의 이유나 SSH Port가 변경된 경우 매 서버마다 변경된 SSH 포트를 외우기 보다 `config` 파일에 `Port` 파라미터를 지정한다.
+외부에 공개된 서버의 SSH 데몬의 포트 번호를 보안상의 이유등으로 변경한 경우 변경된 SSH 포트 번호를  `config` 파일에 `Port` 옵션으로 지정하면 `-p` 옵션으로 포트번호를 지정할 필요 없이 접속가능하다. 
 
 ```
 Host example.com
@@ -115,7 +116,6 @@ Host 1.2.3.4 test
     ServerAliveInterval 30
     ServerAliveCountMax 3
 ```
-
 
 
 ## `Include` statement
