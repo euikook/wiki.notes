@@ -3,6 +3,7 @@ title: Hugo Tips and Tricks
 tags: [hugo, tips, tricks]
 draft: true
 date: 2021-02-20 15:00:41 +0900
+lastmod: 2021-02-23 17:23:33 +0900
 banner: https://source.unsplash.com/jKU2NneZAbI
 aliases:
     - /gollum/hugo-tips-and-tricks
@@ -11,7 +12,7 @@ aliases:
 
 이 글은 Hugo를 사용하면서 경헙한 유용한 팁을 공유 하기 위해 작성 되었다. 
 
-## Summary 페이지에 HTML코드 표시하기
+## Summary에 HTML코드 표시하기
 
 Hugo에서 Summary에 표시될 부분을 명시적으로 지정하지 않을 경우 텍스트를 하나 이상의 공백으로 구분된 `Word`로 분할하여 정의된 단어 수를 표시하도록 하기 때문에 사용자가 추가한 Markdown 데코레이션 이나 사용자 가 직접 추가한 HTML 코드 등이 사용자의 의도대로 표시 되지 않는다. 이유는 단어의 수를 기준으로 표시한 내용을 정하기 때문에 렌더링된 HTML 코드를 표시할 경우 완전하지 않은 코드가 포함되어 전체 페이지를 표시 하는데 문제가 발생 할 수 있기 때문이다. 
 
@@ -29,6 +30,35 @@ Summary에 렌더링된 HTML코드를 표시 하게 하기 위하여 명시적�
 
 자세한 내용은 Hugo 공식 문서의 [Manual Summary Splitting    ](https://gohugo.io/content-management/summaries/#manual-summary-splitting) 페이지를 참조 한다. 
 
-## `Lastmod`
+## Lastmod 활용하기 
 
-문서의 Front Matter에 있는
+## Page Aliaes
+다른 블로그나 위키 플렛폼에서 Hugo로 넘어와서 각 포스트에 대한 URL 형식이 바뀐 경우 이를 매핑 해주는 작업이 필요하다. 
+
+같은 포스트라도 URL이 변경되면 이미 인덱싱된 데이터를 쓸모 없어져 버리기 때문이다. 
+
+### PermLink 
+
+`config.toml`
+```
+[permalinks]
+  posts = "/:year/:month/:title/"
+```
+
+```
+[permalinks]
+  "/" = "/:year/:month/:filename/"
+```
+
+
+```
+```
+
+### Aliases
+```
+---
+aliases:
+    - /posts/my-original-url/
+    - /2010/01/01/even-earlier-url.html
+---
+```
