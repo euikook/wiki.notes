@@ -13,7 +13,7 @@ aliases:
 이 글은 Hugo 기반 Blog에서 Tag Cloud를 만드는 방법에 대하여 설명한다.
 
 
-![tag cloud](images/hugo-tag-cloud.png)
+![tag cloud](/images/hugo-tag-cloud.png)
 
 Tag의 사용빈도에 따라 Tag의 크기를 조절한다.
 
