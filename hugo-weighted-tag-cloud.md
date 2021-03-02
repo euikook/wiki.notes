@@ -5,6 +5,7 @@ tags: [Hugo, Tags, Tag Cloud, Blog]
 date: 2021-02-17 10:22:59 +0900
 lastmod: 2021-02-17 10:22:59 +0900
 banner: /images/tag-cloud.png
+series: ["Go Web Dev"]
 aliases:
     - /gollum/hugo-weighted-tag-cloud
     - /gollum/hugo-weighted-tag-cloud.md
