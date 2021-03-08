@@ -9,7 +9,7 @@ aliases:
     - /gollum/how-to-setup-auto-renew-certbot-certificate.md
 ---
 
-이 글에서는 [`certbot`](https://certbot.eff.org/)을 통해 발급받은 [Let's Encrypt](https://lencr.org) 인증서를 `Webroot` 플러그인을 이용한 인증서 자동 갱신 방법에 대하여 설명한다. 
+이 글에서는 [`certbot`](https://certbot.eff.org/)을 통해 발급받은 [Let's Encrypt](https://lencr.org) 인증서를 `Webroot` 플러그인을 이용해 자동 갱신 방법에 대히여 알아본다. 
 
 
 ## Prerequsites
@@ -21,7 +21,7 @@ Webroot 디렉터리를 생성한다.
 ```
 sudo mkdir -p /var/www/certbot
 ```
-
+ 
 
 ## Nginx 설정
 
