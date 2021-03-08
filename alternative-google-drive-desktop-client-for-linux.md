@@ -18,9 +18,9 @@ Insync - Linux에서 Google Drive Desktop Client 사용하기
 
 
 
-데스크탑을 Linux로 써온지도 벌써 10년 가까이 되어 간다. 처음 데스크탑을 Linux로 변경하고 불편했던 인터넷 뱅킹등의 문제는 스마트폰에서 은행 업무를 볼 수 있게 되면서 해결되었다. 그외 민원업무등 반드시 Windows가 필요한 일은 VirtualBox를 통해 해결한다.
+Linux를 메인 OS로 사용한지도 벌써 10년 ~~가까이 되어 간다~~ 넘었다.. 처음 메인 OS를 Linux로 변경하고 불편했던 인터넷 뱅킹등의 문제는 스마트폰에서 은행 업무를 볼 수 있게 되면서 해결되었다. 그외 민원업무등 반드시 Windows가 필요한 일은 VirtualBox를 통해 해결한다.
 
-그외 어플리케이션들은 Linux Alternate나 google docs 같은 웹 기반 어플리케이션으로 대체 가능하다.  하지만 데이터 백업 및 관리용으로 사용하는 Google Drive는 신뢰할 수 있는 Alternate가 없어 고민 했하던 차에 3년전 즈음에 insync라는 Application을 알게 되었다 유료지만 요즘 트렌트인 정기 결제가 아닌 one time 결제로 사용 가능하고 각 배포판용 Repository도 별도로 제공 하기때문에 설치 역시 간편하다.  headless application도 지원 하기 때문에 UI 없이 콘솔 상에서 실행도 가능하다. <https://www.insynchq.com>   다른 Agent들과 비교한 자료를 원하면 아래 사이트를 참조 하기 바란다. 
+그외 어플리케이션들은 Google Docs같은 웹 기반 어플리케이션으로 대체 가능하다.  하지만 데이터 백업 및 파일 관리용으로 사용하는 Google Drive는 신뢰할 수 있는 Alternate가 없어 고민 했하던 차에 2015년 즈음에 insync라는 Thrid-Party Application을 알게 되었다 유료지만 요즘 트렌트인 정기 결제(구독)가 아닌 One Time 결제로 사용 가능하고 각 배포판용 Repository도 별도로 제공 하기때문에 설치 역시 간편하다.headless application도 지원(3.x 버젼에 잠시 지원이 중단 되었다가 다시 지원하기 시작함) 하기 때문에 UI 없이 콘솔 상에서 실행도 가능하다. <https://www.insynchq.com>   다른 Agent들과 비교한 자료를 원하면 아래 사이트를 참조 하기 바란다. 
 
 [use google drive linux](https://itsfoss.com/use-google-drive-linux/ )
 
@@ -40,14 +40,35 @@ _/etc/apt/sources.list.d/insync.list_ 을 생성 한다. 내용은 다음과 같
 deb http://apt.insynchq.com/[DISTRIBUTION] [CODENAME] non-free contrib
 ```
 
-Ubuntu 16.04 경의 _[DISTRIBUTION]_ 은 _ubuntu_ _[CODENAME]_ 은 _xenial_을 입력한다. 
+*Ubuntu 16.04*의 경우 `[DISTRIBUTION]` 은 `ubuntu` `[CODENAME]` 은 `xenial`을 입력한다. 
+*Ubuntu 18.04*의 경우 `[DISTRIBUTION]` 은 `ubuntu` `[CODENAME]` 은 `bionic`을 입력한다. 
+*Ubuntu 20.04*의 경우 `[DISTRIBUTION]` 은 `ubuntu` `[CODENAME]` 은 `focal`을 입력한다. 
+
+*Ubuntu 20.04*의 경우 아래 명령을 실행하여 
     
 ```bash    
-echo deb http://apt.insynchq.com/ubuntu xenial non-free contrib | sudo tee /etc/apt/sources.list.d/insync.list
+echo deb http://apt.insynchq.com/ubuntu focal non-free contrib | sudo tee /etc/apt/sources.list.d/insync.list
+```
+
+패키지 리스트를 업데이트 한다. 
+```
+sudo apt update
 ```
 
 ## Installation
+
+### UI Version
+    
+UI로 로그인 하였을 Insync가 실행되기를 원한다면 UI 버젼을 설치 하자. 대부분 이 버젼을 설치 하면 된다. 
+
+```bash
+sudo apt install insync
+```
+
+###  Headless Version
+
+GUI가 없는 서버나 UI 로그인 없이 Insync를 실행 하고 싶으면 headless version을 설치 한다. 
     
 ```bash
-sudo apt-get update && sudo apt-get install insync
+sudo apt-get install insync
 ```
