@@ -22,14 +22,14 @@ Insync가 3.x 버전으로 판올림 되면서 headless 버전이 없어 졌기 
 이문제를 해결 하기 위하여 xvfb와 systemctl 을 이용하여 Insync UI 버전을 자동 실행하는 방법에 다여 알아본다. 
 
 
-> 3.x 버전의 Headless 버전이 릴리즈 되었다. 이를 이용한 자동 실행 방법은 다음 페이지를 참고한다. [Insync 3.x auto start with systemctl](/posts/insync-3.x-auto-start-with-systemctl)
+> 3.x 버전의 Headless 버전이 릴리즈 되었다. 이를 이용한 자동 실행 방법은 다음 [Insync 3.x auto start with systemctl](/posts/insync-3.x-auto-start-with-systemctl)를 참고한다. 
 
 ## Prerequisites
 * insync
 * xvfb
 
 ### Insync 설치 
-Insync의 설치 방법은 다음 페이지를 참고 한다. [Insync - Linux에서 Google Drive Desktop Client 사용하기](/posts/alternative-google-drive-desktop-client-for-linux)
+Insync의 설치 방법은 [Insync - Linux에서 Google Drive Desktop Client 사용하기](/posts/alternative-google-drive-desktop-client-for-linux)를 참고 한다. 
 
 ### xvfb 설치
 

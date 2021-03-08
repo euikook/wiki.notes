@@ -72,3 +72,22 @@ GUI가 없는 서버나 UI 로그인 없이 Insync를 실행 하고 싶으면 he
 ```bash
 sudo apt-get install insync
 ```
+
+## UI 버전에서 Headless 버젼으로 변경(또는 반대의 경우) 시 유의 사항
+각 설정 과 데이터베이스 파일의 구조는 크게 변하지 않은 것 같으나 위치가 변경 되었다.
+
+* UI Version의 경우 `~/.config/Insync`
+* Headless 버젼의 경우 `~/.config/Insync-headless`
+
+따라서 UI 버젼에서 Headless 버젼으로 변경하고 Insync를 실행하면 UI 버전에서 사용하던 계정 등의 설정 정보를 같이 로드 되지 않는다.
+
+
+`~/.config/Insync` 디렉터리를 `~/.config/Insync-headless`로 복사한다. 
+
+```
+cp -ap ~/.config/Insync ~/.config/Insync-headless
+```
+
+> UI 버전과 Headless 버젼의 설정 파일 구조가 언제 바뀔지 모르기 때문에 *Symbolic Link* 보다는 *Hard Link*링크로 복사하여 Headless 버젼을 실행 해 보고 문제가 발생하면 해당 디렉터리를 삭제 후 다시 설정하자.
+
+> Headless 버전에서 UI 버젼으로 바꾸는 경우에는 반대로 수행하면 된다. 

@@ -3,7 +3,7 @@ title: Insync 3.x auto start with systemctl
 link: /insync-3.x-auto-start-with-systemctl
 description: 
 status: publish
-tags: [Linux, Insync, autostart, xvfb, systemctl]
+tags: [Linux, Insync, autostart, systemctl]
 date: 2021-03-08 21:56:31 +0900
 lastmod: 2021-03-08 21:56:31 +0900
 banner: https://uploads-ssl.webflow.com/5c5bbc2b7ebe99d46f9e983b/5cf14ca1fb8dd08aa53a2e58_InsyncSignIn.png
@@ -26,7 +26,7 @@ Insync가 3.x 버전으로 판올림 되면서 headless 버전이 사라지는 �
 * insync-headless
 
 ### Insync headless 설치 
-Insync의 설치 방법은 다음 페이지를 참고 한다. [Insync - Linux에서 Google Drive Desktop Client 사용하기](alternative-google-drive-desktop-client-for-linux)
+Insync의 설치 방법은 [Insync - Linux에서 Google Drive Desktop Client 사용하기](/posts/alternative-google-drive-desktop-client-for-linux)를 참고 한다. 
 
 
 <!--more-->
