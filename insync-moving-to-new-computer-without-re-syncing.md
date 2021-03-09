@@ -44,6 +44,8 @@ insync-headless quite
 ```
 >  실제 명령 입력 시 `Apple`은 자신의 기존 컴퓨터의 호스트네임으로 변경한다.
 
+> *Apple*과 *Banana*의 동기화 디렉터리는 경로가 같아야 한다. 
+
 
 ### OS 재설치
 OS를 다시 설치 하는 경우 해당 PC의 동기화 폴더를 백업한다. 
@@ -71,8 +73,7 @@ rm -rf ~/Insync
 tar xvf ~/mnt/backup/Insync.data.tar -C ~/
 ```
 
-
-
+> 재설치 후 재설치전 동기화 디렉터리와 같은 경로에 데이터를 복구 해야 한다. 
 
 ## 설정 파일 백업 또는 이동
 
