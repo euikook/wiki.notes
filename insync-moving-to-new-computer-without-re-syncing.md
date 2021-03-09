@@ -46,6 +46,7 @@ insync-headless quite
 
 > *Apple*과 *Banana*의 동기화 디렉터리는 경로가 같아야 한다. 
 
+<!--more-->
 
 ### OS 재설치
 OS를 다시 설치 하는 경우 해당 PC의 동기화 폴더를 백업한다. 
