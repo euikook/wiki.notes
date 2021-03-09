@@ -13,9 +13,11 @@ aliases:
     - /gollum/alternative-google-drive-desktop-client-for-linux.md
 ---
 
-#### An Alternative Google Drive Desktop Client for Linux
-Insync - Linux에서 Google Drive Desktop Client 사용하기
+이 글에서는 몇 없는 Google Drive의 리눅스 동기화 어플리케이션인 [Insync](https://insynchq.com) 에 대하여 알아본다. 
 
+> Insync: Google Drive Syncing Application for Linux
+
+> Insync: 리눅스를 위한 Google Drive 동기화 어플리케이션
 
 
 Linux를 메인 OS로 사용한지도 벌써 10년 ~~가까이 되어 간다~~ 넘었다.. 처음 메인 OS를 Linux로 변경하고 불편했던 인터넷 뱅킹등의 문제는 스마트폰에서 은행 업무를 볼 수 있게 되면서 해결되었다. 그외 민원업무등 반드시 Windows가 필요한 일은 VirtualBox를 통해 해결한다.

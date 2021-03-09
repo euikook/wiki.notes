@@ -14,6 +14,10 @@ aliases:
 
 이 글에서는 Insync을 사용중 PC를 옯기거나 OS를 재설치 하여야 하는 경우 재 동기화 없이 데이터를 옮기는 방법에 대하여 설명한다. 
 
+> Insync: Google Drive Syncing Application for Linux
+
+> Insync: 리눅스를 위한 Google Drive 동기화 어플리케이션
+
 
 ## Insync 종료
 

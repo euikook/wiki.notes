@@ -14,6 +14,9 @@ aliases:
 
 이 글에서는 Google Drive 와 One Drive의 third-party 동기화 유틸인 [Insync](https://www.insynchq.com/)의 headless 버전을 설치 하고 자동 실행 하는 방법에 대하여 알아본다.
 
+> Insync: Google Drive Syncing Application for Linux
+
+> Insync: 리눅스를 위한 Google Drive 동기화 어플리케이션
 
 Insync가 3.x 버전으로 판올림 되면서 headless 버전이 사라지는 바람에 [xvfb를 통해 우회 실행 하는 방법](/posts/insync-3.x-auto-start-with-xvfb-and-systemctl)에 대하여 설멍한 적이 있다. 
 
