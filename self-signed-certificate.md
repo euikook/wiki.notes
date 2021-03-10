@@ -2,7 +2,7 @@
 title: Self Signed Certification
 tags: [ssl, tls, self signed, nginx, apache]
 draft: true
-date: 2021-02-26 13:00:41 +0900
+date: 2021-03-10 11:00:41 +0900
 banner: https://source.unsplash.com/jKU2NneZAbI
 aliases:
     - /gollum/self-signed-certificate
@@ -19,6 +19,53 @@ aliases:
 > Private CA를 사용하거나 생성한 경우 Private CA의 관리자나 생성한 CA 크를 통하여 인증서를 암호화
 
 > Private CA을 사용하는 경우, 브라우저에서 경고 메시지를 제거하기 위해 Private CA의 공개키를 브라우저에 등록 해야 한다.
+
+
+> PKI 즉 공개기 기반 시스템에서 CSR (Certificate Singing Request)은 *Digital Identity*를 생성하기 위해 신청자가 PKI의 등록 기관에게 보내는 메시지이다. 일반적으로 인증서를 발급해야 하는 공개키, 도메인과 같은 식별정보와 무결성 호보(디지털 서명)가 포함된다. CSR의 가장 일반적인 형식은 PKCS #10 이다. 
+
+
+아래는 CSR에 필요한 일반적인 정보이다. 입력 하여야 하는 `DN`이 복수개라면 해당 `DN`을 선호하는 순서대로 나열하면 된다. 
+
+| DN | Information | Description | Example |
+|---|---|---|---|
+| CN | Common Name | FQDN | *.example.com |
+| O | Organization Name | 조직의 이름, 일반적으로 회사 또는 법인의 이름 | ACME Corp. |
+| OU | Organization Unit | 내부 조직의 부서 / 부서의 이름 | DevOps |
+| L | Locality | 소재지의 시, 도등의 이름 | Seoul |
+| ST | State | 주, 지역 등의 이름 | Seoul |
+| C | Country | 국가 이름 | Korea | 
+| EMAIL | Email Address | 인증서 관리자 또는 해당 부서의 연락처 |  |
+
+
+## Example
+
+
+
+```
+-----BEGIN CERTIFICATE REQUEST-----
+MIICszCCAZsCAQAwbjELMAkGA1UEBhMCS1IxEDAOBgNVBAgMB0RhZWplb24xEzAR
+BgNVBAcMCll1c2VvbmctZ3UxEjAQBgNVBAoMCUFDTUUgSW5jLjEPMA0GA1UECwwG
+RGV2b3BzMRMwEQYDVQQDDAoqLmFjbWUuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAuQ3nm95Gy1FtHm+msl3vtMXiD4uZm53EbtRoX7/TSCPTvFvP
+n+vNc4oqlYTzmw3ToV6qB5wL9UR0Tv40JRAs7Vc9YGBY7pvRbWNfYQZ6pKEc/ETy
+mcMvwWPnR49AGOOtdPTB9ATHHmcVRvHxDDFzQ4wGbmspN6ajoz6l9+skaPQmHlvw
+OnFmMcnSMI8wRdr8Crkn9ysc8G/SBahQFGJ09YLD84DoeJxf00IlPMQMOKr/rIeH
+XRI9+0K9RIiKuzJ8Q9M5kh4a2aK0CeaMzOq4DEuQddG1CZYMGgQudMQlvJdLYGJl
+uoK664j2kpq8gmbpbe/SnCOzh41gaucW9AuSWQIDAQABoAAwDQYJKoZIhvcNAQEL
+BQADggEBAKD5Hmvfblp6cGhWRdL+NHz5LMyH2uTMEmWrePxLA1frPJ6ken167XQG
+PBfeGtX1ZD4aojeiVpfGaBi7qKZeTrGRdXBFMsVQZsnOGi2C54jk9VdWU+Cj+7kV
+Zh0kP/B/p+H0NYKGIAS9xgBwbsnQ5yk0kqaBCp1gAVP5q++zDkWd0U364TEVkQ1G
+I5ydg3uK6j0pstAbXR1d26QDFvgTe3u+6OZ9uouq0u9r9kydFLJoz+7r2x3e1qvo
+X06HV4zKIT3T5PuL1amZLUrhUzYBgspFP0Hlmyyg42o154GT03geibh3XcAm5scb
+oWuyKbwjEfCEyaUFTSCvtLILgizaQUU=
+-----END CERTIFICATE REQUEST-----
+```
+
+
+```
+openssl asn1parse -i -in cert.csr
+```
+
 
 
 ## Prerequsites
@@ -62,7 +109,7 @@ openssl req -newkey rsa:2048 -nodes -keyout cert.key \
 ```
 openssl x509 -req -days 365 \
 -CA ca.crt -CAkey ca.key -CAcreateserial \
--extfile <(printf "subjectAltName=DNS:acme.com,DNS:www..acme.com") \
+-extfile <(printf "subjectAltName=DNS:acme.com,DNS:www.acme.com") \
 -in cert.csr -out cert.crt
 ```
 
@@ -140,52 +187,3 @@ server {
 certbot certonly --webroot -w /var/www/certbot -d www.example.com -d example.com -w 
 ```
 
-## 공개키 암호화 방식 (Public-Key cryptography)
-
-암호화와 복호화에 같은 키를 사용하는 비밀키 암호화 기법과 간리 암호화와 복호화에 사용하는 키가 서로 다른 암호화 방식을 의미한다. 
-
-
-* 암호화된 통신을 원하는 두 단말 사이에 암호화를 대칭키를 전달하는 전달하는 용도로 사용된다.
-* 전달하고자 하는 문서(파일 또는 정보)를 작성자가 직접 작성하였음과 해당 문서가 변조 되지 않음을 증명하는 용도로 사용된다.
-
-
-암호화와 복호화에 사용되는 키다 서로 다르기 때문에 비대칭키 암호화라고도 한다. 
-
-암호화의 방법은 다음과 같다. 
-
-*A*와 *B*사이에 비밀 정보를 전달하고자 할 경우를 가정하자.
-
-1. *B*는 문서를 암호화/복호화를 위한 공개키와 개인키를 만든다. 공개키는 암호화에 사용되고 개인키를 복호화에 사용된다. 
-2. *A*는 *B*에게 정보를 전달하기 앞서 *B*가 생성한 공개키를 취득한다. 
-3. *A*는 평문인 정보를 *B*의 공개키로 암호화 한다. 
-4. *A*는 암호화 된 문서를 *B*에게 전달한다. 
-5. *B*는 자신의 개안키로 정보를 복호화한다.
-
-
-전자 서명 방식은 다음과 같다. 
-
-*A*가 자신이 만든 문서의 출처가 자신음을 증명 하고자 한다. 
-
-1. *A*는 문서의 서명을 위한 공개키와 개인키를 만든다. 개인키는 암호화에 사용되고 공개키는 복호화에 사용된다. 
-2. *A*는 서명하고자 하는 문서를 개인키로 암호화 한다.
-3. *A*는 서명된(암호화된)문서를 공개 하면서 자신의 만들었음을 공개 한다. 
-4. *A*가 서명한 문서를 취득한 *B*는 *A*가 공개한 공개키로 해당 문서를 복호화 할 수 있다. 
-5. *B*는 이를 통해 이 문서가 *A*가 생성 하였으며 변조 되지 않았음을 알 수 있다.
-
-
-자 이제 공개키와 개인키로 암호화 하고 복호화 하는 방법을 알았다. 
-그런데 공개키가 변조 되었다면? *C*가 자신의 공개키를 *A*의 공개키라고 속이고 배포 하였거나 *B*가 가지고 있던 *A*의 공개키를 자신의 공개키로 변경 하였을 경우 *B*는 *C*가 보낸 잘못 된 정보를 *A*가 보낸 정보라고 여기게 되는 문제가 발생할 수 있다. 
-
-이제 *B*는 *A*가 배포한 공개키가 정말 *A*가 배포 하였는지에 대하여 검증 할 필요가 생겼다. 
-
-이를 효육적으로 관리 하게 위해 만들어 진 것이 PKI(Public Key Infrastructure) 한글로 바꾸면 *공개키 기반구조*이다. 
-
-
-> 공개 키 기반구조(public key infrastructure, PKI)는 디지털 인증의 생성, 관리, 배포, 사용, 저장, 파기와 공개 키 암호화의 관리에 쓰이는 일련의 역할, 정책, 하드웨어, 소프트웨어, 절차의 총칭으로 전자 상거래, 인터넷 뱅킹, 민감한 정보를 담은 이메일을 포함한 다양한 네트워크 활동에 있어 정보의 안전한 전송이 목적이다. 통신 주체를 식별하거나 오가는 정보를 검증함에 있어 단순한 암호를 넘어선 엄격한 확증이 필요한 경우에 중요한 역할을 한다. 암호학적으로는 공개된 키를 개인이나 집단을 대표하는 적절한 주체와 엮는 것이며 이는 인증 기관(Certificate authority, 이하 CA)에의 등록과 해당 기관에 의한 인증의 발행을 통해 성립된다. 이 엮음은 보증의 정도에 따라 완전 자동으로 성립되기도, 사람 손을 거쳐야만 성립되기도 한다. *[Wikipedia](https://ko.wikipedia.org/wiki/%EA%B3%B5%EA%B0%9C_%ED%82%A4_%EA%B8%B0%EB%B0%98_%EA%B5%AC%EC%A1%B0) 에서 발최*
-
-* Public Key Infrastructure
-
-
-위의 방식으로 문서의 암호화 / 복호화 및 변조 여부를 확인할 수 있다. 그러나 공개된 공개키가 *A*가 생성한 공개키가 아니라면 
-
-인증기관이 필요한다. 
