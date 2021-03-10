@@ -20,67 +20,17 @@ Tag의 사용빈도에 따라 Tag의 크기를 조절한다.
 
 <!--more-->
 
-tag_cloud.html
-```go-html-template 
+{{< gist euikook 1ba98f13df7741e12771b3ed51f73788 "tag_cloud.html" >}}
 
-{{ if .Site.Params.widgets.tag_cloud }}
-{{ if isset .Site.Taxonomies "tags" }}
-
-<div class="widget-wrap">
-    <h3 class="widget-title">
-        {{ with .Site.Data.l10n.widgets.tags.title }}{{.}}{{end}}
-    </h3>
-
-    {{ if not (eq (len $.Site.Taxonomies.tags) 0) }}
-        {{ $fontUnit := "rem" }}
-        {{ $largestFontSize := 2.0 }}
-        {{ $largestFontSize := 2.5 }}
-        {{ $smallestFontSize := 1.0 }}
-        {{ $fontSpread := sub $largestFontSize $smallestFontSize }}
-        {{ $max := add (len (index $.Site.Taxonomies.tags.ByCount 0).Pages) 1 }}
-        {{ $min := len (index $.Site.Taxonomies.tags.ByCount.Reverse 0).Pages }}
-        {{ $spread := sub $max $min }}
-        {{ $fontStep := div $fontSpread $spread }}
-
-        <ul class="term-cloud" style="padding: 5px 15px">
-            {{ range $name, $taxonomy := $.Site.Taxonomies.tags }}
-                {{ $currentTagCount := len $taxonomy.Pages }}
-                {{ $currentFontSize := (add $smallestFontSize (mul (sub $currentTagCount $min) $fontStep) ) }}
-                {{ $count := len $taxonomy.Pages }}
-                {{ $weigth := div (sub (math.Log $count) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
-                {{ $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth) ) }}
-                <!--Current font size: {{$currentFontSize}}-->
-                <li class="term-items">
-                    <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}" style="font-size:{{$currentFontSize}}{{$fontUnit}}">{{ $name }}</a>
-                </li>
-            {{ end }}
-        </ul>
-    {{ end }}
-</div>
-{{ end }}
-{{ end }}
-```
 
 `unordered list`(`<ul>`)를 이용하였기 때문에 Tag가 한 라인에 하나씩 표시된다. 
 
 아래와 같이 스타일링 하여 여려 목록이 한 라인에 표시 되도록 한다.
 
 style.css
-```css
-.term-cloud li a:hover {
-  color: hotpink;
-}
 
-ul {
-  list-style-type: none;
-}
+{{< gist euikook 1ba98f13df7741e12771b3ed51f73788 "style.css" >}}
 
-.term-cloud li {
-  text-decoration: none;
-  display: inline-block;
-  padding: 0px 4px;
-}
-```
 
 그냥 두면 조금 알파벳 순으로 정렬되어 조금 심심해 보인다. Tag의 순서를 무작위로 썩자.
 
@@ -99,33 +49,9 @@ Javascript를 이용하여 Tag를 썩자 이러면 페이지를 새로 고칠때
 
 
 custom.js
-```javascript
-const shuffle = array => {
-    let shuffled = [...array],
-        currIndex = array.length,
-        tempValue,
-        randIndex
-    
-    while (currIndex) {
-        randIndex = Math.floor(Math.random() * currIndex)
-        currIndex--
-    
-        tempValue = shuffled[currIndex]
-        shuffled[currIndex] = shuffled[randIndex]
-        shuffled[randIndex] = tempValue
-    }
-    return shuffled
-}
-    
-let termClouds = document.querySelectorAll('.term-cloud')
 
-for (let termCloud of termClouds) {
-    if (termCloud) {
-        let terms = termCloud.querySelectorAll('.term-cloud li')
-        shuffle(terms).forEach(term => term.parentElement.appendChild(term))
-    }
-}
-```
+{{< gist euikook 1ba98f13df7741e12771b3ed51f73788 "custom.js" >}}
+
 
 다음에는 jQuery 기반 Word Cloud 라이브러리인 [jQCloud](http://mistic100.github.io/jQCloud/demo.html)를 이용하는 방법에 대해 설명한다. 
 

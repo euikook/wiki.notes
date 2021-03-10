@@ -72,18 +72,9 @@ cp -ap ~/.config/Insync ~/.config/Insync-headless
 ### Insync headless
 
 Create a file `/home/$USER/.config/systemd/user/insync-headless.service`
-```
-[Unit]
-Description=insync on start up
-After=network.target
 
-[Service]
-Type=forking
-ExecStart=/usr/bin/insync-headless start
+{{< gist euikook 88cf752d71e9837d584b0c189a0e3f6b >}}
 
-[Install]
-WantedBy=default.target
-```
 
 ### Enable unit file
 
