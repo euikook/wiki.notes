@@ -9,6 +9,7 @@ lastmod : 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/C9dTdBM3joM
 aliases:
     - /more-than-4-nics-in-virtualbox
+    - /more-than-4-nics-in-virtualbox.md
     - /gollum/more-than-4-nics-in-virtualbox
     - /gollum/more-than-4-nics-in-virtualbox.md
 ---
