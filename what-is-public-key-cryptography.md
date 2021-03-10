@@ -1,9 +1,9 @@
 ---
 title: 공개키 암하화 방식이란? (Waht is Public-Key cryptography)
-tags: [ssl, tls, CA, Root CA, public key, private key, cryptography, 공개키, 공개키]
+tags: [ssl, tls, CA, Root CA, RSA, public key, private key, cryptography, 공개키, 공개키]
 draft: false
 date: 2020-03-10 11:00:41 +0900
-banner: https://source.unsplash.com/jKU2NneZAbI
+banner: /images/cryptography.jpg
 aliases:
     - /gollum/what-is-public-key-cryptography
     - /gollum/what-is-public-key-cryptography.md
