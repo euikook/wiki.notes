@@ -18,7 +18,6 @@ aliases:
 
 > Insync: 리눅스를 위한 Google Drive 동기화 어플리케이션
 
-
 ## Insync 종료
 
 PC를 *Apple*에서 *Banana*로 옯기는 경우 *Apple* PC와 *Bnana* PC에서 *Insync*를 종료 한다. 
@@ -41,11 +40,8 @@ insync-headless quite
 리눅스의 경우 rsync로  동기화 할 수 있다. 이동 하고자 하는 *Banana*에 접속 하여 아래 명령을 수행한다. 
 
 
-```
-/usr/bin/rsync  -apvz  -e " ssh  " \
---numeric-ids \
-"Apple:~/Insync" "~/Insync" 
-```
+{{< gist euikook 83e66588e3cf39a3316ddb46514c3fd9 "rsync.data.sh" >}}
+
 >  실제 명령 입력 시 `Apple`은 자신의 기존 컴퓨터의 호스트네임으로 변경한다.
 
 > *Apple*과 *Banana*의 동기화 디렉터리는 경로가 같아야 한다. 
@@ -109,12 +105,7 @@ Insync의 설정 데이터와 인증 정보와 같은 설정 동기화 정보의
 
 리눅스의 경우 rsync로  동기화 할 수 있다. 이동 하고자 하는 *Banana*에 접속 하여 아래 명령을 수행한다. 
 
-
-```
-/usr/bin/rsync  -apvz  -e " ssh  " \
---numeric-ids \
-"Apple:~/.config/Insync" "~/.config/Insync" 
-```
+{{< gist euikook 83e66588e3cf39a3316ddb46514c3fd9 "rsync.config.sh" >}}
 
 > Headless 버전의 경우 `~/.config/Insync`를 `~/.config/Insync-headless`로 변경한다. 
 
@@ -156,6 +147,8 @@ tar xvf ~/mnt/backup/Insync.config.tar -C ~/
 insync start
 ```
 
+headless 버전의 경우 아래 명령을 실행한다. 
+
 ```
 insync-headless start
 ```
@@ -165,6 +158,8 @@ insync-headless start
 ```
 insync show
 ```
+
+headless 버전의 경우 아래 명령을 실행한다. 
 
 ```
 insync-headless status

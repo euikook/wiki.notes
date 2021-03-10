@@ -17,47 +17,27 @@ aliases:
 
 <!--more-->
 
-`<head>` 내에 위치하도록 아래 코드를 추가한다.
+jQCloud의 js 파일을 `<head>` 내에 위치하도록 아래 코드를 추가한다.
 
 head.html
-```html
-<script src="https://golangkorea.github.io/js/jqcloud/jqcloud.min.js"></script>
-```
+{{< gist euikook 712b370025f1af40efa125a6384e79f2 "head.js.html" >}}
 
 
 
-`<head>` 내에 위치하도록 아래 코드를 추가한다.
+jQCloud의  stylesheet 파일을 `<head>` 내에 위치하도록 아래 코드를 추가한다.
 
 head.html
-```html
-<link rel="stylesheet" href="https://golangkorea.github.io/js/jqcloud/jqcloud.min.css">
-```
+{{< gist euikook 712b370025f1af40efa125a6384e79f2 "head.css.html" >}}
 
 
 Tag Cloud가 위치할 자리에 다음 코드를 추가한다.
 
-```html
-<div style="width:90%; min-height:300px" id="tags-cloud"></div>
-```
+{{< gist euikook 712b370025f1af40efa125a6384e79f2 "tag.html" >}}
+
 
 > `width` 와 `height`는 페이지 크기에 맞게 조절한다.
 
 위 코드가 추가된 파일 마지막에 다음 코드를 추가한다.
 
-```go-html-template
-<script type="text/javascript">
 
-    $(document).ready(function() {
-
-        var words = [
-            {{ range $name, $taxonomy := $.Site.Taxonomies.tags }}
-                { text: {{ $name }}, weight: {{ len $taxonomy.Pages }}, link: {{ (print ("/tags/" | relLangURL) ($name | urlize)) }} },
-            {{ end }}
-        ]
-
-        $('#tags-cloud').jQCloud(words,  { autoResize: true });
-    });
-</script>
-```
-
-{{< gist euikook 712b370025f1af40efa125a6384e79f2 tag-gloud.html>}}
+{{< gist euikook 712b370025f1af40efa125a6384e79f2 "tag-cloud.html" >}}

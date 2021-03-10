@@ -80,16 +80,7 @@ sudo -u autossh cp ~/.ssh/autossh.pub ~/.ssh/authorized_keys
 ```
 
 ### Append Follwing Configuration to /etc/ssh/sshd_config
-```
-Match User autossh
-   #AllowTcpForwarding yes
-   #X11Forwarding no
-   #PermitTunnel no
-   #GatewayPorts no
-   AllowAgentForwarding no
-   PermitOpen localhost:2222
-   ForceCommand echo 'This account can only be used for [reason]'
-```
+{{< gist euikook c1379f45f645fec1457f521851eea099 "sshd_config" >}}
 
 if did you want *Local Port Forwarding* please set *GatewayPorts* to *yes*.
 
@@ -128,40 +119,15 @@ Replace 1.2.3.4 to real IP or hostname
 
 *only allowed if **GatewayPort=yes** (default: no) in server configuration.*
 
-```
-Host 1.2.3.4 autossh
-    Hostname 1.2.3.4
-    User autossh
-    SendEnv LANG LC_*
-    IdentityFile ~/.ssh/autossh
-    ConnectTimeout 0
-    HashKnownHosts yes
-    GSSAPIAuthentication yes
-    GSSAPIDelegateCredentials no
-    LocalForward 2222 localhost:22
-    ServerAliveInterval 30
-    ServerAliveCountMax 3
-```
+{{< gist euikook c1379f45f645fec1457f521851eea099 "local.fwd.ssh.config" >}}
+
 ```
 LocalForward 2222 localhost:22
 ```
 
 #### for Remote Forwarding
 
-```
-Host 1.2.3.4 autossh
-    Hostname 1.2.3.4
-    User autossh
-    SendEnv LANG LC_*
-    IdentityFile ~/.ssh/autossh
-    ConnectTimeout 0
-    HashKnownHosts yes
-    GSSAPIAuthentication yes
-    GSSAPIDelegateCredentials no
-    RemoteForward 2222 localhost:22
-    ServerAliveInterval 30
-    ServerAliveCountMax 3
-```
+{{< gist euikook c1379f45f645fec1457f521851eea099 "remote.fwd.ssh.config" >}}
 
 ```
 RemoteForward** 2222 localhost:22
