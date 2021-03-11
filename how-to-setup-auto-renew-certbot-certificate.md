@@ -1,5 +1,6 @@
 ---
-title: How to setup auto renew certbot certificate
+title: Certbot을 이용하여 Let's Encrypt 인증서 자동 갱신하기
+titlen: How to setup auto renew certbot certificate
 tags: [ssl, tls, Let's Encrypt, lencr, certbot, webroot, nginx, apache]
 draft: false
 date: 2021-03-08 10:00:41 +0900

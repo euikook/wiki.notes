@@ -1,9 +1,10 @@
 ---
-title: RPi(Raspberry Pi) Username 변경하기
+title: 라즈베리파이(RPi, Raspberry Pi) 기본계정 pi 변경하기
+titlen: How to change default account username for RPi
 link: /how-to-change-default-account-username-for-rpi
 description: 
 status: publish
-tags: [Linux, RPi, Raspberry Pi, HowTo, Username, Password, Raspian]
+tags: [Linux, RPi, Raspberry Pi, HowTo, Username, Password, Raspian, 계정, 라즈베리파이]
 date: 2018-03-14
 lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/random/800x400
@@ -14,8 +15,6 @@ aliases:
     - /gollum/how-to-change-default-account-username-for-rpi.md
 ---
 
-#### RPi(Raspberry Pi) Username 변경하기
-
 ## How to change default account username for RPi(Raspberry Pi)
 
 Raspberry Pi 공식 이미지의 username 과 password는 다음과 같다. 
@@ -24,6 +23,8 @@ Raspberry Pi 공식 이미지의 username 과 password는 다음과 같다.
 > password : _raspberry_
 
 쓸때마다 느끼는 거지만 pi 와 raspberry는 정말 손에 익지 않는다. 키보드로 칠때마다 오타가 나서 한번에 로그인 할때가 거의 없다. pi 계정을 계속 쓰면 보안 문제도 생길 수 있으니 자신만의 손에 익은 username과 password로 변경 해 보자. 
+
+> 다른 리눅스 시스템에도 적용할 수 있다. 
 
 먼저 root 계정으로 로그인 해야 한다. 먼저 root 로 로그인 하기 위하여 root 계정의 Password를 설정한다. 
     

@@ -1,5 +1,6 @@
 ---
-title: How to use Hugo for starter
+title: Hugo 시작하기
+titlen: How to use Hugo for starter
 link: /how-to-use-hugo-for-starter
 description: 
 status: publish

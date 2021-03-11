@@ -1,5 +1,6 @@
 ---
-title: Hugo Tag Cloud with jQCloud
+title: jQCloud를 이용하여 Hugo 사이트에 Tag Cloud 추가하기
+titlen: Hugo Tag Cloud with jQCloud
 status: publish
 tags: [Hugo, Tags, jQCloud, Tag Cloud, Blog]
 date: 2021-02-17 14:35:59 +0900

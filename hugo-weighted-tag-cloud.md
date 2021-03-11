@@ -1,5 +1,7 @@
 ---
-title: Weighted Tag Cloud to Hugo
+title: Hugo 사이트에 Weighted Tag Cloud 추가하기
+titlen: Weighted Tag Cloud to Hugo
+linktitle: hugo-weighted-tag-cloud
 status: publish
 tags: [Hugo, Tags, Tag Cloud, Blog]
 date: 2021-02-17 10:22:59 +0900

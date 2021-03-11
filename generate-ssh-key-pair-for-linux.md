@@ -1,5 +1,6 @@
 ---
-title: Generate SSH keypair for Linux
+title: Linux환경에서 SSH Key Pair 생성하기(Generate SSH keypair for Linux)
+linktitle: Generate SSH keypair for Linux
 description: 
 status: publish
 tags: [Linux, OpenSSH, ssh, keypair]

@@ -1,5 +1,6 @@
 ---
 title: git fetch all branches and push it to another remote
+titlen: git fetch all branches and push it to another remote
 link: /git-fetch-all-branches-and-push-it-to-another-remote
 description: 
 status: publish
@@ -11,8 +12,6 @@ aliases:
     - /gollum/git-fetch-all-branches-and-push-it-to-another-remote
     - /gollum/git-fetch-all-branches-and-push-it-to-another-remote.md
 ---
-
-#### git fetch all branches and push it to another remote
 
 ## git fetch all branches and tags from origin, then push it to new remote
     
