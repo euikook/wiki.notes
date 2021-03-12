@@ -8,7 +8,7 @@ date: 2019-02-12 22:53:35 +0900
 banner: https://source.unsplash.com/9SewS6lowEU
 ---
 
-대표적인 썩기 함수인 Fisher-Yates 알고리즘에 대해서 알아보자. 
+대표적인 Shuffle(썩기) 알고리즘인 Fisher-Yates 알고리즘에 대해서 알아보자. 
 
 Python의 `random` 모듈에 구현되어 있기 때문에 굳이 별도의 함수로 구현할 필요없아 가져다 쓰기만 하면된다. 
 
