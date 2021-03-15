@@ -124,6 +124,8 @@ fruits = set({'Apple', 'Banana', 'Coconut', 'Durian'})
 
 ### 교집합(`&`)
 
+[![교집합 - Wikipedia](https://upload.wikimedia.org/wikipedia/commons/c/cb/SetIntersection.svg)](https://ko.wikipedia.org/wiki/%EA%B5%90%EC%A7%91%ED%95%A9)
+
 ```python
 stock = {'Apple', 'Banana', 'Coconut', 'Durian'}
 wants = {'Banana', 'Coconut', 'Figs'}
@@ -139,6 +141,8 @@ to_buying = stock & wants
 
 ### 합집합(`|`)
 
+[![합집합 - Wikipedia](https://upload.wikimedia.org/wikipedia/commons/3/32/SetUnion.svg)](https://ko.wikipedia.org/wiki/%ED%95%A9%EC%A7%91%ED%95%A9)
+
 ```python
 stock = {'Apple', 'Banana', 'Coconut', 'Durian'}
 wants = {'Banana', 'Coconut', 'Figs'}
@@ -153,6 +157,11 @@ all_fruits = stock | wants
 ```
 
 ### 차집합(`-`, `difference`)
+
+
+[![차집합 - Wikipedia](https://upload.wikimedia.org/wikipedia/commons/6/6c/SetDifferenceB.svg)](https://ko.wikipedia.org/wiki/%EC%97%AC%EC%A7%91%ED%95%A9#%EC%B0%A8%EC%A7%91%ED%95%A9)
+
+
 ```python
 stock = {'Apple', 'Banana', 'Coconut', 'Durian'}
 wants = {'Banana', 'Coconut', 'Figs'}
@@ -168,6 +177,8 @@ remain_fruits = stock - wants
 
 
 ### 대칭차(`^`, `symmetric_difference`)
+
+[![대칭차 - Wikipedia](https://upload.wikimedia.org/wikipedia/commons/f/f2/SetSymmetricDifference.svg)](https://ko.wikipedia.org/wiki/%EB%8C%80%EC%B9%AD%EC%B0%A8)
 
 ```python
 stock = {'Apple', 'Banana', 'Coconut', 'Durian'}
