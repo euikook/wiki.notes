@@ -8,6 +8,9 @@ date: 2019-02-20
 lastmod: 2020-11-16 09:37:41 +0900
 banner: /images/gitlab-ci-cd-banner.png
 aliases:
+    - /19/02/20/run-gitlab-runner-in-a-container/
+    - /run-gitlab-runner-in-a-container
+    - /run-gitlab-runner-in-a-container.md
     - /gollum/run-gitlab-runner-in-a-container
     - /gollum/run-gitlab-runner-in-a-container.md
 ---

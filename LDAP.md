@@ -8,6 +8,7 @@ date: 2020-10-21
 lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/random/800x400
 aliases:
+    - /20/10/21/howto-install-ldap-server/
     - /gollum/LDAP
     - /gollum/LDAP.md
 ---

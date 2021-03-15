@@ -9,6 +9,7 @@ date: 2018-03-14
 lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/random/800x400
 aliases:
+    - /18/03/14/rpiraspberry-pi-username-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0/
     - /how-to-change-default-account-username-for-rpi
     - /how-to-change-default-account-username-for-rpi.md
     - /gollum/how-to-change-default-account-username-for-rpi

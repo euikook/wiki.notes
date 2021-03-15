@@ -9,6 +9,9 @@ date: 2018-02-27
 lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/B_j4LJbam5U
 aliases:
+    - /18/02/27/insync-linux%EC%97%90%EC%84%9C-google-drive-desktop-client-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/
+    - /alternative-google-drive-desktop-client-for-linux
+    - /alternative-google-drive-desktop-client-for-linux.md
     - /gollum/alternative-google-drive-desktop-client-for-linux
     - /gollum/alternative-google-drive-desktop-client-for-linux.md
 ---

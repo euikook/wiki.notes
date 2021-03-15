@@ -8,6 +8,8 @@ date: 2020-10-21 09:41:48 +0900
 lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/eic5Tq8YMk
 aliases:
+    - /python3-as-default-python-interpreter-on-ubuntu
+    - /python3-as-default-python-interpreter-on-ubuntu.md
     - /gollum/python3-as-default-python-interpreter-on-ubuntu
     - /gollum/python3-as-default-python-interpreter-on-ubuntu.md
 ---

@@ -8,6 +8,9 @@ date: 2020-11-17
 lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/G_EL_XLKBcc
 aliases:
+    - /20/11/17/disable-ralt-as-iso_level3_shift
+    - /disable-ralt-as-iso-level3-shift
+    - /disable-ralt-as-iso-level3-shift.md
     - /gollum/disable-ralt-as-iso-level3-shift
     - /gollum/disable-ralt-as-iso-level3-shift.md
 ---

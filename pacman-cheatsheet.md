@@ -8,6 +8,9 @@ date: 2020-11-17
 lastmod: 2020-11-17 17:15:19 +0900
 banner: https://source.unsplash.com/L8fVzpAMHkU
 aliases:
+    - /20/11/17/pacman-cheatsheet
+    - /pacman-cheatsheet
+    - /pacman-cheatsheet.md
     - /gollum/pacman-cheatsheet
     - /gollum/pacman-cheatsheet.md
 ---

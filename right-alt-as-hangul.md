@@ -1,17 +1,24 @@
 ---
-title: Alt_R as Hangul on Ubuntu 18.04
+title: Alt_R as Hangul on Ubuntu
 link: /right-alt-as-hangul
 description: 
 status: publish
 categories: ["HowTo", 'Linux']
-tags: [Linux, ALt_R, RALT, Hangul, 한／영]
+tags: [Linux, ALt_R, RALT, Hangul, 한／영, Ubuntu, 20.04, 18.04]
 banner: https://source.unsplash.com/PT_9ux0j-x4
 date: 2020-10-21 08:35:41 +0900
 lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/G_EL_XLKBcc
 aliases:
+    - /posts/right-alt-as-hangul-ubuntu-18.04
+    - /posts/right-alt-as-hangul-ubuntu-20.04
+    - /20/10/21/alt_r-as-hangul-on-ubuntu-18.04/
+    - /20/10/21/alt_r-as-hangul-on-ubuntu-20.04/
+    - /right-alt-as-hangul
+    - /right-alt-as-hangul.md
     - /gollum/right-alt-as-hangul
     - /gollum/right-alt-as-hangul.md
+
 ---
 
 

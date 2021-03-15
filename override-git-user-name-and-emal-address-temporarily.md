@@ -8,6 +8,9 @@ date: 2020-11-16
 lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/842ofHC6MaI
 aliases:
+    - /20/11/16/override-git-user-name-and-email-address-temporarily/
+    - /override-git-user-name-and-emal-address-temporarily
+    - /override-git-user-name-and-emal-address-temporarily.md
     - /gollum/override-git-user-name-and-emal-address-temporarily
     - /gollum/override-git-user-name-and-emal-address-temporarily.md
 ---

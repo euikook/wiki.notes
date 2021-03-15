@@ -9,6 +9,9 @@ date: 2021-02-10
 lastmod: 2021-02-10 14:44:10 +0900
 banner: /images/hugo-banner.png
 aliases:
+    - /21/02/10/how-to-use-hugo-for-starter
+    - /how-to-use-hugo-for-starter
+    - /how-to-use-hugo-for-starter.md
     - /gollum/how-to-use-hugo-for-starter
     - /gollum/how-to-use-hugo-for-starter.md
 ---

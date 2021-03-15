@@ -9,6 +9,9 @@ date: 2018-03-07
 lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/PDxYfXVlK2M
 aliases:
+    - /18/03/07/%EC%99%9C-%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC-hard-link%EB%A5%BC-%EB%A7%8C%EB%93%A4-%EC%88%98-%EC%97%86%EB%82%98%EC%9A%94/
+    - /why-hard-link-not-allowed-for-directory
+    - /why-hard-link-not-allowed-for-directory.md
     - /gollum/why-hard-link-not-allowed-for-directory
     - /gollum/why-hard-link-not-allowed-for-directory.md
 ---

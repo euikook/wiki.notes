@@ -1,6 +1,6 @@
 ---
 title: Linux환경에서 SSH Key Pair 생성하기(Generate SSH keypair for Linux)
-linktitle: Generate SSH keypair for Linux
+titlen: Generate SSH keypair for Linux
 description: 
 status: publish
 tags: [Linux, OpenSSH, ssh, keypair]
@@ -8,6 +8,7 @@ date: 2021-02-16
 lastmod: 2021-02-16 17:34:41 +0900
 banner: https://source.unsplash.com/8admGA18lBs
 aliases:
+    - /21/02/16/generate-ssh-keypair-for-windows-using-puttygen/
     - /posts/generate-ssh-key-pare-for-linux
     - /gollum/generate-ssh-key-pare-for-linux
     - /gollum/generate-ssh-key-pare-for-linux.md
