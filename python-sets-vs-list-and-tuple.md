@@ -6,7 +6,7 @@ status: publish
 tags: [Python, Set, List, Tuple]
 date: 2019-10-21 22:34:34 +0900
 lastmod: 2020-03-15 23:50:42 +0900
-banner: https://source.unsplash.com/eic5Tq8YMk
+banner: /images/python-idea.jpg
 aliases:
     - /gollum/python-sets-vs-list-and-tuple
     - /gollum/python-sets-vs-list-and-tuple.md
@@ -118,4 +118,86 @@ fruits = set(['Apple', 'Banana', 'Coconut', 'Durian'])
 
 ```
 fruits = set({'Apple', 'Banana', 'Coconut', 'Durian'})
+```
+
+## 수학적 연산
+
+### 교집합(`&`)
+
+```python
+stock = {'Apple', 'Banana', 'Coconut', 'Durian'}
+wants = {'Banana', 'Coconut', 'Figs'}
+
+to_buying = stock & wants
+```
+
+`to_buying`변수는 다음과 같은 값을 가진다. 
+
+```
+{'Coconut', 'Banana'}
+```
+
+### 합집합(`|`)
+
+```python
+stock = {'Apple', 'Banana', 'Coconut', 'Durian'}
+wants = {'Banana', 'Coconut', 'Figs'}
+
+all_fruits = stock | wants
+```
+
+`all_fruits`변수는 다음과 같은 값을 가진다. 
+
+```
+{'Figs', 'Coconut', 'Durian', 'Apple', 'Banana'}
+```
+
+### 차집합(`-`, `difference`)
+```python
+stock = {'Apple', 'Banana', 'Coconut', 'Durian'}
+wants = {'Banana', 'Coconut', 'Figs'}
+
+remain_fruits = stock - wants
+```
+
+`remain_fruits`변수는 다음과 같은 값을 가진다. 
+
+```
+{'Apple', 'Durian'}
+```
+
+
+### 대칭차(`^`, `symmetric_difference`)
+
+```python
+stock = {'Apple', 'Banana', 'Coconut', 'Durian'}
+wants = {'Banana', 'Coconut', 'Figs'}
+
+differences = stock ^ wants
+```
+
+`differences`변수는 다음과 같은 값을 가진다. 
+
+```
+{'Figs', 'Durian', 'Apple'}
+```
+
+### Examples
+
+```python
+stock = {'Apple', 'Banana', 'Coconut', 'Durian'}
+wants = {'Banana', 'Coconut', 'Figs'}
+
+print(f"intersection: {stock & wants}") # 교집합
+print(f"union: {stock | wants}") # 합집합
+print(f"difference: {stock - wants}") # 차집합
+print(f"symmetric difference: {stock ^ wants}") # 대칭차
+```
+
+
+```
+intersection: {'Banana', 'Coconut'}
+union: {'Banana', 'Apple', 'Durian', 'Coconut', 'Figs'}
+difference: {'Apple', 'Durian'}
+symmetric difference: {'Apple', 'Durian', 'Figs'}
 ```
