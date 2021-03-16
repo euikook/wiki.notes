@@ -14,9 +14,9 @@ GPG(GNU Privacy Cuard)는 GNU에서 제공하는 OpenPGP(RFC4880)의 오픈소�
 
 기본적으로 RSA와 같은 공개키 암호화 방식을 사용하여 종단간 파일이나 메시지를 암호화 하거나 서명 하는 기능을 제공하는 것이다. 
 
-GnuPG에 대한 자세한 내용은 [나무위키/GnuPG](https://namu.wiki/w/GnuPG) 또는 [위키페디아/GNU 프라이버시 가드](https://ko.wikipedia.org/wiki/GNU_%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C_%EA%B0%80%EB%93%9C)를 참고 한다. 
+GnuPG에 대한 자세한 내용은 [나무위키/GnuPG](https://namu.wiki/w/GnuPG) 또는 [위키피디아/GNU 프라이버시 가드](https://ko.wikipedia.org/wiki/GNU_%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C_%EA%B0%80%EB%93%9C)를 참고 한다. 
 
-PGP에 대한 내용은 [나무위키/PGP](https://namu.wiki/w/PGP) 또는 [위키페디아/PGP](https://ko.wikipedia.org/wiki/PGP_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4))를 참고 한다. 
+PGP에 대한 내용은 [나무위키/PGP](https://namu.wiki/w/PGP) 또는 [위키피디아/PGP](https://ko.wikipedia.org/wiki/PGP_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4))를 참고 한다. 
 
 이 문서에서는 GPG의 사용법에 대하여 설명 하도록 한다. 
 
