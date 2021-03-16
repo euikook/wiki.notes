@@ -1,13 +1,15 @@
 ---
-title: GPG 사용하기
+title: GPG(GnuPG) 사용하기
 draft: false
 tags: [GPG, Signing, PGP, OpenPGP, GnuPG, RSA, Cryptography, 공개키, 개인키]
 banner: /images/many-locks.jpg
 date: 2021-03-15 23:48:28 +0900
+lastmod: 2021-03-16 04:50:04 +0900
 ---
 
+OpenPGP의 GNU 구현인 GPG(GnuPG)와 그 사용법에 대하여 알아보자.
 
-# GPG란 ?
+## GPG란?
 GPG(GNU Privacy Cuard)는 GNU에서 제공하는 OpenPGP(RFC4880)의 오픈소스 구현이다. 
 
 개인간, 머신간, 개인 - 머신간에 메시지나 파일을 암호화 하거나 파일이나 메시지에 서명을 추가 하여 변조 유무를 식별할 수 있게 해주는 도구이다. 
@@ -178,6 +180,51 @@ gpg --edit-key AA1AC070A86C0523A867C0261D3E87647AD3517E
 > 암호를 입력 하지 않으면 입호 입력을 권하는 경고 메시지가 뜬다. 암호 없이 키를 생성 하려면 `Yes, protection is not nedded`를 선택한다. 
 
 
+## GPG 폐기 인증서(Revocation Certificate) 생성
+
+Key Pair를 생성한 후 폐기 인증서를 만들어야 한다. 명시적으로 키를 폐기 하고자 할때 만들어도 되지만 개인 키가 손상되었거나 분실하였을 경우 폐기 인증서를 만들 수 없기 때문에 미리 만들어서 안전한 곳에 보관한다. 
+
+
+> 폐기 인증서는 언제 만든어야 할까? 키 생성 후 바로 생성 하는 것이 좋은 방법이다. 폐기 인증서를 만든다고 키가 바로 폐기 되는것이 아니기 때문이다. 이렇게 만들어 놓은 폐기 인증서는 암호를 잊어 버리거나, 키를 분실한 경우 키를 안전하게 폐기 할 수 있는 방법을 제공한다. 
+
+
+```
+gpg --output john.revoke.asc --gen-revoke john@acme.com
+```
+
+
+아래는 폐기 인증서를 만든 전체 과정이다. 
+
+```
+gpg --output euikook.revoke.asc --gen-revoke john@acme.com
+
+sec  rsa4096/B821C2E8600096BE 2021-03-16 John Doe (ACME Inc.) <john@acme.com>
+
+Create a revocation certificate for this key? (y/N) y
+Please select the reason for the revocation:
+  0 = No reason specified
+  1 = Key has been compromised
+  2 = Key is superseded
+  3 = Key is no longer used
+  Q = Cancel
+(Probably you want to select 1 here)
+Your decision? 0
+Enter an optional description; end it with an empty line:
+> 
+Reason for revocation: No reason specified
+(No description given)
+Is this okay? (y/N) y
+ASCII armored output forced.
+Revocation certificate created.
+
+Please move it to a medium which you can hide away; if Mallory gets
+access to this certificate he can use it to make your key unusable.
+It is smart to print this certificate and store it away, just in case
+your media become unreadable.  But have some caution:  The print system of
+your machine might store the data and make it available to others!
+```
+
+폐기 인증서만 있다면 누구든지 공개키를 폐기할 수 있으므로 안전한 곳에 보관 하여야 한다. 
 
 ### 공개 키 내보내기
 
@@ -185,7 +232,7 @@ gpg --edit-key AA1AC070A86C0523A867C0261D3E87647AD3517E
 기본적으로 키를 바이너리 형식으로 내보내지만 이를 공유 할 때 불편할 수 있다. `--armor` 옵션을 사용하여 키를 ASCII형식으로 출력한다. 
 
 ```
-pg --export --armor --output john.pub john@acme.com
+gpg --export --armor --output john.pub john@acme.com
 ```
 
 다른 사람들이 공개 키를 검증 하는 것을 허용 하려면 공개 키의 지문(fingerprint)도 같이 공유 한다. 
@@ -226,6 +273,52 @@ uid           [ unknown] John Doe (ACME Inc.) <john@acme.com>
 sub   rsa4096 2021-03-16 [E] [expires: 2023-03-16]
 ```
 
+### 개인 키(비밀 키) 내보내기/가저오기
+여러대의 PC를 사용는 경우 개인 키를 생성한 다음 개인 키를 내보내서 다른 PC로 공유 하여야 한다. 
+
+`--export-secret-key` 옵션을 이용하여 키를 내보내자. 
+
+`--export-options export-backup`을 사용하여 키를 복원하는데 필요한 다른 정보도 같이 내보내자. 
+
+```
+gpg --output john.secret.gpg --armor \
+--export-secret-key --export-options export-backup john@acme.com
+```
+
+다른 PC로 `john.secret.gpg` 파일을 복사 한후 `--import` 옵션으로 가저오자.
+
+```
+gpg --import john.secret.gpg
+```
+
+개인 키는 분실 하거나 공개 되면 치명적이므로 가저오기 이후 바로 삭제한다.
+
+```
+wipe -rfi john.secret.gpg
+```
+
+```
+wipe: destroy file `john.secret.gpg'? y
+```
+
+`wipe` 명령이 없으면 설치 한다.
+
+
+Debian 기반인 경우 
+```
+sudo apt-get install wipe 
+```
+
+Redhat 기반인 경우
+```
+sudo yum install wipe
+```
+
+ArchLinux 기반인 경우 
+```
+sudo pacman -S wipe
+```
+
 ### 암호화 하기
 
 암호화 할 파일을 생성한다. 
@@ -247,11 +340,11 @@ gpg --encrypt --output doc.txt.gpg --armor --recipient john@acme.com doc.txt
 gpg --encrypt --sign --output doc.txt.sign.gpg --armor --recipient john@acme.com doc.txt
 ```
 
-* `--encrypt` 옵션을 이용하여 암호화 한다. `-e` 옵션으로 축약 할 수 있다. 
-* `--sign` 옵션으로 signature를 생성한다. 자신의 개인 키로 서명을 한다. 복호화를 위해서는 서명에 사용한 개인 키에 대응되는 공개 키카 설치 되어야 한다. 
-* `--output` 옵션을 이용하여 암호화된 결과물이 저장될 파일의 이름을 지정한다.
-* `--armor` 옵션을 이용하여 ASCII 형식으로 내보낸다.
-* `--recipient` 옵션으로 암호화에 사용될 공개 키를 지정한다. 
+* `--encrypt` 옵션을 이용하여 암호화 한다. `-e`로 축약할 수 있다. 
+* `--sign` 옵션으로 signature를 생성한다. 자신의 개인 키로 서명을 한다. 복호화를 위해서는 서명에 사용한 개인 키에 대응되는 공개 키카 설치 되어야 한다. `-s`로 축약할 수 있다. 
+* `--output` 옵션을 이용하여 암호화된 결과물이 저장될 파일의 이름을 지정한다. `-o`로 축약 할 수 있다. 
+* `--armor` 옵션을 이용하여 ASCII 형식으로 내보낸다. `-a`로 축약할 수 있다. 
+* `--recipient` 옵션으로 암호화에 사용될 공개 키를 지정한다. `-r`로 축약할 수 있다. 
 * `doc.txt` 암호화 하고자 하는 파일을 지정한다.
 
 
@@ -346,9 +439,9 @@ gpg --decrypt --output doc.txt.dec doc.txt.gpg
 gpg --decrypt --output doc.txt.sign.dec doc.txt.sign.gpg
 ```
 
-* `--decrypt` 옵션을 이용하여 복호화 한다. 
-* `-output` 옵션을 이용하여 복호화된 결과물이 저장될 파일의 이름을 지정한다.
-* `doc.txt.gpg` 복호화할 암호화 된 파일을 지정한다. 
+* `--decrypt` 옵션을 이용하여 복호화 한다.  `-d`로 축약할 수 있다. 
+* `-output` 옵션을 이용하여 복호화된 결과물이 저장될 파일의 이름을 지정한다. `-o`로 축약할 수 있다.
+* `doc.txt.gpg` | `doc.txt.sign.gpg` 복호화할 암호화 된 파일을 지정한다. 
 
 > 서명이된 암호화 파일의 경우 서명한 사람의 공개 키가 설치 되어 있어야 정상적으로 복호화가 된다. 
 
@@ -412,4 +505,83 @@ Keys 1-1 of 1 for "euikook@gmail.com".  Enter number(s), N)ext, or Q)uit > 1
 gpg: key 6FE1162F829A61EE: public key "euikook <euikook@gmail.com>" imported
 gpg: Total number processed: 1
 gpg:               imported: 1
+```
+
+
+### 키 폐기(Revocation) 하기
+
+키 서버에서 키를 삭제 하기 위해서는 [폐기 인증서(Revocation Certificate)](#gpg-폐기-인증서revocation-certificate-생성)를 먼저 만들어야 한다. 
+
+
+키를 폐기 한다라도 키 폐기 전에 했던 서명들은 유효하다. 마찬가지로 폐기된 개인키를 가지고 있다면 폐기전 암호화 받았던 (폐기된 공개키로) 암화화 된 메시지도 복호화 할 수 있다. 
+
+
+
+`--import` 옵션으로 폐기 인증서를 가저 온다. 
+
+```
+gpg --import john.revoke.asc 
+```
+
+```
+gpg: key B821C2E8600096BE: "John Doe (ACME Inc.) <john@acme.com>" revocation certificate imported
+gpg: Total number processed: 1
+gpg:    new key revocations: 1
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   3  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 3u
+gpg: next trustdb check due at 2023-03-16
+```
+
+정산적으로 폐기 되었다. 
+
+
+`--list-keys` 와 `--list-secret-keys` 옵션으로 키가 정상적으로 폐기 되었는지 확인한다. 
+
+```
+gpg --list-keys
+```
+
+```
+pub   rsa4096 2021-03-16 [SC] [revoked: 2021-03-16]
+      EFD634321C5A23B17A74AB6DB821C2E8600096BE
+uid           [ revoked] John Doe (ACME Inc.) <john@acme.com>
+
+```
+
+**`pub   rsa4096 2021-03-16 [SC] [revoked: 2021-03-16]`** 
+
+```
+gpg --list-secret-keys
+```
+```
+sec   rsa4096 2021-03-16 [SC] [revoked: 2021-03-16]
+      EFD634321C5A23B17A74AB6DB821C2E8600096BE
+uid           [ revoked] John Doe (ACME Inc.) <john@acme.com>
+
+```
+
+**`uid           [ revoked] John Doe (ACME Inc.) <john@acme.com>`** 
+
+
+이제 공개키가 폐기 되었다는 것을 다른 사람에게 알릴 필요가 있다. 패기 인증서를 공개키를 공유한 사람에게 전송한다. 
+
+### 공개키 서버에 공개키 폐기 알리기 
+
+
+`--send-keys`  옵션으로 키가 폐기 되었다는 것을 알린다. 
+```
+gpg --send-keys --keyserver keys.openpgp.org EFD634321C5A23B17A74AB6DB821C2E8600096BE
+```
+
+키 폐기 후 키를 다시 [생성 하고]((#-Key-Pair-생성)) 공개키를 [키서버에 올리자](#키서버에-올리기).
+
+
+## 키서버에서 키 갱신 하기 
+
+서명된 파일을 받았는데 폐기된 키를 가지고 있어 검증 할 수 없는 경우 보낸 사람에서 새로운 공개 키를 공유 받거나 키 서버에서 키를 갱신 하여야 한다. 
+
+`--refresh-key` 옵션으로 키를 갱신한다. `--key-server` 옵션으로 키 서버를 지정할 수 있다.
+
+```
+gpg --refresh-keys --key-server keys.openpgp.org
 ```
