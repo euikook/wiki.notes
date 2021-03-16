@@ -282,7 +282,7 @@ phFmKzRpw7UG5lh3fesRE/z0ZboCxjSHEmbDMW7hnEo8fn0=
 -----END PGP MESSAGE-----
 ```
 
-암호화 후 서명된 파일인 `doc.txt.sign.gpg`의 내용은 아래와 같다. 서명이 포함되어 있더 좀더 길다.
+암호화 후 서명된 파일인 `doc.txt.sign.gpg`의 내용은 아래와 같다. 서명이 포함되어 있어(개인키로 한번 더 암호화 되었기 때문에) 더 길다.
 
 ```
 -----BEGIN PGP MESSAGE-----
