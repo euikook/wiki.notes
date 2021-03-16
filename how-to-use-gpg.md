@@ -571,7 +571,7 @@ uid           [ revoked] John Doe (ACME Inc.) <john@acme.com>
 gpg --send-keys --keyserver keys.openpgp.org EFD634321C5A23B17A74AB6DB821C2E8600096BE
 ```
 
-키 폐기 후 키를 다시 [생성 하고](#-Key-Pair-생성) 공개키를 [키서버에 올리자](#키서버에-올리기).
+폐기 후 키를 다시 [생성 하고](#Key-Pair-생성) 공개키를 [키서버에 올리자](#키서버에-올리기).
 
 
 ## 키서버에서 키 갱신 하기 
