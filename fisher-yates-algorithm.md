@@ -23,6 +23,8 @@ print(b)
 CPython에 구현된 [`shuffle()`](https://github.com/python/cpython/blob/master/Lib/random.py#L381) 함수가 현대적인 Fisher-Yates 알고리즘의 구현이다. 
 
 
+<!--more-->
+
 Python으로 ~~굳이~~구현해 보자면 아래와 같다. 
 
 ```python
