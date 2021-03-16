@@ -22,7 +22,7 @@ Python 내장 데이터 타입이다.
 일반적으로 포함테스트(a in sets), *중복제거*, *교집합*, *합집합*, *차집합*, *대칭차*와 같은 수학적 계산에 사용된다. 
 
 ## List, Tuple과의 차이
-*List*, *Tuple* 은 순서가 있는(ordered) 컬렉션이지만 *Set*은 순서가 없은 컬렛션이다. 
+*List*, *Tuple* 은 순서가 있는(ordered) 컬렉션이지만 *Set*은 순서가 없은 컬렉션이다. 
 
 
 > *List* 와 *Tuple*의 차이는 가변성에 있다. List은 초기화 이후에 수정 수 있으나 *Tuple*은 초기화 이후에 수정할 수 없다. 
@@ -33,6 +33,7 @@ Python 내장 데이터 타입이다.
 
 > Hash로 관리 되기 때문이다. 
 
+<!--more-->
 
 ``` python
 fruits = {'Apple', 'Banana', 'Coconut', 'Durian'}
@@ -75,7 +76,7 @@ fruits = {}
 fruits = set(['Apple', 'Banana', 'Coconut', 'Durian'])
 ```
 
-중괄효를 이용한 초기화 역시 가능하다. 
+중괄호를 이용한 초기화 역시 가능하다. 
 
 ```python
 fruits = {'Apple', 'Banana', 'Coconut', 'Durian'}
