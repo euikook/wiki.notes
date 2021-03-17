@@ -379,7 +379,7 @@ echo "This is plan text" > doc.txt
 gpg --encrypt --output doc.txt.gpg --armor --recipient john@acme.com doc.txt
 ```
 
-`doc.txt` 을 암호화하고 개인 키로 서명한다. 서명에 사용될 키를 지정 해주지 않으면 기본 개인 키가 사용된다. 
+`doc.txt` 을 개인 키로 서명하고 암호화 한다. 서명에 사용될 키를 지정 해주지 않으면 기본 개인 키가 사용된다. 
 
 > 개인 키가 없으면 에러가 발생한다. [Key Pair 생성](#Key-Pair-생성)를 참조 하여 키 쌍을 생성한다. 
 
@@ -422,7 +422,7 @@ phFmKzRpw7UG5lh3fesRE/z0ZboCxjSHEmbDMW7hnEo8fn0=
 -----END PGP MESSAGE-----
 ```
 
-암호화 후 서명된 파일인 `doc.txt.sign.gpg`의 내용은 아래와 같다. 서명이 포함되어 있어(개인키로 한번 더 암호화 되었기 때문에) 더 길다.
+서명후 암호화된 파일인 `doc.txt.sign.gpg`의 내용은 아래와 같다. (개인 키로)서명된 파일을 암호화 했기 때문에) 더 길다.
 
 ```
 -----BEGIN PGP MESSAGE-----
@@ -471,10 +471,59 @@ A1MitGPxdZXk5+ihKyVuul5IlaJ8PcMAkZcodsyIbfe59BrwM5XHCoHP4CeBQg==
 그에 반해 개인 키를 이용하여 암호화는 공개 키를 가진 모든 사람(공개 키가 키 서버에 공개 되어 있다면 잠재적으로 누구든지)이 해당 정보를 열람 할 수 있으므로 *암호화(Encryption)* 의 정의와는 맞지 않는다. 개인 키를 통하여 암호화된 정보가 (개인 키에 대응되는) 공개 키로 복호화 된다는 것은 해당 정보의 출처가 (이 정보에 *서명(Signing)* 한 개인 키에 대응되는) 공개 키를 공개한 사람 이라는 것과 - 개인 키는 정보에 서명한 사람만 소유하고 있기 때문이다. - 데이터가 (작성자가 서명한 이후)변조 되않았다는 것을 증명한다. 따라서 개인 키로 암호화 하는 것을 *서명(Signing)* 이라고 한다. 
 
 
-> 따라서 `--sign`옵션을 사용하면 *받는사람(Recipient)* 의 공개 키로 *암호화(Encryption)* 한 다음  암호화된 정보를  자신의 개인 키로 ~~*다시한번 암호화(Encryption)*~~ *서명(Signing)* 하는 것이다. 
+> 따라서 `--sign`옵션을 사용하면 개인키로 ~~*암호화(Encrypt)*~~ *서명(Signing)* 한 다음 *받는사람(Recipient)* 의 공개 키로 ~~한번 더~~ *암호화(Encryption)* 하는 것이다. 
 
 
 > 참고 - [stackoverflow: how to encrypt a file using private key in gpg](https://stackoverflow.com/questions/14434343/how-to-encrypt-a-file-using-private-key-in-gpg/14434446)
+
+
+`--list-packets` 옵션으로 암호회된 데이터의 순서를 보면 암호화가 먼저 되었는지 서명이 먼저 되었는지 확일 할 수 있다. 
+
+
+머신에 `john@acme.com `의 개인 키와 공개키가 모두 있다면 아래와 같이 실행 해보자. 
+
+```
+echo 'this is plain text' | gpg -r john@acme.com --encrypt --sign   | gpg --list-packets
+```
+
+
+다음은 예제 출력이다. 
+```
+gpg: encrypted with 4096-bit RSA key, ID EC736BC8E36D823D, created 2021-03-17
+      "John Doe (ACME Inc.) <john@acme.com>"
+# off=0 ctb=85 tag=1 hlen=3 plen=524
+:pubkey enc packet: version 3, algo 1, keyid EC736BC8E36D823D
+	data: [4093 bits]
+# off=527 ctb=d2 tag=18 hlen=2 plen=0 partial new-ctb
+:encrypted data packet:
+	length: unknown
+	mdc_method: 2
+# off=548 ctb=a3 tag=8 hlen=1 plen=0 indeterminate
+:compressed packet: algo=2
+# off=550 ctb=90 tag=4 hlen=2 plen=13
+:onepass_sig packet: keyid 70278B7766602624
+	version 3, sigclass 0x00, digest 10, pubkey 1, last=1
+# off=565 ctb=cb tag=11 hlen=2 plen=25 new-ctb
+:literal data packet:
+	mode b (62), created 1615965739, name="",
+	raw data: 19 bytes
+# off=592 ctb=89 tag=2 hlen=3 plen=578
+:signature packet: algo 1, keyid 70278B7766602624
+	version 4, created 1615965739, md5len 0, sigclass 0x00
+	digest algo 10, begin of digest 9e d9
+	hashed subpkt 33 len 21 (issuer fpr v4 4D4E4059E7068A5C703C898E70278B7766602624)
+	hashed subpkt 2 len 4 (sig created 2021-03-17)
+	hashed subpkt 28 len 13 (signer's user ID)
+	subpkt 16 len 8 (issuer key ID 70278B7766602624)
+	data: [4095 bits]
+```
+
+가장 처음이 `gpg: encrypted with 4096-bit RSA key`시작 하는것으로 보아 서명된 파일이 암호화 되었다는 것을 알 수 있다. 
+
+> 개인 키가 여러개여서 기본으로 지정된 개인 키가 아니라 특정 개인 키를 지정 하고 싶다면 `--local-user` 옵션으로 서명에 사용될 `USER-ID`나 개인 키의 `KEY-ID`를  지정할 수 있다. 
+
+> 서명에 사용될 `USER-ID`를 지정하지 않으면 secret keyring에서(`--list-secret-keys` 옵션을 사용했을 때) 가정 먼저 나오는 `USER-ID`가 선택된다.
+
 
 ### 복호화 하기
 
