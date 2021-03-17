@@ -24,9 +24,9 @@ aliases:
 
 [Github Blog Token: Token authentication requirements for Git operations](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/)
 
-2021년 08월 13일 부터 Git 작업을 위한 인증 시 암호를 통한 인증을 지웒 하지 않는다고 한다. Git 작업을 위해서는 토큰 기반 인증을 사용하던지 SSH 키를 사용하여야 한다. 
+보안 강화를 위하여 2021년 08월 13일 부터 Git 작업을 위한 인증 시 암호를 통한 인증을 지웒 하지 않는다고 한다. 2021년 08월 13일 이후에는 Git 작업을 위해서는 토큰 기반 인증을 사용하거나 SSH 키를 통한 인증을 사용해야 한다. 
 
-> 현재도 2 단계 인증을 활성화 한 사람은 암호를 통한 일증을 사용할 수 없다.  
+> 지금도 [`2 단계 인증`](https://help.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa)을 활성화 한 사람은 암호를 통한 인증을 사용할 수 없다.  
 
 
 ## About authentication to Github
