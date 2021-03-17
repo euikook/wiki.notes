@@ -1,8 +1,8 @@
 ---
 title: GPG를 이용하여 Git 커밋에 서명하기
-draft: true
-tags: [Git, GPG, Signing, PGP, OpenPGP]
-banner: https://source.unsplash.com/vSchPA-YA_A
+draft: false
+tags: [Git, Github, GPG Signed Commit, GPG, Signing, PGP, OpenPGP]
+banner: /images/sign.jpg
 date: 2021-03-17 21:56:32 +0900
 ---
 
