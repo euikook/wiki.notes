@@ -231,7 +231,7 @@ your machine might store the data and make it available to others!
 
 폐기 인증서만 있다면 누구든지 공개키를 폐기할 수 있으므로 안전한 곳에 보관 하여야 한다. 
 
-키를 폐기 하는 방법은 [키 폐기(Revocation) 하기](키-폐기revocation-하기)를 참고한다. 
+키를 폐기 하는 방법은 [키 폐기(Revocation) 하기](#키-폐기revocation-하기)를 참고한다. 
 
 ### 공개 키 내보내기
 
