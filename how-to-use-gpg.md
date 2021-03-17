@@ -12,9 +12,9 @@ OpenPGP의 GNU 구현인 GPG(GnuPG)와 그 사용법에 대하여 알아보자.
 ## GPG란?
 GPG(GNU Privacy Cuard)는 GNU에서 제공하는 OpenPGP(RFC4880)의 오픈소스 구현이다. 
 
-개인간, 머신간, 개인 - 머신간에 메시지나 파일을 암호화 하거나 파일이나 메시지에 서명을 추가 하여 변조 유무를 식별할 수 있게 해주는 도구이다. 
+개인간, 머신간 또는 개인 - 머신간에 교환되는 메시지나 파일을 암호화 하거나 서명을 추가 하여 작성자를 확인하고 변조 유무를 식별할 수 있게 해주는 도구다. 
 
-기본적으로 RSA와 같은 공개 키 암호화 방식을 사용하여 종단간 파일이나 메시지를 암호화 하거나 서명 하는 기능을 제공하는 것이다. 
+기본적으로 RSA와 같은 [공개 키 암호화 방식](/posts/what-is-public-key-cryptography/)을 사용하여 종단간 파일이나 메시지를 암호화 하거나 서명 하는 기능을 제공한다. 
 
 GnuPG에 대한 자세한 내용은 [나무위키/GnuPG](https://namu.wiki/w/GnuPG) 또는 [위키피디아/GNU 프라이버시 가드](https://ko.wikipedia.org/wiki/GNU_%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C_%EA%B0%80%EB%93%9C)를 참고 한다. 
 
@@ -145,11 +145,16 @@ gpg --sign-key john@acme.com
 
 ### GPG 키 편집
 
+`--edit-key` 옵션으로 생성된 키의 정보를 수정할 수 있다. 
 ```
 gpg --edit-key john@example.com
 ```
 
-`Yes, protection is not nedded`
+위 명령을 수행 하면 `gpg>` 프롬프트가 뜬다. `?` 입력하면 입력 가능한 명령이 나온다. 
+
+`adduid` 명령으로 `uid`를 추가 할 수 있다. 
+
+편집이 완료 되었으면 `quit` 명령으로 프로그램을 종료 한다. 
 
 
 ### 개인 키에서 암호 변경/제거하기
@@ -226,6 +231,8 @@ your machine might store the data and make it available to others!
 
 폐기 인증서만 있다면 누구든지 공개키를 폐기할 수 있으므로 안전한 곳에 보관 하여야 한다. 
 
+키를 폐기 하는 방법은 [키 폐기(Revocation) 하기](키-폐기revocation-하기)를 참고한다. 
+
 ### 공개 키 내보내기
 
 타인에게 공개할 공개 키를 공유 하기 위해서는 키를 내보야 한다. `--export` 옵션을 사용하여 키를 내보낸다. 
@@ -274,7 +281,7 @@ sub   rsa4096 2021-03-16 [E] [expires: 2023-03-16]
 ```
 
 ### 개인 키(비밀 키) 내보내기/가저오기
-여러대의 PC를 사용는 경우 개인 키를 생성한 다음 개인 키를 내보내서 다른 PC로 공유 하여야 한다. 
+여러대의 머신에서 같은 개인키를 사용하고 싶거나 개인 키를 생성한 다음 백업 하고자 하는 경우 개인 키를 내보내야 한다.  
 
 `--export-secret-key` 옵션을 이용하여 키를 내보내자. 
 
@@ -287,18 +294,58 @@ gpg --output john.secret.gpg --armor \
 
 다른 PC로 `john.secret.gpg` 파일을 복사 한후 `--import` 옵션으로 가저오자.
 
+> 개인 키는 유출되면 치명적이므로 안전하게 보관하자.
+
 ```
 gpg --import john.secret.gpg
 ```
 
-개인 키는 분실 하거나 공개 되면 치명적이므로 가저오기 이후 바로 삭제한다.
+개인 키는 유출되면 치명적이므로 가저오기 이후 바로 안전하게 삭제한다.
+
+
+`shred` 명령을 사용하여 안전하게 삭제한다. 
 
 ```
-wipe -rfi john.secret.gpg
+shred -zvu -n  5 john.secret.gpg
 ```
 
+아래는 예제 출력이다. 
+```
+shred: john.secret.gpg: pass 1/6 (random)...
+shred: john.secret.gpg: pass 2/6 (000000)...
+shred: john.secret.gpg: pass 3/6 (random)...
+shred: john.secret.gpg: pass 4/6 (ffffff)...
+shred: john.secret.gpg: pass 5/6 (random)...
+shred: john.secret.gpg: pass 6/6 (000000)...
+shred: john.secret.gpg: removing
+shred: john.secret.gpg: renamed to 000000000000000
+shred: 000000000000000: renamed to 00000000000000
+shred: 00000000000000: renamed to 0000000000000
+shred: 0000000000000: renamed to 000000000000
+shred: 000000000000: renamed to 00000000000
+shred: 00000000000: renamed to 0000000000
+shred: 0000000000: renamed to 000000000
+shred: 000000000: renamed to 00000000
+shred: 00000000: renamed to 0000000
+shred: 0000000: renamed to 000000
+shred: 000000: renamed to 00000
+shred: 00000: renamed to 0000
+shred: 0000: renamed to 000
+shred: 000: renamed to 00
+shred: 00: renamed to 0
+shred: john.secret.gpg: removed
+```
+
+또는 `wipe` 먕량을 사용한다. 
+
+```
+wipe -rfiv john.secret.gpg
+```
+
+아래는 예제 출력이다. 
 ```
 wipe: destroy file `john.secret.gpg'? y
+john.secret.gpg: 100%
 ```
 
 `wipe` 명령이 없으면 설치 한다.
@@ -508,7 +555,7 @@ gpg:               imported: 1
 ```
 
 
-### 키 폐기(Revocation) 하기
+## 키 폐기(Revocation) 하기
 
 키 서버에서 키를 삭제 하기 위해서는 [폐기 인증서(Revocation Certificate)](#gpg-폐기-인증서revocation-certificate-생성)를 먼저 만들어야 한다. 
 
@@ -571,7 +618,7 @@ uid           [ revoked] John Doe (ACME Inc.) <john@acme.com>
 gpg --send-keys --keyserver keys.openpgp.org EFD634321C5A23B17A74AB6DB821C2E8600096BE
 ```
 
-폐기 후 키를 다시 [생성 하고](#Key-Pair-생성) 공개키를 [키서버에 올리자](#키서버에-올리기).
+폐기 후 키를 다시 [생성 하고](#key-pair-생성) 공개키를 [키서버에 올리자](#키서버에-올리기).
 
 
 ## 키서버에서 키 갱신 하기 
