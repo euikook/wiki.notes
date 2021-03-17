@@ -33,9 +33,13 @@ gpg --lst-secret-keys
 
 
 ```
-git config --global user.signingkey 4D4E4059E7068A5C703C898E70278B7766602624
+git config --global user.signingkey C2776E6515AED724
 ```
 
 ```
 git commit -S -m "My first signed commit"
+```
+
+```
+git log --show-signature -1
 ```
