@@ -25,3 +25,17 @@ Git에서는 인터넷에서 가저온 커밋이 실뢰할 수 있는 출처에�
 
 > GPG(GNU Privacy Cuard)는 GNU에서 제공하는 OpenPGP(RFC4880)의 오픈소스 구현이다. 
 
+
+
+```
+gpg --lst-secret-keys
+```
+
+
+```
+git config --global user.signingkey 4D4E4059E7068A5C703C898E70278B7766602624
+```
+
+```
+git commit -S -m "My first signed commit"
+```
