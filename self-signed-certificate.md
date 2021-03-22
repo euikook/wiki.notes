@@ -11,7 +11,7 @@ aliases:
 
 ## SSL/TLS 인증서 발급 절차
 
-1. 암호화 하고자 하는 도메인 결정
+1. 암호화 하고자 하는 도메인 이름 결정
 2. CSR 생성
 3. CSR를 CA로 전송하여 인증서 발급 요청
 4. 사이트의 정보와 공개키가 담긴 인증서를 인증기관의 비공개 키로 암호화 하여 발급
@@ -37,8 +37,45 @@ aliases:
 | EMAIL | Email Address | 인증서 관리자 또는 해당 부서의 연락처 |  |
 
 
-## Example
+## Prerequsites
 
+Test Domain Name `acme.com`
+
+
+/etc/hosts
+
+```
+192.168.0.100 acme.com www.acme.com
+```
+
+### Create a root certification authority (CA)
+
+> StartSSL같은  인증된 인증기관(CA)을 사용할 경우 생성 하지 
+않아도 사설 인증 기관의 인증서를 생성하지 않아도 된다. 
+
+
+```
+openssl genrsa -out ca.key 2048
+```
+
+```
+openssl req -new -x509 -days 365 -key ca.key \
+-subj "/C=KR/ST=Daejeon/L=Yuseong-gu/O=ACME Inc./CN=ACME Certificate Autority/OU=acme.com" \
+-out ca.crt
+```
+
+### Create Private Key and CSR
+
+먼저 개인키와 키 요청을 위한 CSR 를 생성한다. 
+
+```
+openssl req -newkey rsa:2048 -nodes -keyout cert.key \
+-subj "/C=KR/ST=Daejeon/L=Yuseong-gu/O=ACME Inc./OU=Devops/CN=*.acme.com" \
+-out cert.csr
+```
+
+
+다음은 예제 CSR 파일이다.  `-----BEGIN CERTIFICATE REQUEST-----` 으로 파일이 시작된다. 
 
 
 ```
@@ -66,44 +103,6 @@ oWuyKbwjEfCEyaUFTSCvtLILgizaQUU=
 openssl asn1parse -i -in cert.csr
 ```
 
-
-
-## Prerequsites
-
-Test Domain Name `acme.com`
-
-
-/etc/hosts
-
-```
-192.168.0.100 acme.com www.acme.com
-```
-
-### Create a root certification authority (CA)
-
-> StartSSL같은  Public CA를 사용할 경우 생성 하지 
-않아도 Private CA를 생성하지 않아도 된다. 
-
-
-```
-openssl genrsa -out ca.key 2048
-```
-
-```
-openssl req -new -x509 -days 365 -key ca.key \
--subj "/C=KR/ST=Daejeon/L=Yuseong-gu/O=ACME Inc./CN=ACME Certificate Autority/OU=acme.com" \
--out ca.crt
-```
-
-### Create Private Key and CSR
-
-먼저 개인키와 키 요청을 위한 CSR 를 생성한다. 
-
-```
-openssl req -newkey rsa:2048 -nodes -keyout cert.key \
--subj "/C=KR/ST=Daejeon/L=Yuseong-gu/O=ACME Inc./OU=Devops/CN=*.acme.com" \
--out cert.csr
-```
 
 ### Create Self-Signed Certificate
 ```
@@ -145,45 +144,20 @@ erver {
 
 ```
 
-## Add a certification authority (CA) to the browser
+## 브라우저(운영체제)에 사설 인증기관(Private CA)의 인증서 등록하기
 
-### Google Chrome
+### Linux
 
-#### Linux
+#### Google Chrome
 Setting -> Advanced -> Security -> Manage Certificate -> Authorities -> Import
 
-#### Windows
+#### Mozilla Firefox
 
 
-
-## Microsoft Windows
-### Google Chrome
+### Microsoft Windows 10
+#### Google Chrome
 설정 -> 개인정보 및 보안 -> 보안 -> 인증서 관리 -> 신뢰할 수 있는 루트 인증 기관 -> 가져오기
 
-### Microsoft Edge
+#### Microsoft Edge
 설정 -> 개인정보, 검색 및 서비스 -> 보안 -> 인증서 관리 -> 신뢰할 수 있는 루트 인증 기관 -> 가저오기
-
-
-설정 -> 업데이트 및 보안
-
-
-
-```nginx
-server {
-    listen *:80 default_server;
-    server_name *;
-
-    server_tokens off;
-
-    location /.well-known/ {
-        root /var/www/certbot/;
-    }
-}
-```
-
-`/var/www/certbot`
-
-```
-certbot certonly --webroot -w /var/www/certbot -d www.example.com -d example.com -w 
-```
 

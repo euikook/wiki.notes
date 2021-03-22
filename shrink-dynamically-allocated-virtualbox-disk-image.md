@@ -1,9 +1,9 @@
 ---
-title: Shrink dynamically extended VirtualBox image for export appliance
+title: VirtualBox 동적 할당 디스크 사이즈 줄이기(내보내기)
 link: /shrink-dynamically-allocated-virtualbox-disk-image
 description: 
 status: publish
-tags: [Linux, VirtualBox, VDI, Shrink, Export]
+tags: [Linux, VirtualBox, VDI, Shrink, Export, 동적할당, 내보내기]
 date: 2020-11-12 12:40:05 +0900
 lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/aIlAhLdwk2g
