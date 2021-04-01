@@ -1,5 +1,5 @@
 ---
-titie: LD_LIBRARY_PATH vs LIBRARY_PATH
+title: LD_LIBRARY_PATH vs LIBRARY_PATH
 draft: false
 date: 2021-03-21 23:23:35 +0900
 tags: [gcc, LD_LIBRARY_PATH, LIBRARY_PATH]
