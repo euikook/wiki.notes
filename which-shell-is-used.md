@@ -1,6 +1,6 @@
 ---
 title: 어떤 SHELL을 사용하고 있는지 확인해보자.
-draft: false
+draft: true
 banner: /images/echo-shell.png
 tags: [SHELL, bash, zsh, Find Shell]
 date: 2021-04-02 11:48:20 +0900
