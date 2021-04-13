@@ -37,6 +37,8 @@ ln: a: hard link not allowed for directory
 
 그렇다면 디렉터리 Hard Link에 의해 발생할 수 있는 문제점들은 어떤 것들이 있을까?
 
+{{< adsense >}}
+
 ## 파일시스템에 루프를 만든다.
     
 ```bash    
@@ -56,6 +58,7 @@ cd ~/a/b/c/b/c/b/c/b/c/b/c/b/c/b/c/...
 
 > 개념적으로 보면 *파일시스템*은 기본적으로 Tree 구조를 가지지만 Tree의 정의에는 Loop가 없기 때문에 Loop가 생긴 *파일시스템*은 더이상 *파일시스템*이라고 볼 수 없다. 
 
+
 ## 상위디렉터리의 명료성을 깨트린다.
 
 위의 Loop 예제에서 여러개의 상위 디렉터리가 존재하게 된다. 
@@ -68,6 +71,8 @@ cd ~/a/b/c/b
 첫번째 케이스에서 ~/a는 ~/a/b의 상위 디렉터리이다. 두번째 케이스에서 ~/a/b/c 는 ~/a/b/c/b의 상위 디렉터리이며 이는 ~/a/b와 동일하다. 
 
 따라서 ~/a/b는 2개의 상위 디렉터리를 가진다. 
+
+{{< adsense >}}
 
 ## 하나의 파일이 여러 파일로 표현된다.
 
@@ -111,7 +116,6 @@ bar
 ```bash    
 readlink -f /some/symlinked/path
 ```
-    
 
 ### Soft links are different from what the filesystem uses
 
@@ -131,4 +135,3 @@ cp -al src dst
 이는 증분백업에서 사용되는 주요 매커니즘이다. 
 
 directory를 `-o bind` 옵션을 주고 *mount* 할 수 도 있는데 이건 hard link가 아니라 soft link와 같이 동작 하니 넘어가기로 한다.
-
