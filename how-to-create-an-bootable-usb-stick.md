@@ -1,5 +1,5 @@
 ---
-titie: USB 설치 미디어 만들기
+title: 리눅스에서 USB 설치 미디어 만들기
 draft: false
 date: 2021-03-22 07:37:55 +0900
 tags: [iso, usb, bootable, USB Stick, Ubuntu, Arch, Arch Linux, ArchLinux]
