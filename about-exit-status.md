@@ -30,6 +30,7 @@ date: 2021-04-01 10:09:28 +0900
 
 쉔에 요청한 명령이 존재 하지 않는 경우 *Exit Status* 127을 반환한다. 명령이 존재 하지만 실행 가능하지 않은 경우 126을 반환한다.  명령이 `SIGINT`나 `SIGSEGV`와 같은 *Fatal Signal* $N$에  의해 종료 된 경우 *Exit Status*는 $128 + N$ 이 된다. 
 
+{{< adsense >}}
 
 그렇다며 이 0 ~ 125 까지의 *Exit Status*는 어떻게 정의 되는가? 많은 프로그램들이 *POSIX*에 정의된 [errno.h](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/errno.h.html)를 따른다. 
 
@@ -175,6 +176,9 @@ POSIX `errno.h`에는 errno `2` 는 `ENOENT`로 정의 되어 있으며 파일�
 
 리스트는 **`;`**, **`&`**, **`&&`**, 또는 **`||`** 연산자중 하나로 구분되고 선택적으로 **`;`**, **`&`**, 또는  **`<newline>`** 으로 종료되는 하나 이상의 *파이프라인* 시퀀스다. 
 
+
+{{< adsense >}}
+
 #### `&&` 연산자
 
 Logical AND 연산과 같다. 
@@ -253,6 +257,7 @@ all:
 
 > `true` 명령은 Exit Code `0`를 반환한다.
 
+{{< adsense >}}
 
 `Makefile`
 ```makefile
