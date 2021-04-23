@@ -2,7 +2,7 @@
 title: 평균필터(Average Filter)
 draft: false
 tags: [Average, Mean, Recursive, Arithmetic, Algorithm, Arithmetic Mean, Batch Expression, 배치식, Recursive Expression, 재귀식]
-date: 2021-04-18 23:29:45
+date: 2020-11-18 23:29:45
 banner: /images/average-banner.jpg
 ---
 
