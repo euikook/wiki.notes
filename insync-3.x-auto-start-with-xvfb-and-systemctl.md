@@ -5,7 +5,7 @@ description:
 status: publish
 tags: [Linux, Insync, autostart, xvfb, systemctl]
 date: 2020-10-21
-lastmod: 2020-11-16 09:37:41 +0900
+lastmod: 2021-05-13 22:05:32 +0900
 banner: https://uploads-ssl.webflow.com/5c5bbc2b7ebe99d46f9e983b/5cf14ca1fb8dd08aa53a2e58_InsyncSignIn.png
 aliases:
     - /20/10/21/insync-3.x-auto-start-with-xvfb-and-systemctl
@@ -28,7 +28,10 @@ Insync가 3.x 버전으로 판올림 되면서 headless 버전이 없어 졌기 
 이문제를 해결 하기 위하여 xvfb와 systemctl 을 이용하여 Insync UI 버전을 자동 실행하는 방법에 다여 알아본다. 
 
 
-> 3.x 버전의 Headless 버전이 릴리즈 되었다. 이를 이용한 자동 실행 방법은 다음 [Insync 3.x auto start with systemctl](/posts/insync-3.x-auto-start-with-systemctl)를 참고한다. 
+ > ~~3.x 버전의 Headless 버전이 릴리즈 되었다. 이를 이용한 자동 실행 방법은 다음 [Insync 3.x auto start with systemctl](/posts/insync-3.x-auto-start-with-systemctl)를 참고한다.~~ 
+
+ 
+ > Desktop 버전 라이센스로 같이 사용할 수 있을 줄 알았는데. [서버용 라이센스를 별도로 구매 해야 한다.](https://www.insynchq.com/pricing/USD?qty=1&tab=server) ~~WTF~~ 그것도 시작 가격이 **일년 39.99 달러**, 거기다 나처럼 Google Workspace를 사용하여 gmail.com 이 아닌 커스텀 도메인 을 사용하는 사람은 **일년에 159.99 달러**다. 이글을 참고 하여 Insync Desktop 버젼을 자동실행 하는 방법을 사용하자. 
 
 ## Prerequisites
 * insync

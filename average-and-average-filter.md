@@ -1,9 +1,11 @@
 ---
-title: 평균필터(Average Filter)
+title: 평균과 평균필터(Python 코드 포함)
 draft: false
-tags: [Average, Mean, Recursive, Arithmetic, Algorithm, Arithmetic Mean, Batch Expression, 배치식, Recursive Expression, 재귀식]
+tags: [Average, Average Filter, Mean, Recursive, Arithmetic, Algorithm, Arithmetic Mean, Batch Expression, 배치식, Recursive Expression, 재귀식]
 date: 2020-11-18 23:29:45
 banner: /images/average-banner.jpg
+aliases:
+- /posts/average-filter
 ---
 
 ## 산술 평균

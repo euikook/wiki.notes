@@ -3,14 +3,22 @@ title: Insync 3.x auto start with systemctl
 link: /insync-3.x-auto-start-with-systemctl
 description: 
 status: publish
-tags: [Linux, Insync, autostart, systemctl]
+tags: [Linux, Insync, autostart, systemctl, OMG, WTF]
 date: 2021-03-08 21:56:31 +0900
-lastmod: 2021-03-08 21:56:31 +0900
+lastmod: 2021-05-13 21:34:03 +0900
 banner: https://uploads-ssl.webflow.com/5c5bbc2b7ebe99d46f9e983b/5cf14ca1fb8dd08aa53a2e58_InsyncSignIn.png
 aliases:
     - /gollum/insync-3.x-auto-start-with-systemctl
     - /gollum/insync-3.x-auto-start-with-systemctl.md
 ---
+
+
+> Desktop 라이센스로 같이 사용할 수 있을 줄 알았는데. [서버용 라이센스를 별도로 구매 해야 된다.](https://www.insynchq.com/pricing/USD?qty=1&tab=server) ~~WTF~~ 그것도 **일년에 39.99 달러**, 거기다 나처럼 Google Workspace를 사용하여 gmail.com 이 아닌 커스텀 도메인 을 사용하는 사람은 **일년에 159.99** 달러다. ~~돈이 썩어 나는구나.~~ 다음글을 참고 하여 Insync Desktop 버젼을 자동실행 하는 방법을 사용하자. [Insync 3.x auto start with xvfb and systemctl](insync-3.x-auto-start-with-xvfb-and-systemctl). 굳이 연간 39.99 달러나 159.99 달러를 내면서 headless 버젼을 사용하고 싶으신 분은 다음글을 참고 하기 바란다.
+
+
+> 그냥 GoodSync로 갈아 타 버릴까?
+
+
 
 이 글에서는 Google Drive 와 One Drive의 third-party 동기화 유틸인 [Insync](https://www.insynchq.com/)의 headless 버전을 설치 하고 자동 실행 하는 방법에 대하여 알아본다.
 
