@@ -4,6 +4,8 @@ tags: [Hangul, 한글, IM, 입력기, Input Method, Linux, 리눅스, fcitx, fci
 date: 2021-05-23 22:34:39 +0900
 draft: false
 banner: https://source.unsplash.com/PT_9ux0j-x4
+aliases:
+    - /posts/hangul-input-using-fcitx5/
 ---
 
 Gnome 기본 IM(Input Method)인  IBus 입력기에 문제가 있어 fcitx5로 입력기를 변경 했다.
@@ -23,6 +25,9 @@ XMODIFIERS=@im=fcitx
 ```
 
 시스템을 재시작 하면 fcitx가 자동 실행된다. 
+
+
+<!--more-->
 
 
 한글 입력 모드에서 태극 회오리 아이콘이 작업 표시줄에 표시된다.  변경 하려면 다음과 같이 실행한다.
