@@ -28,14 +28,22 @@ aliases:
 * IBus 등에서 한/영 변환을 <kbd>Alt_R</kbd> 키로 등록
 	* 다른 프로그램에서는 잘 동작.
 	* <kbd>Alt_R</kbd> 키를 단축키로 사용하는 프로그램(Chrome)등에서는 동작이 안됨
-* <kbd>Ctrl_R</kbd>은 Hanja 키로 매핑 시키고 싶이 않음.
+* <kbd>Ctrl_R</kbd>은 Hanja 키로 매핑 시키고 싶지 않음.
 
 <!--more-->
 
 
 ## Gnome Tweak Tool 사용
-Run `Gnome Tweaks Tool` > `Keyboard & Mouse` > `Additional Layout Options` > `Korean Hangul/Hanja Keys`
-Check `Make right Alt a Hangul Key`
+
+`Gnome Tweaks Tool`을 실행한다. 
+
+![Gnome Tweaks Tool](/images/hangul/gnome-tweaks-tools-hangul-001.png)
+
+우측 메뉴에서 `Keyboard & Mouse`를 선택한 후 우측 설정 화면에서 `Additional Layout Options` 버튼을 클릭한다. 
+![Gnome Tweaks Tool](/images/hangul/gnome-tweaks-tools-hangul-002.png)
+
+`Additional Layout Options` 설정 화면에서 `Korean Hangul/Hanja Keys` 메뉴를 클릭하여 확장한 후  `Make right Alt a Hangul Key`를 선택한다. 
+![Gnome Tweaks Tool](/images/hangul/gnome-tweaks-tools-hangul-003.png)
 
 ### Gnome Tweak Tool 시용 시 문제점
 ~~잘 동작한다. 하지만 Ctrl_R 키 까지 한자키로 매핑되어  VirtualBox 사용시 Host Key를 변경 해주어 야 한다.~~

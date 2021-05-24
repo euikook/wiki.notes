@@ -27,7 +27,7 @@ Summary에 렌더링된 HTML코드를 표시 하게 하기 위하여 명시적�
 
 > 소문자로 작성하고 공백이 없는것에 유의한다. 
 
-자세한 내용은 Hugo 공식 문서의 [Manual Summary Splitting    ](https://gohugo.io/content-management/summaries/#manual-summary-splitting) 페이지를 참조 한다. 
+자세한 내용은 Hugo 공식 문서의 [Manual Summary Splitting](https://gohugo.io/content-management/summaries/#manual-summary-splitting) 페이지를 참조 한다. 
 
 
 ## Lastmod

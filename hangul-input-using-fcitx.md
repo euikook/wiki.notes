@@ -59,27 +59,46 @@ sudo apt install fcitx-hangul
 
 `Configure Current Input Method` 메뉴를 실행한다. 
 
+![Input Method 설정](/images/hangul/fcitx-ubuntu-hangul-001.png)
+
 
 * `Keyboard - English(US)` 
 
+![Input Method 설정](/images/hangul/fcitx-ubuntu-hangul-002.png)
+
 좌측 하단의 `+` 버튼을 클릭한다.
 
+`Search Input Method` 항목에 `Hangul`을 입력 하여 검색한다. 
 
-`Search Input Method` 항목에 `Hangul`을 입력 하여 검색한다. 검색 내용이 보이지 않으면 `Only Show Current Language`의 선택을 해제한다. 
+![Input Method 설정](/images/hangul/fcitx-ubuntu-hangul-003.png)
+
+검색 내용이 보이지 않으면 `Only Show Current Language`의 선택을 해제한다. 
+
+![Input Method 설정](/images/hangul/fcitx-ubuntu-hangul-004.png)
 
 `Hangul` 을 선택 한 후 `OK` 버튼을 눌러 추가 한다.
+
+
+
 
 `Input Method` 리스트에 다음과 같이  `Hangul`이 추가 되었다.
 
 * `Keyboard - English(US)`
 * `Hangul`
 
+![Input Method 설정](/images/hangul/fcitx-ubuntu-hangul-005.png)
+
 
 ## 한/영 전환 키 설정
 
 `Global Config` 탭을 선택 한다. 
 
+![한/영 전환 설정](/images/hangul/fcitx-ubuntu-hangul-006.png)
+
+
 `HotKey` 항목의 첫 번째 항목인 `Trigger Input Method` 항목의 첫번째 항목이 `Ctrl+Space`로 설정 되어 있다. 두번째 항목을 클릭 하여 `한/영` 전환키를 입력 한다. 
+
+![한/영 전환 설정](/images/hangul/fcitx-ubuntu-hangul-007.png)
 
 한/영 전환 키가 `Ralt`로 인식된다면 [리눅스에서 한/영 전환키 사용하기](/posts/right-alt-as-hangul)를 참고 하여 한/영 전환키를 설정한다. 
 
