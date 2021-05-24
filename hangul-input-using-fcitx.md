@@ -1,5 +1,5 @@
 ---
-title: fcitx5 한글 입력기 사용하기 
+title: fcitx 한글 입력기 사용하기 
 tags: [Hangul, 한글, IM, 입력기, Input Method, Linux, 리눅스, fcitx, fcitx5, Arch Linux, Ubuntu, 18.04, 20.04]
 date: 2021-05-23 22:34:39 +0900
 draft: false
@@ -8,7 +8,7 @@ aliases:
     - /posts/hangul-input-using-fcitx5/
 ---
 
-Gnome 기본 IM(Input Method)인  IBus 입력기에 문제가 있어 fcitx5로 입력기를 변경 했다.
+Gnome 기본 IM(Input Method)인  IBus 입력기에 문제가 있어 fcitx로 입력기를 변경 했다.
 
 ## Arch Linux
 
