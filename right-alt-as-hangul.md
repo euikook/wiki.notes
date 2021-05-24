@@ -1,13 +1,13 @@
 ---
-title: Alt_R as Hangul on Ubuntu
+title: 리눅스에서 한/영 전환키 사용하기
 link: /right-alt-as-hangul
 description: 
 status: publish
 categories: ["HowTo", 'Linux']
-tags: [Linux, ALt_R, RALT, Hangul, 한／영, Ubuntu, 20.04, 18.04]
+tags: [Linux, ALt_R, RALT, Hangul, 한／영, Ubuntu, 20.04, 18.04, 리눅스, Focal, Arch Linux]
 banner: https://source.unsplash.com/PT_9ux0j-x4
 date: 2020-10-21 08:35:41 +0900
-lastmod: 2020-11-16 09:37:41 +0900
+lastmod: 2021-05-23 23:37:41 +0900
 banner: https://source.unsplash.com/G_EL_XLKBcc
 aliases:
     - /posts/right-alt-as-hangul-ubuntu-18.04
@@ -22,11 +22,7 @@ aliases:
 ---
 
 
-![Splash](https://source.unsplash.com/PT_9ux0j-x4)
-
-# Alt_R as Hangul on Ubuntu 18.04
-
-## Troubles
+## 문제점
 * 영문 키보드 구입
 * 오른쪽 Alt</kbd> 키 (<kbd>Alt_R</kbd>)을 한글 키로 사용 하고 싶음.
 * IBus 등에서 한/영 변환을 <kbd>Alt_R</kbd> 키로 등록
@@ -36,13 +32,26 @@ aliases:
 
 <!--more-->
 
-## Use Xmodmap
+
+## Gnome Tweak Tool 사용
+Run `Gnome Tweaks Tool` > `Keyboard & Mouse` > `Additional Layout Options` > `Korean Hangul/Hanja Keys`
+Check `Make right Alt a Hangul Key`
+
+### Gnome Tweak Tool 시용 시 문제점
+~~잘 동작한다. 하지만 Ctrl_R 키 까지 한자키로 매핑되어  VirtualBox 사용시 Host Key를 변경 해주어 야 한다.~~
+한/영 전환키와 한자 전환키의 설정이 분리 되었다. 
+
+이 방법을 사용하자. 
+
+
+## Xmodmap 사용
 
 ### Hangul key
 ```
 xmodmap -e 'remove mod1 = Alt_R' # Alt_R의 기본 키 매핑 제거
 xmodmap -e 'keycode 108 = Hangul' # Alt_R을 Hangul 키로 매핑
 ```
+
 ### Hanja Key
 ```
 xmodmap -e 'remove control = Control_R'
@@ -53,20 +62,13 @@ xmodmap -e 'keycode 105 = Hangul_Hanja'
 xmodmap -pke > ~/.Xmodmap
 ```
 
-### Troubles
-ubuntu 18.04 로 가면서 X11 이 아나라 Wayland가 기본 X 서버로 변경 되면서 xmodmap은 더이상 도작 하지 않는다. 
-xmodmap이 동작 하게 하려면 기본 X 서버를 xorg로 변경 하여야 한다.
+### Xmodmap 사용 시 문제점
+ubuntu 18.04이후 부터 XKB가 기본 키보드 매핑 패키지로 바뀌면서 위의 xmodmap 설정이 자동으로 적용되지 않는다. 
+
+자동적용을 위해서는 아래의 [XKB 사용](#xkb-사용) 항목을 참고한다. 
 
 
-## Use  Gnome Tweak Tool
-Run `Gnome Tweaks Tool` > `Keyboard & Mouse` > `Additional Layout Options` > `Korean Hangul/Hanja Keys`
-Check `Right Alt as Hangul, right Ctrl as Hanja`
-
-### Troubles
-잘 동작한다. 하지만 Ctrl_R 키 까지 한자키로 매핑되어  VirtualBox 사용시 Host Key를 변경 해주어 야 한다. 
-
-
-##  Use XKB 
+## XKB 사용
 Edit `/usr/share/X11/xkb/symbols/altwin`
 
 ```
@@ -95,6 +97,3 @@ xkb_symbols "meta_alt" {
 
 ## References
 * [Ubuntu XKB를 이용한 keyboard map 확장](https://zapary.blogspot.com/2014/08/ubuntu-xkb-keyboard-map.html)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTMzMDksLTExNTk4OTYzOTddfQ==
--->

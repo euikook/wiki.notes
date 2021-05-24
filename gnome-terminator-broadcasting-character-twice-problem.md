@@ -25,9 +25,36 @@ Multiple GNOME terminal in one window
 얼마전 아래 위의 그림 처럼 부터 화면 분할 상태에서 브로드캐스트 기능을 키면 수신받는 터미널에서 문자가 2번 입력되는 문제가 발생한다. 
 
 
-iBus 와 D-Bus 충돌 문제인것 같다. 설정에서 DBus 서버 기능을 껐는 데도 브로드캐스트 기능에 D-Bus를 사용하나 보다. 
+IBus 입력기와 D-Bus 충돌 문제인것 같다. 설정에서 DBus 서버 기능을 껐는 데도 브로드캐스트 기능에 D-Bus를 사용하나 보다.
+
+IBUS를 사용하는 시스템에서만 문제가 발생한다. 
+
 
 ## 해결책
+
+### Fcitx 사용
+
+IBus 입력기와 D-Bus를 같이 사용할 경우 발생하는 문제이므로 입력기를 다른 입력기로 변경하자. 나의 경우 Fcitx로 변경 하였다.
+
+
+```
+pacman -S fcitx5 fcitx5-hangul fcitx5-gtk fcitx5-qt fcitx5-configtool 
+```
+
+
+`/etc/environment`
+```
+GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx
+```
+
+시스템을 다시 시작하면 fcitx가 자동 실행된다. 
+
+자세한 설치 방법은 [fcitx5 한글 입력기 사용하기](/posts/hangul-input-using-fcitx5/) 다음 페이지를 참고한다.
+
+
+### 해결책 #1
 
 아래 참고 자료를 참고하여  `DBUS_SESSION_BUS_ADDRESS` 환경변수를 `''`로 설정하니 잘 동작 한다. 
 
@@ -76,6 +103,9 @@ Termiantor를 실행 하여 테스트 해본다.
 
 
 ![브로드캐스트 시 문자 입력 문제 해결](/images/gnome-terminator-broadcasting-character-twice-solved.png)
+
+
+문제는 `DBUS_SESSION_BUS_ADDRESS` 변수를 override 했기 때분에 문제가 D-Bus를 사용하는 어플리케이션을 실해 하면 오류메시기가 표시 되거나 실행이 안되는 경우가 있다.
 
 
 ## 참고자료
