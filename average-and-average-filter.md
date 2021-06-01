@@ -1,8 +1,9 @@
 ---
-title: 평균과 평균필터(Python 코드 포함)
+title: 평균과 평균필터(Feat. Python)
 draft: false
 tags: [Average, Average Filter, Mean, Recursive, Arithmetic, Algorithm, Arithmetic Mean, Batch Expression, 배치식, Recursive Expression, 재귀식]
 date: 2020-11-18 23:29:45
+lastmod: 2021-05-31 22:20:21
 banner: /images/average-banner.jpg
 aliases:
 - /posts/average-filter
@@ -174,9 +175,9 @@ Average using Recursive Expression: 26.3
 
 ## Next Work
 
-다음에는 다음을 포함하는 이동평균(Moving Average)에 대해 알아 보자. 
+다음에는 다음을 포함하는 [이동평균(Moving Average)](/posts/about-moving-average)에 대해 알아 보자. 
 
-* 단순이동평균 (Simple Moving Average, SMA)
-* 누적이동평균 (Cumulative moving average, CMA)
-* 가중이동평균 (Weighted Moving Average, WMA)
-* 지수이동평균 (Exponential Moving Average, EMA), 지수가중이동평균(Exponentially Weighted Moving Average, EWMA)
+* [단순이동평균 (Simple Moving Average, SMA)](/posts/about-moving-average#단순이동평균)
+* [누적이동평균 (Cumulative moving average, CMA)](/posts/about-moving-average#누적이동평균)
+* [가중이동평균 (Weighted Moving Average, WMA)](/posts/about-moving-average#가중이동평균)
+* [지수이동평균 (Exponential Moving Average, EMA), 지수가중이동평균(Exponentially Weighted Moving Average, EWMA)](/posts/about-moving-average#지수이동평균)
