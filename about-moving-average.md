@@ -59,8 +59,7 @@ SMA_n = \frac{p_{N-n+1} + p_{N-n+2} ... + p_n}{n}
 $$
 
 
-아래 그래프는 SMA15 그래프이다. 
-
+아래는 $N$ 이 15, 30, 60, 90, 120 일때의 단순 이동평균 그래프다. 
 
 ![Simple Moving Average](/images/moving-average/sma.svg)
 
@@ -83,7 +82,7 @@ price = df.Close
 cma = price.expanding().mean()
 ```
 
-![Simple Moving Average](/images/moving-average/cma.svg)
+![Cumulative Moving Average](/images/moving-average/cma.svg)
 
 ### 가중이동평균
 모든 데이터에 같은 가중치 사용에 따른 단점을 해결하기 위한 이동 평균이다. 보통 실생활에서는 과거의 데이터 보다 최신 데이터가 더 중요하기 때문에 $n$ 일 동안의 온도변화에 대한 가중이동평균을 구하기 다고 가정하면 최신 날짜인 $n$일의 가중치는 $n$  이고 그다음 최신 날따인 $n - 1$ 일의 온도에 대한 가중치는 $n - 1$ 이다. 가중치는 날짜가 지남에 따라 $1$씩 줄어 들어 최종적으로 $1$이 될때까지 줄어 든다.  $n$일 이전 온도 데이터는 가중이동평균의 계산 결과에 영향을 주지 않는다. 
@@ -106,7 +105,9 @@ price = df.Close
 sma = price.rolling(N).apply(lambda x: np.dot(x, w)/w.sum(), raw=True)
 ```
 
-![Simple Moving Average](/images/moving-average/wma.svg)
+아래는 $N$ 이 15, 30, 60, 90, 120 일때의 가중이동평균 그래프다. 
+
+![Weighted Moving Average](/images/moving-average/wma.svg)
 
 ### 지수이동평균
 
@@ -133,13 +134,17 @@ price = df.Close
 sma = price.ewm(alpha=2/(N+1)).mean()
 ```
 
-![Simple Moving Average](/images/moving-average/ema.svg)
+아래는 $N$ 이 15, 30, 60, 90, 120 일때의 지수이동평균 그래프다. 
+
+![Exponential Moving Average](/images/moving-average/ema.svg)
 
 
 ### 가중치 변화
-다음 그래프는 각 이동 평균의 가중치 변화를 그래프로 나타낸 것이다.
 
-![Simple Moving Average](/images/moving-average/weight.svg)
+다음 그래프는 $N$이 15일 때 각 이동 평균의 가중치 변화를 그래프로 나타낸 것이다.
+
+
+![Weights for Moving Average](/images/moving-average/weight.svg)
 
 지수 이동 평균의 평활 지수는 $\frac{2}{(N+1)}$ 로 설정 하였다. $N$이 15이기 때문에 $\frac{1}{8}$ 이 된다. 
 
@@ -147,9 +152,9 @@ sma = price.ewm(alpha=2/(N+1)).mean()
 
 ### 예제
 
-2020년 3월 부터 2021년 3월 까지의 비트 코인 시세를 각 이동 평균 계산법으로 계산하면 다음과 같은 그래프를 얻을 수 있다. 
+2020년 3월 부터 2021년 3월 까지의 비트 코인 시세를 각 이동평균 계산법으로 계산하면 다음과 같은 그래프를 얻을 수 있다. ($N=15$)
 
-![Simple Moving Average](/images/moving-average/all.svg)
+![Moving Average](/images/moving-average/all.svg)
 
 
 
