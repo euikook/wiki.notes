@@ -4,6 +4,8 @@ tags: [Moving Average, MA, 이동평균, 단순이동평균, 누적이동평균,
 date: 2021-05-31 23:20:21
 banner: /images/banners/bitcoin-price-btc-chart-md.jpg
 draft: false
+markup: mmark
+katex: true
 ---
 
 이전에 [평균에 대한 글](/posts/average-and-average-filter)을 쓴 적이 있다. 그 다음 편으로 예정 되어 있던 이동 평균에 대한 알아보자.
@@ -44,9 +46,8 @@ price = df.Close
 sma = price.rolling(N, min_periods=1).mean()
 ```
 
-$$
+$$ 
 SMA_n = \frac{p_{N-n+1} + p_{N-n+2} ... + p_n}{n}
-
 $$
 
 아래는 $N$ 이 15, 30, 60, 90, 120 일때의 단순 이동평균 그래프다.
@@ -65,7 +66,6 @@ $$
 
 $$
 CMA_n = \frac{x_1 + ... + x_n}{n}
-
 $$
 
 ```python
@@ -83,12 +83,10 @@ cma = price.expanding().mean()
 
 $$
 WMA_M = \frac{np_M + (n-1)p_{M-1} + ... + 2p_{((M - n) + 2)} + p_{((M-n) + 1)} }{n + (n - 1) + ... + 2 + 1}
-
 $$
 
 $$
 Total_{M+1} = Total_M + p_{M+1} - p_{M-n+1}
-
 $$
 
 ```python
@@ -108,7 +106,6 @@ sma = price.rolling(N).apply(lambda x: np.dot(x, w)/w.sum(), raw=True)
 
 $$
 EMA_n = \alpha X_n + (1 - \alpha)EMA_{n-1}
-
 $$
 
 여기서 계수 $\alpha$ 를 평활계수 (smooth factor) 라고 부른다. $\alpha$ 가 커질수록 최근 샘플에 주어지는 가중치가 커진다. $\alpha$ 는 0과 1사이의 값을 가져야 한다. $\alpha$ 가 커지면 최근 데이터의 가중치가 커지고 이전 데이터의 가중치가 더 빠르게 줄어 든다.
@@ -117,7 +114,6 @@ $\alpha$ 값은 임의로 선택 가능 하지만 보통 다음 값을 사용한
 
 $$
 \alpha = \frac{2}{(N+1)}
-
 $$
 
 하지만 반드시 ${2}/{(N+1)}$ 를 사용해야 하는것은 아니다. 입력 값이나 원하는 결과값에 따라 조절 할 수 있다. 예를 들어 최근 값 보다는 이전 값에 더 많은 가중치를 두고 싶다면 $\alpha$ 값을 $0.00001$ 로 두고 계산 할 수도 있다.
