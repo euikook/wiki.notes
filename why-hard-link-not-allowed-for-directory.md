@@ -37,7 +37,6 @@ ln: a: hard link not allowed for directory
 
 그렇다면 디렉터리 Hard Link에 의해 발생할 수 있는 문제점들은 어떤 것들이 있을까?
 
-{{< adsense >}}
 
 ## 파일시스템에 루프를 만든다.
     
@@ -72,7 +71,6 @@ cd ~/a/b/c/b
 
 따라서 ~/a/b는 2개의 상위 디렉터리를 가진다. 
 
-{{< adsense >}}
 
 ## 하나의 파일이 여러 파일로 표현된다.
 

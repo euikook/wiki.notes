@@ -133,7 +133,7 @@ sma = price.ewm(alpha=2/(N+1)).mean()
 
 다음 그래프는 $N$이 15일 때 각 이동 평균의 가중치 변화를 그래프로 나타낸 것이다.
 
-!/home/euikook/working/euikook/hugo/euikook/static/home/euikook/working/euikook/hugo/euikook/static/home/euikook/working/euikook/hugo/euikook/static/home/euikook/working/euikook/hugo/euikook/static/home/euikook/working/euikook/hugo/euikook/static[Weights for Moving Average](/images/moving-average/weight.svg)
+![Weights for Moving Average](/images/moving-average/weight.svg)
 
 지수 이동 평균의 평활 지수는 $\frac{2}{(N+1)}$ 로 설정 하였다. $N$이 15이기 때문에 $\frac{1}{8}$ 이 된다.
 
