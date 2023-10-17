@@ -7,7 +7,7 @@ status: publish
 tags: [voltmeter, 3-voltmeter, 3전압계법, 전기기사, 전기기사실기]
 date: 2023-08-21
 lastmod: 2023-08-21 09:37:41 +0900
-banner: https://source.unsplash.com/Oxl_KBNqxGA
+banner: https://source.unsplash.com/xVptEZzgVfo
 ---
 
 ## 개요
