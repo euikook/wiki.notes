@@ -3,8 +3,7 @@
  link: /three-ammeter-method 
  categories: ["전기기사", 'Electrician'] 
  description:  
- status: draft 
- draft: true
+ series: ['계측장비를 이용한 유효전력 측정방법']
  tags: [ammeter, 3-ammeter, 3전류계계법, 전기기사, 전기기사실기] 
  date: 2023-10-15 09:37:41 +0900 
  lastmod: 2023-10-15 09:37:41 +0900 
@@ -12,7 +11,7 @@
 --- 
   
  ## 개요 
- 이전 글인 3전압계법을 다룬 글에서 이미 설명 했듯이 교류(AC) 회로에서 부하전압과 부하전류간 위상차가 존재하기 때문에 전원측에서 공급하는 전력과 실제 부하에서 소비되는 전력과 크기가 다르다. 교류 회로에서는 전원측에서 공급되는 전력을 피상전력($P_a$)이라고 하고 실제 부하에서 소비되는 전력을 유효전력($P$)이라고 한다. 피상전력으로부터 유효전력을 계산하기위해 역률($\cos{\theta}$)을 곱해주어야 한다.  자세한 내용은 3전압계법 의 개요 부분을 참고하자. 
+ 이전 글인 [3전압계법](/posts/three-voltmeter-method)을 다룬 글에서 이미 설명 했듯이 교류(AC) 회로에서 부하전압과 부하전류간 위상차가 존재하기 때문에 전원측에서 공급하는 전력과 실제 부하에서 소비되는 전력과 크기가 다르다. 교류 회로에서는 전원측에서 공급되는 전력을 피상전력($P_a$)이라고 하고 실제 부하에서 소비되는 전력을 유효전력($P$)이라고 한다. 피상전력으로부터 유효전력을 계산하기위해 역률($\cos{\theta}$)을 곱해주어야 한다.  자세한 내용은 [3전압계법 의 개요](/posts/three-voltmeter-method/#개요)를 참고하자. 
   
  본문에서는 전류계 3개를 이용하여 유효전력을 측정하는 방법을 알아본다.
 
@@ -23,7 +22,7 @@
  
  아래와 같은 교류회로가 있다고 가정하자.  전원($V_{in}$) 과 부하($Z_L$) 사이에 하나의 병렬 저항과 3개의 전류계가 있다.  $I_1$은 전원측에서 측정한 전류, $I_2$는 부하와 병렬로 연결된 저항 $R$에 흐로는 전류, $I_3$는 부하에 흐르는 전류를 측정한다.  
 
- ![Three Voltmeter Method Circuit Diagram](https://raw.githubusercontent.com/euikook/stock/main/three-voltmeter-method-circuit.svg) 
+ ![Three Voltmeter Method Circuit Diagram](https://raw.githubusercontent.com/euikook/stock/main/three-ammeter-method-circuit.svg) 
   
 
  ### 공급전류 
@@ -42,7 +41,7 @@
   
 $I$ 와 $R$의 곱임을 알 수 있다. 
   
- > 저항은 부하와 병렬로 연결되어 있고 병렬 회로에서는 전압이 일정 하기 때문에 저항에 인가되는 전압과 부하에 인가되는 전압은 같다.
+ > 저항은 부하와 병렬로 연결되어 있고 병렬 회로에서는 전압이 일정 하기 때문에 저항에 인가되는 전압과 부하에 인가되는 전압은 그 크기와 위상이 같다.
   
   
  ### 역률 ($\cos{\theta}$) 
@@ -54,20 +53,22 @@ $I$ 와 $R$의 곱임을 알 수 있다.
   
  * 부하 $Z_L$를 지상 부하라고 가정한다.  
  * 부하에 흐르는 전류 $\hat{I_3}$ 는 저항에 흐르는 전류 $\hat{I_2}$ 보다 지상이다.  $\hat{I_2}$와 $\hat{I_3}$위상차를 $\phi$ 라고 하자. 
- * KCL에 의해 들어오는 임이의 점에서 전류와 나가는 전류의 합은 0 이므로 $\hat{I_1}$ 을 다음과 같이 표현할 수 있다.  
+ * 키르히호프의 전류 법칙(KCL)에 의해 회로내 임이의 지점에서 들어오는 전류의 합과 나가는 전류의 합은 같으므로 $\hat{I_1}$ 를 다음과 같이 표현할 수 있다.  
   
  $$ 
- \hat{I_1} = \hat{I_2} + \hat{V_3} 
+ \hat{I_1} = \hat{I_2} + \hat{I_3} 
  $$ 
 
- * 저항 $R$은 순저항 부하이기 때문에 $R$에 흐르는 전류 $\hat{I_2}}$는 부하에 인가되는 전압 ($\hat{V}$)와 위상이 같다.  
+ * 저항 $R$은 순저항 부하이기 때문에 $R$에 흐르는 전류 $\hat{I_2}$는 저항 $R$에 인가되는 전압과 위상이 같다. 
+ * 부하 $Z_L$은 저항 $R$과 병렬로 연결되어 있으므로 부하 $Z_L$에 인가되는 전압은 저항 $R$에 인가되는 전압과 크기 및 위상이 같다.
+ * 따라서 부하 $Z_L$에 인가되는 전압($\hat{V}$)은 전류 $\hat{I_2}$와 위상이 같다. 
   
  $I_2$를 기준으로 페이저도를 그리면 다음과 같은 페이저도를 얻을 수 있다. 
   
- ![Three Voltmeter Method Circuit Diagram](https://raw.githubusercontent.com/euikook/stock/main/three-voltmeter-method-phase.svg) 
+ ![Three Voltmeter Method Circuit Diagram](https://raw.githubusercontent.com/euikook/stock/main/three-ammeter-method-phase.svg) 
   
   
- 페이저도를 통해  $\hat{V_I}$와 $\hat{V}$ 사이의 역률각 $\theta$는 다음과 $180 - \phi$ 임을 알 수 있다.   
+ 페이저도를 통해  $\hat{I_2}$와 $\hat{V}$ 사이의 역률각 $\theta$는 다음과 $180 - \phi$ 임을 알 수 있다.   
   
  $$ 
  \theta = 180 - \phi 
