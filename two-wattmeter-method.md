@@ -80,18 +80,19 @@ $$
 
 페이저 도에서 보면,
 
-$\phi_1$은 $V_{ab}$ 와 $I_a$ 사이의 위상차이고 $V_a$ 와 $V_{ab}$ 사이의 위상차에서 $V_a$ 와 $I_a$ 사이의 위상차의 더한 값이다. 
+$\phi_1$은 $V_{ab}$ 와 $I_a$ 사이의 위상차이고 $V_a$ 와 $V_{ab}$ 사이의 위상차에 $V_a$ 와 $I_a$ 사이의 위상차의 더한 값이다. 
+
 $\phi_2$은 $V_{cb}$ 와 $I_c$ 사이의 위상차이고 $V_c$ 와 $V_{cb}$ 사이의 위상차에서 $V_c$ 와 $I_c$ 사이의 위상차를 뺀 값이다. 
 
 $Y$ 결선의 경우 상전압과 선간 전압은 $30^\circ$의 위상차가 있으므로 다음과 같이 나태낼 수 있다. 
 
 $$
-\phi_1 = 30 - \theta 
+\phi_1 = 30 + \theta 
 $$
 
 
 $$
-\phi_2 = 30 + \theta 
+\phi_2 = 30 - \theta 
 $$
 
 
@@ -99,11 +100,11 @@ $W_1$ 과 $W_2$의  $\phi_1$과 $\phi_2$를 앞에서 구한 값으로 치환 �
 
 
 $$
-W_1= V \times I \times \cos{\phi_1} = V \times I \times \cos{(30 - \theta)}
+W_1= V \times I \times \cos{\phi_1} = V \times I \times \cos{(30 + \theta)}
 $$
 
 $$
-W_2= V \times I \times \cos{\phi_2} = V \times I \times \cos{(30 + \theta)}
+W_2= V \times I \times \cos{\phi_2} = V \times I \times \cos{(30 - \theta)}
 $$
 
 위 식은 삼각함수 덧셈정리를 이용하면 다음과 같이 나타낼 수 있다. 
@@ -112,11 +113,11 @@ $$
 
 
 $$
-W_1= V \times I \times (\cos{30}\cos{\theta} + \sin{30}\sin{\theta}) = VI\cos{30}\cos{\theta} + VI\sin{30}\sin{\theta}
+W_1= V \times I \times (\cos{30}\cos{\theta} - \sin{30}\sin{\theta}) = VI\cos{30}\cos{\theta} - VI\sin{30}\sin{\theta}
 $$
 
 $$
-W_2= V \times I \times (\cos{30}\cos{\theta} - \sin{30}\sin{\theta}) = VI\cos{30}\cos{\theta} - VI\sin{30}\sin{\theta}
+W_2= V \times I \times (\cos{30}\cos{\theta} + \sin{30}\sin{\theta}) = VI\cos{30}\cos{\theta} + VI\sin{30}\sin{\theta}
 $$
 
 
