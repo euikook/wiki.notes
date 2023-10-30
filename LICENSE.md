@@ -2,20 +2,19 @@
 title: LICENSE
 link: /LICENSE
 description: 
-status: publish
-tags: [MIT, LICENSE]
-date: 2020-11-16 09:37:41 +0900
-lastmod: 2020-11-16 09:37:41 +0900
-banner: https://source.unsplash.com/random/800x400
+# status: publishtags: [MIT, LICENSE]
+# date: 2020-11-16 09:37:41 +0900
+# lastmod: 2020-11-16 09:37:41 +0900
+# banner: https://source.unsplash.com/random
 aliases:
     - /gollum/LICENSE
     - /gollum/LICENSE.md
 ---
 
 
-MIT License
+## MIT License
 
-Copyright (c) 2023 euikook
+**Copyright (c) 2023 euikook**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
