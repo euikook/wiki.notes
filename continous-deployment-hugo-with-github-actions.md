@@ -7,12 +7,6 @@ tags: [Linux, Hugo, Github, Actions, Github Actions, CI, CD, CI／CD]
 date: 2021-02-10
 lastmod: 2021-02-11 09:37:41 +0900
 banner: /images/github-actions-banner.png
-aliases:
-    - /21/02/10/continous-deployment-hugo-with-github-actions/
-    - /continous-deployment-hugo-with-github-actions
-    - /continous-deployment-hugo-with-github-actions.md
-    - /gollum/continous-deployment-hugo-with-github-actions
-    - /gollum/continous-deployment-hugo-with-github-actions.md
 ---
 
 # Continous Deployment Hugo with Github Actions

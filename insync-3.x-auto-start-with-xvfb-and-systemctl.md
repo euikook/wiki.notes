@@ -7,12 +7,6 @@ tags: [Linux, Insync, autostart, xvfb, systemctl]
 date: 2020-10-21
 lastmod: 2021-05-13 22:05:32 +0900
 banner: https://uploads-ssl.webflow.com/5c5bbc2b7ebe99d46f9e983b/5cf14ca1fb8dd08aa53a2e58_InsyncSignIn.png
-aliases:
-    - /20/10/21/insync-3.x-auto-start-with-xvfb-and-systemctl
-    - /insync-3.x-auto-start-with-xvfb-and-systemctl
-    - /insync-3.x-auto-start-with-xvfb-and-systemctl.md
-    - /gollum/insync-3.x-auto-start-with-xvfb-and-systemctl
-    - /gollum/insync-3.x-auto-start-with-xvfb-and-systemctl.md
 ---
 
 이 글에서는 Google Drive 와 One Drive의 third-party 동기화 유틸인 [Insync](https://www.insynchq.com/)의 headless 버전을 설치 하고 자동 실행 하는 방법에 대하여 알아본다.

@@ -7,13 +7,6 @@ tags: [Linux, VirtualBox, VDI, Shrink, Export, 동적할당, 내보내기]
 date: 2020-11-12 12:40:05 +0900
 lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/aIlAhLdwk2g
-aliases:
-    - /20/10/21/shrink-dynamically-extended-virtualbox-image-for-export-appliance
-    - /20/11/12/shrink-dynamically-extended-virtualbox-image-for-export-appliance
-    - /shrink-dynamically-allocated-virtualbox-disk-image
-    - /shrink-dynamically-allocated-virtualbox-disk-image.md
-    - /gollum/shrink-dynamically-allocated-virtualbox-disk-image
-    - /gollum/shrink-dynamically-allocated-virtualbox-disk-image.md
 ---
 
 # Shrink dynamically allocated  VirtualBox Disk Image(VDI) 

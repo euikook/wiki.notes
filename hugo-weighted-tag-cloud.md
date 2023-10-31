@@ -8,10 +8,6 @@ date: 2021-02-17 10:22:59 +0900
 lastmod: 2021-02-17 10:22:59 +0900
 banner: /images/tag-cloud.png
 series: ["Go Web Dev"]
-aliases:
-    - /21/02/17/weighted-tag-cloud-to-hugo/
-    - /gollum/hugo-weighted-tag-cloud
-    - /gollum/hugo-weighted-tag-cloud.md
 ---
 
 이 글은 Hugo 기반 Blog에서 Tag Cloud를 만드는 방법에 대하여 설명한다.

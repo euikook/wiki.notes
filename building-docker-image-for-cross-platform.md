@@ -7,12 +7,6 @@ tags: [Linux, CI, CD, CI／CD, Docker, Container, Compose, docker-compose, Cross
 date: 2020-10-21
 lastmod: 2020-11-16 09:37:41 +0900
 banner: /images/docker-banner.png
-aliases:
-    - /20/10/21/building-docker-image-for-cross-platformarm64-arm
-    - /building-docker-image-for-cross-platform
-    - /building-docker-image-for-cross-platform.md
-    - /gollum/building-docker-image-for-cross-platform
-    - /gollum/building-docker-image-for-cross-platform.md
 ---
  
  # Building Docker Image for Cross Platform
