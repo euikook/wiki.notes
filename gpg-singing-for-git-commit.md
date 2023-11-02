@@ -42,7 +42,7 @@ Key Pair 생성에 대한 자세한 방법은 [GPG(GnuPG) 사용하기/Key Pair 
 아래와 같이 개인 키의 리스트 중에 사용할 개인 키의 ID를 복사 한다. 
 
 ```
-gpg --lst-secret-keys --keyid-format LONG 
+gpg --list-secret-keys --keyid-format LONG 
 ```
 
 아래는 `john@acme.com`의 개인 키에 대한 예제 출력이다. 
