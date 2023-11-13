@@ -7,9 +7,6 @@ tags: [Python, Set, List, Tuple]
 date: 2019-10-21 22:34:34 +0900
 lastmod: 2020-03-15 23:50:42 +0900
 banner: /images/python-idea.jpg
-aliases:
-    - /gollum/python-sets-vs-list-and-tuple
-    - /gollum/python-sets-vs-list-and-tuple.md
 ---
 
 ## Set(집합) 이란?

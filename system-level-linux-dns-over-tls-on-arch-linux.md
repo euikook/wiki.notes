@@ -7,11 +7,6 @@ tags: [Linux, Arch, DNSSEC, DNS, TLS, DNS-over-TLS]
 date: 2020-11-12 12:37:16 +0900
 lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/0Yiy0XajJHQ
-aliases:
-    - /system-level-linux-dns-over-tls-on-arch-linux
-    - /system-level-linux-dns-over-tls-on-arch-linux.md
-    - /gollum/system-level-linux-dns-over-tls-on-arch-linux
-    - /gollum/system-level-linux-dns-over-tls-on-arch-linux.md
 ---
 
 # System Level Linux DNS over TLS on Arch Linux

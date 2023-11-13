@@ -7,12 +7,6 @@ tags: [Linux, bash, history, shell]
 date: 2018-03-08
 lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/zeH-ljawHtg
-aliases:
-    - /18/03/08/history-%ED%8C%8C%EC%9D%BC%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95-%EC%97%94%ED%8A%B8%EB%A6%AC-%EC%82%AD%EC%A0%9C%ED%95%98%EA%B8%B0
-    - /remove-specific-entries-from-history-file
-    - /remove-specific-entries-from-history-file.md
-    - /gollum/remove-specific-entries-from-history-file
-    - /gollum/remove-specific-entries-from-history-file.md
 ---
 
 

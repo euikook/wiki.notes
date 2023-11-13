@@ -5,9 +5,6 @@ draft: true
 date: 2021-02-23 12:61:41 +0900
 date: 2021-02-23 12:61:41 +0900
 banner: https://source.unsplash.com/jKU2NneZAbI
-aliases:
-    - /gollum/posting-guidline
-    - /gollum/posting-guidline.md
 ---
 
 현재 사용중인 [hugo-icarus](https://gitlab.com/toryanderson/hugo-icarus) 테마의 수정 사항을 공유 한다. 

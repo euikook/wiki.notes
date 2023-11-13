@@ -4,9 +4,6 @@ tags: [ssl, tls, CA, Root CA, RSA, public key, private key, cryptography, 공개
 draft: false
 date: 2020-03-10 11:00:41 +0900
 banner: /images/cryptography.jpg
-aliases:
-    - /gollum/what-is-public-key-cryptography
-    - /gollum/what-is-public-key-cryptography.md
 ---
 
 ## 공개키 암호화 방식 (Public-Key cryptography)

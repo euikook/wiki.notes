@@ -7,9 +7,6 @@ tags: [Linux, Windows, Mac, Synergy, KVM, Software KVM, symless]
 date: 2018-03-08
 lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/I_pOqP6kCOI
-aliases:
-    - /gollum/synergy-software-kvm
-    - /gollum/synergy-software-kvm.md
 ---
 
 #### Synergy - Software KVM

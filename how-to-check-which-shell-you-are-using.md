@@ -24,14 +24,15 @@ date: 2021-04-02 11:48:20 +0900
 > 구글링을 해보면 [*Zsh*에서 *Bash*의 `$BASH_SOURCE` 와 가장 가까운 결과를 내는것은 `${(%):-%x}` 라고 한다](https://stackoverflow.com/questions/9901210/bash-source0-equivalent-in-zsh#answer-28336473). 하지만 `$0`도 같은 결과는 내기 때문에 그냥 사용하기로 한다.
 
 다음은 `./env` 파일의 내용이다.
-```
+
+```bash {linenos=table}
 echo \$BASH_SOURCE = $BASH_SOURCE
 echo \$0 = $0
 ```
 
 각 SHELL에서 실행 해 보자
 
-```
+```bash
 . ./env
 ```
 
@@ -39,21 +40,21 @@ echo \$0 = $0
 
 `bash`
 
-```
+```bash
 $BASH_SOURCE = ./env
 $0 = bash
 ```
 
 `zsh`
 
-```
+```bash
 $BASH_SOURCE =
 $0 = ./env
 ```
 
 따라서 실행 되는 스크립트의 이름 알기 위해서는 다음과 같이 쉘에 따라 다른 방식을 정용하여야 한다.
 
-```
+```bash
 SH_NAME=$(basename $(readlink /proc/$$/exe))
 
 case ${SH_NAME} in
@@ -67,7 +68,7 @@ echo $SELF
 
 Bash 또는 Zsh 만 사용한다면 다음과 같이 사용해도 같은 결과를 얻을 수 있다.
 
-```
+```bash
 SELF=$(realpath ${BASH_SOURCE[0]:-$0})
 echo $SELF
 ```

@@ -4,9 +4,6 @@ tags: [Github, Github.com, SSH, Personal Access Token, PAT]
 date: 2021-02-12 17:34:41 +0900
 lastmod: 2021-02-12 17:34:41 +0900
 banner: https://source.unsplash.com/3wPJxh-piRw
-aliases:
-    - /gollum/about-authentication-to-github
-    - /gollum/about-authentication-to-github.md
 ---
 
 다음과 같은 메일이 왔다. 

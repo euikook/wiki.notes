@@ -7,12 +7,6 @@ tags: [Linux, git, user.name, user.email, override, overriding]
 date: 2020-11-13 16:53:29 +0900
 lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/JTn9zj71M4c
-aliases:
-    - /20/11/13/instructions-of-post-os-install/
-    - /post-os-installation
-    - /post-os-installation.md
-    - /gollum/post-os-installation
-    - /gollum/post-os-installation.md
 ---
 
 # OS 재설치 후 해야 하는것 들

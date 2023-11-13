@@ -4,9 +4,6 @@ tags: [ssl, tls, self signed, nginx, apache]
 draft: true
 date: 2021-03-10 11:00:41 +0900
 banner: https://source.unsplash.com/jKU2NneZAbI
-aliases:
-    - /gollum/self-signed-certificate
-    - /gollum/self-signed-certificate.md
 ---
 
 ## SSL/TLS 인증서 발급 절차

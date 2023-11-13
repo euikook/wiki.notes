@@ -8,9 +8,6 @@ banner: https://source.unsplash.com/JZ8AHFr2aEg
 date: 2021-02-15 13:11:33 +0900
 lastmod: 2021-02-15 12:51:20+0900
 banner: https://source.unsplash.com/bzK0qeeoBJo
-aliases:
-    - /gollum/utterances-github-issue-as-comment-for-hugo
-    - /gollum/utterances-github-issue-as-comment-for-hugo.md
 ---
 
 # utterances: github issue as comment for Hugo

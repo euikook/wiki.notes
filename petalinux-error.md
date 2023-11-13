@@ -4,12 +4,6 @@ tags: [Linux, ArchLinux, PetaLinux, Xilinx]
 banner: https://source.unsplash.com/qvBYnMuNJ9A
 date: 2020-12-21
 lastmod: 2020-12-21 15:41:13 +0900
-aliases:
-    - petalinux-error-on-archlinux
-    - /petalinux-error
-    - /petalinux-error.md
-    - /gollum/petalinux-error
-    - /gollum/petalinux-error.md
 ---
 ## Errors
 

@@ -6,9 +6,6 @@ tags: [Hugo, Tags, jQCloud, Tag Cloud, Blog]
 date: 2021-02-17 14:35:59 +0900
 lastmod: 2021-02-17 14:35:59 +0900
 banner: /images/tag-cloud.png
-aliases:
-    - /gollum/hugo-tag-cloud-with-jqcloud
-    - /gollum/hugo-tag-cloud-with-jqcloud.md
 ---
 
 이 글은 Hugo 기반 Blog에서 jQuery 기반 Word Cloud 라이브러인 [jQCloud](http://mistic100.github.io/jQCloud/)를 이용하여 Tag Cloud를 만드는 방법에 대하여 설명한다.

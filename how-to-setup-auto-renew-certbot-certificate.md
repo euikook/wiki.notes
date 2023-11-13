@@ -5,9 +5,6 @@ tags: [ssl, tls, Let's Encrypt, lencr, certbot, webroot, nginx, apache]
 draft: false
 date: 2021-03-08 10:00:41 +0900
 banner: https://source.unsplash.com/P6vDUuzL90w
-aliases:
-    - /gollum/how-to-setup-auto-renew-certbot-certificate
-    - /gollum/how-to-setup-auto-renew-certbot-certificate.md
 ---
 
 이 글에서는 [`certbot`](https://certbot.eff.org/)을 통해 발급받은 [Let's Encrypt](https://lencr.org) 인증서를 `Webroot` 플러그인을 이용해 자동 갱신 방법에 대히여 알아본다. 

@@ -7,11 +7,6 @@ tags: [Linux, VirtualBox, VDI, Shrink, Export]
 date: 2020-10-21 08:35:41 +0900
 lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/aIlAhLdwk2g
-aliases:
-    - /shrink-dynamically-allocated-virtualbox-disk-image-en
-    - /shrink-dynamically-allocated-virtualbox-disk-image-en.md
-    - /gollum/shrink-dynamically-allocated-virtualbox-disk-image-en
-    - /gollum/shrink-dynamically-allocated-virtualbox-disk-image-en.md
 ---
 
 

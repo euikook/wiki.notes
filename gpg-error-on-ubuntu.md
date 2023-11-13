@@ -8,11 +8,6 @@ tags: [Linux, Ubuntu, GPG, ERROR]
 date: 2020-11-12
 lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/random/800x400
-aliases:
-    - /gpg-error-on-ubuntu
-    - /gpg-error-on-ubuntu.md
-    - /gollum/gpg-error-on-ubuntu
-    - /gollum/gpg-error-on-ubuntu.md
 ---
 
 # Fix GPG Error on Ubuntu

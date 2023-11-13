@@ -7,9 +7,6 @@ tags: [Linux, Insync, Move, Moving, re-syncing, sync]
 date: 2021-03-08 22:34:24 +0900
 lastmod: 2021-03-08 22:34:24 +0900
 banner: https://uploads-ssl.webflow.com/5c5bbc2b7ebe99d46f9e983b/5cf14ca1fb8dd08aa53a2e58_InsyncSignIn.png
-aliases:
-    - /gollum/insync-moving-to-new-computer-without-re-syncing
-    - /gollum/insync-moving-to-new-computer-without-re-syncing.md
 ---
 
 이 글에서는 Insync을 사용중 PC를 옯기거나 OS를 재설치 하여야 하는 경우 재 동기화 없이 데이터를 옮기는 방법에 대하여 설명한다. 

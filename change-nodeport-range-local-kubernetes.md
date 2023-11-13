@@ -7,9 +7,6 @@ tags: [Linux, Docker, Kubernetes, k8s, nodeport]
 date: 2018-01-29
 lastmod: 2020-11-16 09:37:41 +0900
 banner: /images/k8s-banner.png
-aliases:
-    - /gollum/change-nodeport-range-local-kubernetes
-    - /gollum/change-nodeport-range-local-kubernetes.md
 ---
 
 #### Change NodePort range local kubernetes

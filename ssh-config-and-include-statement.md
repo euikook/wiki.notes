@@ -7,13 +7,6 @@ tags: [Linux, OpenSSH, config, ssh, client, ssh client]
 banner: https://source.unsplash.com/F_m44ut3XTw
 date: 2020-11-25 11:34:02 +0900
 lastmod: 2021-02-23 10:16:13 +0900
-aliases:
-    - /20/11/25/ssh-config-and-include-statement
-    - /ssh-config-with-include
-    - /ssh-config-with-include.md
-    - /posts/ssh-config-with-include
-    - /gollum/ssh-config-with-include
-    - /gollum/ssh-config-with-include.md
 ---
 
 ## `~/.ssh/config`

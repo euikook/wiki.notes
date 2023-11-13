@@ -7,9 +7,6 @@ tags: [Linux, Insync, autostart, systemctl, OMG, WTF]
 date: 2021-03-08 21:56:31 +0900
 lastmod: 2021-05-13 21:34:03 +0900
 banner: https://uploads-ssl.webflow.com/5c5bbc2b7ebe99d46f9e983b/5cf14ca1fb8dd08aa53a2e58_InsyncSignIn.png
-aliases:
-    - /gollum/insync-3.x-auto-start-with-systemctl
-    - /gollum/insync-3.x-auto-start-with-systemctl.md
 ---
 
 

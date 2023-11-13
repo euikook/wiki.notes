@@ -7,11 +7,6 @@ tags: [Linux, Ubuntu, Mirror]
 date: 2018-02-05
 lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/random/800x400
-aliases:
-    - /update-ubuntu-mirror-site-in-sources-list
-    - /update-ubuntu-mirror-site-in-sources-list.md
-    - /gollum/update-ubuntu-mirror-site-in-sources-list
-    - /gollum/update-ubuntu-mirror-site-in-sources-list.md
 ---
 
 #### Update Ubuntu Mirror  Site in sources.list

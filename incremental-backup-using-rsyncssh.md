@@ -7,11 +7,6 @@ tags: [Linux, Backup, Incremental Backup, RSYNC, SSH, cron]
 date: 2018-02-20
 lastmod: 2021-02-19 10:47:41 +0900
 banner: https://source.unsplash.com/5yEiCUynJ9w
-aliases:
-    - /incremental-backup-using-rsyncssh
-    - /incremental-backup-using-rsyncssh.md
-    - /gollum/incremental-backup-using-rsyncssh
-    - /gollum/incremental-backup-using-rsyncssh.md
 ---
 
 RSYNC+SSH 를 이용한 증분 백업 및 Cron을 이용한 자동화

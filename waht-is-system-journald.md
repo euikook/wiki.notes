@@ -6,9 +6,6 @@ tags: [Linux, systemd, journald, system-journald]
 date: 2021-03-05 14:35:33 +0900
 lastmod: 2021-03-05 14:35:33+0900
 banner: https://source.unsplash.com/bzK0qeeoBJo
-aliases:
-    - /gollum/waht-is-system-journald
-    - /gollum/waht-is-system-journald.md
 ---
 
 이 글에서는 systemd의 일부분인 journald에 대해서 설명한다.

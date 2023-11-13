@@ -4,9 +4,6 @@ tags: [hugo, tips, tricks]
 draft: true
 date: 2021-02-26 13:00:41 +0900
 banner: https://source.unsplash.com/jKU2NneZAbI
-aliases:
-    - /gollum/hugo-tips-and-tricks
-    - /gollum/hugo-tips-and-tricks.md
 ---
 
 이 글은 Hugo를 사용하면서 경헙한 유용한 팁을 공유 하기 위해 작성 되었다. 

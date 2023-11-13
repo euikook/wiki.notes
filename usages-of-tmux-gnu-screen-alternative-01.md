@@ -8,9 +8,6 @@ banner: https://source.unsplash.com/jNaoPtM2_aY
 date: 2018-03-07
 lastmod: 2020-11-16 09:37:41 +0900
 banner: https://source.unsplash.com/2rCggxMjd_8
-aliases:
-    - /gollum/usages-of-tmux-gnu-screen-alternative-01
-    - /gollum/usages-of-tmux-gnu-screen-alternative-01.md
 ---
 
 #### Usages of tmux, GNU screen Alternative
