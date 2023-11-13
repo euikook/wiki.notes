@@ -36,34 +36,34 @@ logout
 ```
     
 
-pi 계정을 harues로 변경한다. 
+pi 계정을 oneuon로 변경한다. 
     
 ```bash    
-usermod -l harues pi
+usermod -l oneuon pi
 ```
 
-이제 /home/pi 디렉터리를 /home/harues로 변경하자. 
+이제 /home/pi 디렉터리를 /home/oneuon로 변경하자. 
     
 ```bash    
-usermod -m -d /home/harues harues
+usermod -m -d /home/oneuon oneuon
 ```
     
 
-필요하다면 변경한 harues계정의 Password를 변경한다. 
+필요하다면 변경한 oneuon계정의 Password를 변경한다. 
     
 ```bash    
-passwd harues
+passwd oneuon
 ```
     
 
 필요 하다면 pi group도 변경 한다. 
     
 ```bash    
-groupmod -n harues pi
+groupmod -n oneuon pi
 ```
     
 
-root 계정에서 로그 아웃 후 harues으로 로그인 한다. 
+root 계정에서 로그 아웃 후 oneuon으로 로그인 한다. 
 
 root 계정을 비활성화 하기전 sudo 명령이 잘 동작 하는지 확인한다. 
     

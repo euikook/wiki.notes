@@ -17,7 +17,7 @@ banner: https://source.unsplash.com/842ofHC6MaI
 Terminal에서 git 명령을 수행 하기 전에 아래 명령을 수행하여 git 명령을 잠시 override 하자.
 
 ```
-alias git='git -c "user.name=euikook" -c "user.email=euikook@harues.com"'
+alias git='git -c "user.name=euikook" -c "user.email=euikook@oneuon.com"'
 ```
 > 임시 사용자 이름 및 이메일 주소 설정
 

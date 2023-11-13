@@ -37,7 +37,7 @@ sudo editor /etc/hosts
 
 다음과 같이 추가한다.
 ```
-127.0.1.1 ldap.harues.com ldap ldap.harues.com
+127.0.1.1 ldap.oneuon.com ldap ldap.oneuon.com
 ```
 
 
@@ -60,8 +60,8 @@ sudo dpkg-reconfigure slapd
 Answer the following questions:
 
 You will be asked to omit OpenLDAP server configuration: `No`
-Under DNS domain name fill in: `harues.com`
-Under organization name fill in: `Harues Inc.`
+Under DNS domain name fill in: `oneuon.com`
+Under organization name fill in: `oneuon Inc.`
 Under administrator password fill in: `************`
 Repeat password: `************`
 Database backend to use, select: `HDB`
@@ -129,20 +129,20 @@ editor base.ldif
 and populate with:
 
 ```
-dn: ou=Users,dc=harues,dc=com
+dn: ou=Users,dc=oneuon,dc=com
 objectClass: organizationalUnit
 ou: Users
 
-dn: ou=Groups,dc=harues,dc=com
+dn: ou=Groups,dc=oneuon,dc=com
 objectClass: organizationalUnit
 ou: Groups
 
-dn: cn=miners,ou=Groups,dc=harues,dc=com
+dn: cn=miners,ou=Groups,dc=oneuon,dc=com
 objectClass: posixGroup
 cn: miners
 gidNumber: 5000
 
-dn: uid=euikook,ou=Users,dc=harues,dc=com
+dn: uid=euikook,ou=Users,dc=oneuon,dc=com
 objectClass: organizationalPerson
 objectClass: person
 objectClass: top
@@ -160,10 +160,10 @@ userPassword: test
 gecos: E.K. KIM
 loginShell: /bin/bash
 homeDirectory: /home/euikook
-mail: euikook@harues.com
+mail: euikook@oneuon.com
 telephoneNumber: 000-000-0000
 st: NY
-manager: uid=euikook,ou=Users,dc=harues,dc=com
+manager: uid=euikook,ou=Users,dc=oneuon,dc=com
 shadowExpire: -1
 shadowFlag: 0
 shadowWarning: 7
@@ -182,21 +182,21 @@ ldapadd -x -D cn=admin,dc=gitlab,dc=dev -w gitlabldap -f base.ldif
 This should produce the following output:
 
 ```
-adding new entry "ou=Users,dc=harues,dc=com"
+adding new entry "ou=Users,dc=oneuon,dc=com"
 
-adding new entry "uid=euikook,ou=Users,dc=harues,dc=com"
+adding new entry "uid=euikook,ou=Users,dc=oneuon,dc=com"
 ```
 If this is not the case recheck your steps and try again.
 
 To confirm that the user is in LDAP, use:
 
 ```bash
-ldapsearch -x -LLL -b dc=harues,dc=com 'uid=euikook' uid uidNumber displayName mail
+ldapsearch -x -LLL -b dc=oneuon,dc=com 'uid=euikook' uid uidNumber displayName mail
 ```
 and that should produce the output that looks like:
 
 ```
-dn: uid=euikook,ou=Users,dc=harues,dc=com
+dn: uid=euikook,ou=Users,dc=oneuon,dc=com
 uid: euikook
 displayName: E.K. KIM
 uidNumber: 10000
@@ -208,12 +208,12 @@ Under `gitlab.yml` there is a LDAP section that should look like this:
   ## LDAP settings
   ldap:
     enabled: true
-    host: 'ldap.harues.com'
-    base: 'dc=harues,dc=com'
+    host: 'ldap.oneuon.com'
+    base: 'dc=oneuon,dc=com'
     port: 389
     uid: 'uid'
     method: 'plain' # "ssl" or "plain"
-    bind_dn: 'dc=harues,dc=com'
+    bind_dn: 'dc=oneuon,dc=com'
     password: 'gitlabldap'
 ```
 

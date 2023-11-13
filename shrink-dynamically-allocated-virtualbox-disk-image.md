@@ -122,12 +122,12 @@ vboxmanage showvminfo ubuntu-bionic-server |grep vdi
 
 아래와 같은 결과를 얻을 수 있다.
 ```
-SATA (0, 0): /home/harues/VMs/ubuntu-bionic-server.vdi (UUID: ********-****-****-****-************)
+SATA (0, 0): /home/oneuon/VMs/ubuntu-bionic-server.vdi (UUID: ********-****-****-****-************)
 ```
 
 `--compact` 옵션으로 VDI 파일의 사이즈를 줄인다. 
 ```
-vboxmanage modifymedium "/home/harues/VMs/ubuntu-bionic-server.vdi" --compact
+vboxmanage modifymedium "/home/oneuon/VMs/ubuntu-bionic-server.vdi" --compact
 ```
 
 ## Export Virtual Machine
@@ -162,9 +162,9 @@ vboxmanage export ubuntu-bionic-server \
                   --output ubuntu-bionic-server.ova \
                   --vsys 0 \
                   --product "Ubuntu Clean Image" \
-                  --producturl "https://harues.com/posts/" \
-                  --vendor "Harues.com" \
-                  --vendorurl "https://harues.com" \
+                  --producturl "https://oneuon.com/posts/" \
+                  --vendor "oneuon.com" \
+                  --vendorurl "https://oneuon.com" \
                   --version "1.0.0" \
                   --description "Ubuntu Bionic Server Clean Installation"
 ```

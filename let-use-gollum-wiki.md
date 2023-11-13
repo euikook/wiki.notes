@@ -23,7 +23,7 @@ https://github.com/euikook/gollum-unicorn.git
 
 Set `DOMAINS` variable
 ```
-export DOMAINS="harues.com notes.harues.com"
+export DOMAINS="oneuon.com notes.oneuon.com"
 ```
 
 Start nginx webroot server
