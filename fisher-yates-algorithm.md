@@ -6,6 +6,7 @@ status: publish
 tags: [shuffle, Fisher-Yates, Algorithm, Python]
 date: 2019-02-12 22:53:35 +0900
 banner: https://source.unsplash.com/9SewS6lowEU
+katex: true
 ---
 
 대표적인 Shuffle(썩기) 알고리즘인 Fisher-Yates 알고리즘에 대해서 알아보자. 

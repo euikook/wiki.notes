@@ -5,6 +5,7 @@ tags: [Average, Average Filter, Mean, Recursive, Arithmetic, Algorithm, Arithmet
 date: 2020-11-18 23:29:45
 lastmod: 2021-05-31 22:20:21
 banner: /images/average-banner.jpg
+katex: true
 aliases:
 - /posts/average-filter
 ---

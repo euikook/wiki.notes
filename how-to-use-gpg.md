@@ -31,7 +31,7 @@ PGP에 대한 내용은 [나무위키/PGP](https://namu.wiki/w/PGP) 또는 [위�
 
 ### Key Pair 생성
 
-```
+```console
 gpg --full-gen-key
 ```
 

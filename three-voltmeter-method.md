@@ -1,7 +1,7 @@
 ---
 title: 3 전압계법 
 link: /three-voltmeter-method
-categories: ["전기기사", 'Electrician']
+categories: ['Electrician']
 description: 
 status: publish
 series: ['계측장비를 이용한 유효전력 측정방법']
@@ -9,6 +9,7 @@ tags: [voltmeter, 3-voltmeter, 3전압계법, 전기기사, 전기기사실기]
 date: 2023-08-21
 lastmod: 2023-08-21 09:37:41 +0900
 banner: https://source.unsplash.com/xVptEZzgVfo
+katex: true
 ---
 
 ## 개요

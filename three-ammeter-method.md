@@ -1,13 +1,14 @@
 --- 
  title: 3 전류계법
  link: /three-ammeter-method 
- categories: ["전기기사", 'Electrician'] 
+ categories: ['Electrician'] 
  description:  
  series: ['계측장비를 이용한 유효전력 측정방법']
  tags: [ammeter, 3-ammeter, 3전류계계법, 전기기사, 전기기사실기] 
  date: 2023-10-15 09:37:41 +0900 
  lastmod: 2023-10-15 09:37:41 +0900 
  banner: https://source.unsplash.com/hDsSSRJ7azo 
+ katex: true
 --- 
   
  ## 개요 

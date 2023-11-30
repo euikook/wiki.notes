@@ -1,14 +1,16 @@
 --- 
  title: 2 전력계법
  link: /two-wattmeter-method 
- categories: ["전기기사", 'Electrician'] 
+ categories: ['Electrician'] 
  description:
+ katex: true
  draft: false
  series: ['계측장비를 이용한 유효전력 측정방법']
  tags: [2전력계법, 전기기사, 전기기사실기, 2-wattmeter, wattmeter] 
  date: 2023-10-22 21:10:41 +0900 
  lastmod: 2023-10-22 21:37:41 +0900 
  banner: https://source.unsplash.com/EcdWBhV81q4 
+ katex: true
 --- 
   
 
