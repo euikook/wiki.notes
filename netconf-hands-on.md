@@ -4,6 +4,7 @@ link: /netconf-hans-on
 description: 
 status: publish
 tags: [Linux, NETCONF, YANG, libnetconf2, sysrepo, netopeer2, libyang]
+series: ['About NETCONF/YANG']
 date: 2023-12-21
 ---
 
