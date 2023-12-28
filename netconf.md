@@ -1,5 +1,5 @@
 ---
-title: NETCONF
+title: NETCONF - Network Configuration Protocol
 link: /netconf
 description: 
 status: publish
