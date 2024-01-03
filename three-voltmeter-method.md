@@ -1,5 +1,5 @@
 ---
-title: 3 전압계법 
+title: 3 전압계법 - 단상 전력을 측정하는 방법
 link: /three-voltmeter-method
 categories: ['Electrician']
 description: 

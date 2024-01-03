@@ -1,5 +1,5 @@
 --- 
- title: 2 전력계법
+ title: 2 전력계법 - 3상 전력을 측정하는 방법
  link: /two-wattmeter-method 
  categories: ['Electrician'] 
  description:
