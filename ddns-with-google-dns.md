@@ -10,6 +10,13 @@ katex: true
 ---
 
 
+## Google Domains 
+[Google Domains](https://domains.google.com)에의 도메인 등록 과 고객 정보를 Squarespace, Inc. 로 이전 하기로 하였다. 자세한 내용은 [여기](https://support.google.com/domains/answer/13689670?authuser=0&hl=ko)를 참고 하자. 아직 [구글 도메인즈](https://domains.google.com)를 통해 도메인에 대한 관리는 가능하지만 이전에 완료 되는 대로 Google Domains 서비는 종료 할 것으로 보인다. 즉, 이전에 완료된 후에는 Squarespace에서 도메인을 관리 해야 한다. 
+
+
+시간을 내어 관리 하고 있는 도메인의 네임서버를 Cloudflare로 이전하는 작업을 하였다. 
+
+
 ## DDNS with Google Domains
 잠시 짬을 내어 창고에서 잠자고 있던 구형 PC로 개발 서버로 쓰기 위해 리눅스도 설치 하고 몇가지 개발 환경을 구축 했다. 유동 IP를 쓰다 보니 할당받은 IP가 변경 되었을 때 외부에서 접속할 방법이 마땅치 않아 내가 사용하는 도메인 네임 서비스인 [구글 도메인즈](https://domains.google.com)에 을 통해 DDNS 설정을 하기로 하였다. 
 
