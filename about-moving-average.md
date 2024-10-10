@@ -4,7 +4,6 @@ tags: [Moving Average, MA, 이동평균, 단순이동평균, 누적이동평균,
 date: 2021-05-31 23:20:21
 banner: /images/banners/bitcoin-price-btc-chart-md.jpg
 draft: false
-markup: mmark
 katex: true
 ---
 

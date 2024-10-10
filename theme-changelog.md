@@ -2,8 +2,6 @@
 title: Theme Changelog
 tags: [hugo, theme, icarus, hugo-icarus]
 draft: true
-date: 2021-02-23 12:61:41 +0900
-date: 2021-02-23 12:61:41 +0900
 banner: https://source.unsplash.com/jKU2NneZAbI
 ---
 

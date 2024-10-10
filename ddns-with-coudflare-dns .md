@@ -1,6 +1,7 @@
 ---
 title: 클라우드 플레어에서 DDNS 사용하기
 link: /ddns-with-coudflare
+draft: true
 description: 
 status: publish
 tags: [Linux, Ubuntu, DDNS, HowTo, 'DNS', 'Google']
