@@ -5,7 +5,8 @@ description:
 draft: false
 series: ['About NETCONF/YANG']
 tags: [NETCONF, YANG]
-date: 2023-12-20
+date: 2024-11-26
+banner: /images/banners/yin-yang.jpg
 toc: true
 ---
 

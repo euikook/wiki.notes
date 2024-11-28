@@ -5,7 +5,8 @@ description:
 status: publish
 tags: [NETCONF, YANG]
 series: ['About NETCONF/YANG']
-date: 2023-12-18
+date: 2024-11-25
+banner: /images/banners/network-switch.jpg
 toc: true
 ---
 

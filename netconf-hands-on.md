@@ -5,7 +5,9 @@ description:
 status: publish
 tags: [Linux, NETCONF, YANG, libnetconf2, sysrepo, netopeer2, libyang]
 series: ['About NETCONF/YANG']
-date: 2023-12-21
+date: 2024-11-28
+toc: true
+banner: /images/banners/tools.jpg
 ---
 
 ## 오픈 소스 구현을 이용한 NETCONF Hands-On
