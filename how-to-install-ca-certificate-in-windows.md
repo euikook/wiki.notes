@@ -3,7 +3,7 @@ title: Windows 환경에서 사설 인증 기관 인증서(Private CA Certificat
 draft: false
 tags: [CA, Private, Certificate, SSL, TLS]
 date: 2021-03-23 13:47:01 +0900
-banner: https://source.unsplash.com/ZNOxwCEj5mw
+banner: /images/banners/sealing-wax.jpg
 ---
 
 로컬 네트워크에서 사용할 목적으로 직접 서명(Self Signed)한 인증서를 가지고 서비스를 제공 하는 경우 인증서를 인증한 인증 기관의 공개키 인증서가 브라우저 또는 운영체제에 없기 때문에 신뢰할 수 없는 사이트 경고 메시지를 보게 된다. 경고 메시지를 없에려면 인증서를 인증한 사설 인증기관(CA)의 공개키 인증서(Public Key Certificate)를 브라우저 또는 운영체제에 설치 하여야 한다. 이 글에서는 Windows환경에서 사설 인증 기관 인증서를 설치 하는 벙법에 대하여 알아본다. 

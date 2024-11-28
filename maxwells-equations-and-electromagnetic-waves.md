@@ -6,7 +6,7 @@ status: publish
 tags: [Maxwell's Equations, 맥스웰 방정식, Electromagnetic Wave, 전자기파,  Electrician, 전기기사, ]
 date: 2024-01-25 16:53:29 +0900
 lastmod: 2024-01-25 16:53:29 +0900
-banner: https://source.unsplash.com/JTn9zj71M4c
+banner: /images/banners/antenna-three.jpg
 ---
 
 맥스웰 방정식의 4개의 연립 미분 방정식을 통해 전자기파를 예언 하였던 유도 과정을 알아 보자. 

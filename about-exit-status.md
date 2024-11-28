@@ -1,30 +1,46 @@
 ---
-title: Shell에서의 Exit Status에 대하여
+title: Shell에서의 Exit Status에 관하여
 draft: false
 banner: /images/exit-banner.jpg
 tags: [Exit Status, Exit Status, Shell, Programming]
-date: 2021-04-01 10:09:28 +0900
+date: 2024-11-27 20:09:28 +0900
+toc: true
 ---
 
 *Exit Status*에 대하여 알아보자. 
 
-요즘은 GUI를 많이 사용하지만 지금도DOS나 UNIX계열의 시스템에서는 쉘(SHELL)을 통해 프로그램을 실하고 프로그램의 출력을 통해 프로그램이 정상적으로 실행되었는지를 판단하한다.
+## 개요
+지금은 *소프트웨어*나 *프로그램*이라고 하면 사람들은 거의 그래픽 UI를 가지는 프로그램을 생각 할 것이다. 하지만 Linux와 같은 UNIX계열의 운영체제에서는 쉘(SHELL)에서 많은 일을 수행한다
+
+> 리눅스에서 어떤 프로그램을 설치 하기위해 구글링 하면 거의 대부분은 쉘에서 패키기 관리자(`apt`, `dnf`, `pacman` 등)를 실행하여 프로그램을 설치 할 것이다.
 
 
-> 전통적으로 UNIX 계열 프로그램은 *침묵은 금*이라는 유닉스의 설계 철학에 따라 `ls`와 같이 명시적으로 정보의 출력을 요구 하는 명령이 아닌경우 아무런 출력이 없으면 정상적으로 실행 된것이다.
-
-> ***Speech is silver, but silence is gold.***
+복잡한 여러 명령을 반복적으로 수행해야 할때 쉘 스크립트를 작성하면 이러한 반복적인 작업을 매우 쉽고 빠르게 할 수 있다. 
 
 
-그렇다면 프로그램에서 다른 프로그램을 실행 하였을 때 자신이 실행한 프로그램이 정상적으로 수행되었는지 어떻게 판단 할까? 
+우리는 쉘에서 명령어를 실행 할때 해당 명령의 출력을 통해 프로그램이 정상적으로 실행되었는지를 판단 할 수 있다. 실행 도중 에러가 발생 하였다면 화면에 에러가 출력 될것이다. 
 
-정답을 말하면 모든 명령은 종료될 때 *Exit Status*를 반환하는데 (명시적으로 지정하지 않을 경우 기본값을 반환한다.) 프로그램은 이 *Exit Status*를 가지고 자신의 실행한 프로그램이 정상적으로 종료 되었는지 판단 할 수 있다. 
+
+> 전통적으로 UNIX 계열 프로그램은 `ls`와 같이 명시적으로 정보를 출력을 요구 하는 명령이 아닌 경우 정상적으로 동작 하였을 경우 아무런 출력이 없는 경우가 많다. 이는 *침묵은 금*이라는 유닉스의 설계 철학에 따르는 것이다. 
+
+>  ***Speech is silver, but silence is gold.***
+
+
+그렇다면 쉘에서 실행한 명령이 정상적으로 수행되었는지 어떻게 판단 할까? 
+
+우리가 일반적으로 사용하는 방법은 명령이 실행되면서 출력되는 출력 값을 경험적으로 알고 있기 때문에 이 출력값을 기반으로 명령이 성공적으로 수행되었는지 확인한다. 하지만 이 방법은 사람에게는 매우 효율적인 방법이지만 쉘스크립트를 짜는 프로그래머 입장에서는 매우 번거로운 방법이다. 
+
+더 일반적으로 사용할 수 있는 방법을 찾아 보자.
+
+모든 명령은 종료될 때 `waitpid` 시스템 콜(이나 이와 동등항 함수)에서 *Exit Status*를 반환하는데 (명시적으로 지정하지 않을 경우 기본값(`0`)을 반환한다.) 프로그래머는 이 *Exit Status*를 가지고 자신의 실행한 명령이 정상적으로 실행 되었는지 판단 할 수 있다. 
+
+## Exit Status
 
 *Exit Status*는 O 에서 255 사이의 값을 가지고 쉘의 경우 125 이상의 값을 사용한다. 
 
 <!--more-->
 
-앞서도 설명 했듯이 *침묵은 금*이기 때문에 많은 프로그램이 아무런 문제 없이 정상 종료 되었다면 *Exit Status* `0`을 반환한다. 
+앞서 언급 했듯이 **침묵은 금**이기 때문에 많은 명령이 정상적으로 종료 되었다면 *Exit Status*로 `0`을 반환한다. 
 
 > 사실 완전히 같은 의미는 아니지만 *침묵은 금*이라는 UNIX의 철학을 어느정도 따른다고 볼수 있다. 
 
@@ -36,7 +52,7 @@ date: 2021-04-01 10:09:28 +0900
 [errno.h](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/errno.h.html)에는 자주 발생하는 에러를 정의해 놓았다. 프로그램이 비정상 적으로 종료 될때 [errno.h](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/errno.h.html)를 참고 하여 반환값(*Exit Status*)을 결정 하도록 하자.
 
 
-*C*나 *C++* 개열의 함수도 마찬가지다. 함수의 수행 상태를 정수값으로 반환하는 함수의 경우 반환값을 [errno.h](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/errno.h.html)를 참고 하여 반환 하도록 한다.
+*C*나 *C++* 개열의 함수도 마찬가지다. 함수의 수행 상태를 정수값으로 반환하는 함수의 경우 반환값을 [errno.h](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/errno.h.html)를 참고 하여 반환 하도록 하는 것이 좋다.
 
 > 메모리 비교 함수인 *memcmp*와 문자열 비교함수인 *strcmp* 계열의 함수를 보자. *C*에서는 0 이 아닌 값이 참(*TRUE*) 이지만 위 함수들은 비교 대상이 일치 할때 `0`을 반환한다.
 
@@ -94,7 +110,7 @@ ENOMEM 12 Cannot allocate memory
 .
 ```
 
-> `errno` 명령은 `moreutils`의 일부 이므로 없다면 패키지를 설치 한다.
+> `errno` 명령은 `moreutils`의 일부 이므로 이 명령이 없다면 해당 패키지를 설치 한다.
 
 ### Debian 계열 (Debian, Ubunut, Mint...)
 ```
@@ -198,7 +214,7 @@ command-one || command-two
 
 
 
-이 `&&`와 `||` 연산자를 활용하여  간단한 `if` `else`문과 같은 효과를 볼 수 있다. 
+이 `&&`와 `||` 연산자를 활용하면 간단히 `if`-`else`문과 같은 효과를 볼 수 있다. 
 
 
 디렉터리가 존재 할 경우 디렉터리를 삭제
@@ -207,10 +223,12 @@ command-one || command-two
 [ -d /home/test/aaa ] && rm -rf /home/test/aaa
 ```
 
+
 디렉터리가 존재하지 않을 경우 디렉터리를 생성
 ```
 [ -d /home/test/aaa ] || mkdir -p /home/test/aaa
 ```
+
 
 파일이 존재 하고 실행 권한이 있는 경우 파일을 실행
 ```
@@ -223,7 +241,7 @@ command-one || command-two
 [ -f /home/test/aaa ] || touch /home/test/aaa
 ```
 
-`&&` 연산자 사용시 주의점
+## `&&` 연산자 사용시 주의점
 
 ```
 [ -d /home/test/aaa ] && rm -rf /home/test/aaa
@@ -261,3 +279,7 @@ all:
     touch /home/test/aaa
 ```
 
+
+
+## References
+https://www.gnu.org/software/bash/manual/html_node/Exit-Status.html

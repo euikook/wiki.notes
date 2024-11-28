@@ -7,7 +7,7 @@
  tags: [ammeter, 3-ammeter, 3전류계계법, 전기기사, 전기기사실기] 
  date: 2023-10-15 09:37:41 +0900 
  lastmod: 2023-10-15 09:37:41 +0900 
- banner: https://source.unsplash.com/hDsSSRJ7azo 
+ banner: /images/banners/ammeter.jpg
  katex: true
 --- 
   

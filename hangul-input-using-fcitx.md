@@ -3,7 +3,7 @@ title: fcitx 한글 입력기 사용하기
 tags: [Hangul, 한글, IM, 입력기, Input Method, Linux, 리눅스, fcitx, fcitx5, Arch Linux, Ubuntu, 18.04, 20.04]
 date: 2021-05-23 22:34:39 +0900
 draft: false
-banner: https://source.unsplash.com/PT_9ux0j-x4
+banner: /images/banners/keyboard-pink.jpg
 aliases:
     - /posts/hangul-input-using-fcitx5/
 ---

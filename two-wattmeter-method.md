@@ -9,7 +9,7 @@
  tags: [2전력계법, 전기기사, 전기기사실기, 2-wattmeter, wattmeter] 
  date: 2023-10-22 21:10:41 +0900 
  lastmod: 2023-10-22 21:37:41 +0900 
- banner: https://source.unsplash.com/EcdWBhV81q4 
+ banner: /images/banners/watt-meter.jpg
  katex: true
  toc: true
 --- 

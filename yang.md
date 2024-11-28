@@ -1,4 +1,3 @@
-
 ---
 title: YANG - Data Modeling Language
 link: /yang
@@ -7,6 +6,7 @@ draft: false
 series: ['About NETCONF/YANG']
 tags: [NETCONF, YANG]
 date: 2023-12-20
+toc: true
 ---
 
 
