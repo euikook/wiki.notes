@@ -3,11 +3,11 @@ title: GPG(GnuPG) 사용하기
 draft: false
 tags: [GPG, Signing, PGP, OpenPGP, GnuPG, RSA, Cryptography, 공개키, 개인키]
 banner: /images/many-locks.jpg
-date: 2021-03-15 23:48:28 +0900
-lastmod: 2021-03-16 04:50:04 +0900
+date: 2024-11-29 04:50:04 +0900
+toc: true
 ---
 
-OpenPGP의 GNU 구현인 GPG(GnuPG)와 그 사용법에 대하여 알아보자.
+이 글에서는 OpenPGP의 GNU 구현인 GPG(GnuPG)와 그 사용법에 대하여 알아보자. 
 
 ## GPG란?
 GPG(GNU Privacy Cuard)는 GNU에서 제공하는 OpenPGP(RFC4880)의 오픈소스 구현이다. 
